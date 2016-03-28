@@ -1,6 +1,7 @@
 {
   "name": "dialog-web",
   "version": "0.1.0",
+  "repository" : "almero-digital-marketing/dialog-web",
   "description": "",
   "dependencies": {
     "grunt": "~0.4.5",
