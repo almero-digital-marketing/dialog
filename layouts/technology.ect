@@ -1,0 +1,93 @@
+---
+layout: /article.ect
+plugins: [guide]
+blocks:
+  manufacturing: /blocks/manufacturing.ect
+---
+<div class="content">
+	<% for highlight, idx in @document.meta.highlights: %>
+		<% if idx < 1: %>
+			<% if highlight.caption?: %>
+			<div class="separator"></div>
+			<% end %>
+		<% end %>
+	<% end %>
+	<div class="category-highlights">
+		<% for highlight in @document.meta.highlights: %>
+			<% if highlight.caption?: %>
+			<div class="highlight">
+				<!-- <%- highlight.$photo %> -->
+				<img class="round-shadow" src="<%- @href highlight.photo %>" alt="<%= highlight.caption %>">
+				<p>
+					<!-- <%- highlight.$caption %> -->
+					<%= highlight.caption %>
+				</p>
+			</div>
+			<% end %>
+		<% end %>
+	</div>
+
+	<div class="model-details">
+		<div class="separator small"></div>
+		<% for topic in @document.meta.topics: %>
+			<div class="slider <%= topic.orientation %>">
+				<ul class="detail-slideshow">
+					<% for photo, index in topic.photos: %>
+					 <li>
+						<!-- <%- topic.photos['$' + index] %> -->
+					 	<img src="<%- @href photo %>" alt="">
+				 	</li>
+					<% end %>
+				</ul>
+				<% if topic.photos.length > 1: %>
+				<div class="detail-thumbs floated">
+					<% for photo, idx in topic.photos: %>
+					<a data-slide-index="<%- idx %>" href="">
+						<!-- <%- topic.photos['$' + idx] %> -->
+						<div class="overlay"><img src="<%- @href photo %>" alt="<%= topic.caption %>"></div>
+					</a>
+					<% end %>
+				</div>
+				<% end %>
+			</div>
+
+			<div class="detail right <%= topic.orientation %>">
+				<h3>
+					<!-- <%- topic.$caption %> -->
+					<%= topic.caption %>
+				</h3>
+				<p>
+					<!-- <%- topic.$description %> -->
+					<%= topic.description %>
+				</p>
+			</div>
+
+			<div class="clear"></div>
+		<% end %>
+	</div>
+	<div class="separator small"></div>
+	<div class="category-highlights highlights">
+		<hr/>
+		<h3>
+			<!-- <%- @href('/kitchens/technologies').meta.$title %> -->
+			<%- @href('/kitchens/technologies').meta.title %>
+		</h3>
+		<div class="separator small"></div>
+		<% for technology in @data.technologies : %>
+			<div class="technology-thumb">
+				<a href="<%- @href technology %>">
+					<!-- <%- technology.meta.$photo %> -->
+					<img src="<%- @href technology.meta.photo %>" alt="<%= technology.meta.title %>">
+					<h4>
+						<!-- <%- technology.meta.$title %> -->
+						<%- technology.meta.title %>
+					</h4>
+				</a>
+			</div>
+		<% end %>
+	</div>
+	<div class="separator"></div>
+	<%- @blocks.manufacturing() %>
+	<div class="clear"></div>
+	<div class="separator"></div>
+</div>

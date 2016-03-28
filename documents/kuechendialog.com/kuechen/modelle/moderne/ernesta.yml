@@ -1,0 +1,108 @@
+layout: /model.ect
+href: '/kitchens/models/modern/ernesta'
+lang: de
+category: '/kitchens/models/modern'
+title: 'Ernesta'
+importance: 2
+photo: '/kuechen/modelle/moderne/ernesta/kueche-ernesta.jpg'
+description: 'Eichenfurnier mit einer beeindruckenden Stärke der Türen – 25 mm und 2 mm  Holzkante. Stil und Harmonie. Schmuckstück für jede Wohnung.'
+highlights:
+  - 
+    caption: 'Furnier,|verarbeitet|als Massivholz'
+    photo: '/kuechen/modelle/moderne/ernesta/furnier-massivholz.png'
+  - 
+    caption: 'Sinn|für Stil|und Harmonie'
+    photo: '/kuechen/modelle/moderne/ernesta/stil-harmonie.png'
+  - 
+    caption: 'Eine praktische|Lösung|für die Küche'
+    photo: '/kuechen/modelle/moderne/ernesta/praktische-kueche.png'
+topics:
+  -
+    caption: 'Türen mit dunklem und hellem Furnier in Kombination mit MDF Matt'
+    description: 'Die warmen Kontraste zwischen Hell und Dunkel schaffen eine frische Atmosphäre, die durch das Gefühl von Gemütlichkeit, das vom natürlichen Aussehen des Eichenfurniers kommt, ergänzt wird. Die Kombination von den Holzoberflächen und den monochromen matten Oberflächen, ergänzt durch einen Handgriff mit Edelstahloptik, vereinbart Design, Natur und Technologien.'
+    photos:
+      - '/kuechen/modelle/moderne/ernesta/furnier-2.jpg'
+      - '/kuechen/modelle/moderne/ernesta/furnier-1.jpg'
+  -
+    caption: 'Gerade Linie mit einem elegant abgerundetem Ende'
+    description: 'Die gebogenen Türen dieses Modells ermöglichen es, dass diese moderne Küche mit einem gebogenen Detail fertiggestellt wird – Modul für obere und untere Schicht, Modul für einen Block mit einer Höhe von 204 cm, beidseitig gebogene Theke. Das Modell Ernesta, mit seinen originellen Formen und warmen Eichenfronten, offenbart eine meisterhafte Anfertigung.'
+    photos:
+      - '/kuechen/modelle/moderne/ernesta/gebogenen-tueren.jpg'
+      - '/kuechen/modelle/moderne/ernesta/gebogenen-tueren-2.jpg'
+      - '/kuechen/modelle/moderne/ernesta/gebogenen-tueren-3.jpg'
+  -
+    caption: 'Provokatives Aussehen'
+    description: 'Durch den Einsatz neuester Materialien und Technologien – Corian und bedrucktes Glas, die die Stimmung auflockern und das Interieur ergänzen, wurde ein avantgardistisches Aussehen der Küche geschaffen.'
+    photos:
+      - '/kuechen/modelle/moderne/ernesta/provokatives-aussehen-1.jpg'
+      - '/kuechen/modelle/moderne/ernesta/provokatives-aussehen-2.jpg'
+  -
+    caption: 'Neueste Technologien und modernes Aussehen'
+    description: 'Charakteristisch für dieses Modell sind das System für sanftes Öffnen der Schränke und der großen Schubladen mit erhöhter Tragfähigkeit nach oben und das Zubehör für die optimale Organisation des Schrankinneren.'
+    photos:
+      - '/kuechen/modelle/moderne/ernesta/technologien-1.jpg'
+      - '/kuechen/modelle/moderne/ernesta/technologien-2.jpg'
+      - '/kuechen/modelle/moderne/ernesta/technologien-3.jpg'
+doors:
+  description: 'Eichenfurnier, Wenge oder natürliche Farbe, bearbeitet wie beim Modell Izabella. MDF Matt mit einer Stärke von 22 mm, Aluminium rahmen mit farbigem oder bedrucktem Glas. Große Auswahl an Farben bei den Türen aus lackierter MDF.'
+  categories:
+    - 
+      caption: 'Lackierte MDF-Platten'
+      photos:
+        - '/kuechen/modelle/moderne/ernesta/tueren/lackierte-mdf-platten/lackierte-mdf-platten-1.jpg'
+        - '/kuechen/modelle/moderne/ernesta/tueren/lackierte-mdf-platten/lackierte-mdf-platten-2.jpg'
+        - '/kuechen/modelle/moderne/ernesta/tueren/lackierte-mdf-platten/lackierte-mdf-platten-3.jpg'
+        - '/kuechen/modelle/moderne/ernesta/tueren/lackierte-mdf-platten/lackierte-mdf-platten-4.jpg'
+    - 
+      caption: 'Furnier'
+      photos:
+        - '/kuechen/modelle/moderne/ernesta/tueren/furnier/furnier-1.jpg'
+        - '/kuechen/modelle/moderne/ernesta/tueren/furnier/furnier-2.jpg'
+        - '/kuechen/modelle/moderne/ernesta/tueren/furnier/furnier-3.jpg'
+        - '/kuechen/modelle/moderne/ernesta/tueren/furnier/furnier-4.jpg'
+        - '/kuechen/modelle/moderne/ernesta/tueren/furnier/furnier-5.jpg'
+        - '/kuechen/modelle/moderne/ernesta/tueren/furnier/furnier-6.jpg'
+handles:
+  description: 'Eine Vielzahl von Standard- und Design-Griffe. Für die Oberschränke können integrierte Türgriffe verwendet werden. Komplett aus Metall angefertigt für bessere Haltbarkeit beim Einsatz.'
+  categories:
+    - 
+      caption: 'Schmale und breite Metallgriffe'
+      photos:
+        - '/kuechen/modelle/moderne/ernesta/griffe/griffe-1.jpg'
+        - '/kuechen/modelle/moderne/ernesta/griffe/griffe-2.jpg'
+        - '/kuechen/modelle/moderne/ernesta/griffe/griffe-3.jpg'
+        - '/kuechen/modelle/moderne/ernesta/griffe/griffe-4.jpg'
+        - '/kuechen/modelle/moderne/ernesta/griffe/griffe-5.jpg'
+        - '/kuechen/modelle/moderne/ernesta/griffe/griffe-6.jpg'
+        - '/kuechen/modelle/moderne/ernesta/griffe/griffe-7.jpg'
+        - '/kuechen/modelle/moderne/ernesta/griffe/griffe-8.jpg'
+        - '/kuechen/modelle/moderne/ernesta/griffe/griffe-9.jpg'
+        - '/kuechen/modelle/moderne/ernesta/griffe/griffe-10.jpg'
+        - '/kuechen/modelle/moderne/ernesta/griffe/griffe-11.jpg'
+        - '/kuechen/modelle/moderne/ernesta/griffe/griffe-12.jpg'
+        - '/kuechen/modelle/moderne/ernesta/griffe/griffe-13.jpg'
+worktops:
+  description: 'Für das perfekte Finish der Küche gibt es eine große Auswahl an Küchenarbeitsplatten, Wänden und Paneelen, die aus Naturstein oder aus einem Material, das eine sehr gute Imitation des Steins ist, hergestellt werden können. Extrem zuverlässig und über die Zeit bewährt. Küchenarbeitsplatten von HPL, EGGER und KAINDL – Österreich. Küchenarbeitsplatten aus Kunststein QUARELLA – Italien. Küchenarbeitsplatten aus Granit NATURAL STONES – Italien.'
+  hpl:
+    photos:
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/hpl/hpl-1.jpg'
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/hpl/hpl-2.jpg'
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/hpl/hpl-3.jpg'
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/hpl/hpl-4.jpg'
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/hpl/hpl-5.jpg'
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/hpl/hpl-6.jpg'
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/hpl/hpl-7.jpg'
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/hpl/hpl-8.jpg'
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/hpl/hpl-9.jpg'
+  granite:
+    photos:
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/granit/granit-1.jpg'
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/granit/granit-2.jpg'
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/granit/granit-3.jpg'
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/granit/granit-4.jpg'
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/granit/granit-5.jpg'
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/granit/granit-6.jpg'
+  technicalStone:
+    photos:
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/kunststein/kunststein-1.jpg'
+      - '/kuechen/modelle/moderne/ernesta/kuechenarbeitsplatte/kunststein/kunststein-2.jpg'

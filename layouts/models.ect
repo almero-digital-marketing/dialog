@@ -1,0 +1,64 @@
+---
+layout: /article.ect
+plugins: [guide]
+blocks:
+  technologies: /blocks/technologies.ect
+  manufacturing: /blocks/manufacturing.ect
+---
+<div class="content">
+	<% for category in @data.categories : %>
+		<div class="separator"></div>
+		<div class="category-highlights">
+			<hr/>
+			<h2>
+				<!-- <%- category.meta.$title %> -->
+				<%- category.meta.title %>
+			</h2>
+			<h5>
+				<!-- <%- category.meta.$description %> -->
+				<%- category.meta.description %>
+			</h5>
+			<% for highlight in category.meta.highlights: %>
+				<div class="highlight">
+					<!-- <%- highlight.$photo %> -->
+					<img class="round-shadow" src="<%- @href highlight.photo %>" alt="<%= highlight.caption %>">
+					<p>
+						<!-- <%- highlight.$caption %> -->
+						<%= highlight.caption %>
+					</p>
+				</div>
+			<% end %>
+		</div>
+		<div class="separator small"></div>
+		<div class="category-highlights">
+			<% for model in @data.models when model.meta.category is category.meta.href : %>
+				<div class="model">
+					<h5>
+						<!-- <%- model.meta.$title %> -->
+						<%- model.meta.title %>
+					</h5>
+					<a class="more" href="<%- @href model %>" title="<%= @href('/translation').meta.viewModel %> <%- model.title %>">
+						<!-- <%- @href('/translation').meta.$viewModel %> -->
+						<%- @href('/translation').meta.viewModel %>
+					</a>
+					<p>
+						<!-- <%- model.meta.$description %> -->
+						<%- model.meta.description%>
+					</p>
+					<a href="<%- @href model%>" title="<%= @href('/translation').meta.viewModel %> <%- model.meta.title %>">
+						<!-- <%- model.meta.$photo %> -->
+						<img src="<%- @href model.meta.photo %>" alt="<%= @href('/translation').meta.model %> <%- model.meta.title %>">
+					</a>
+				</div>
+			<% end %>
+		</div>
+	<% end %>
+	<div class="separator"></div>
+	<div class="technologies">
+	<%- @blocks.technologies(@data.technologies) %>
+	</div>
+	<div class="separator"></div>
+	<%- @blocks.manufacturing() %>
+	<div class="clear"></div>
+	<div class="separator"></div>
+</div>

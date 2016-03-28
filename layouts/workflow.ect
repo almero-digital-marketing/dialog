@@ -1,0 +1,101 @@
+---
+layout: /article.ect
+plugins: [guide]
+blocks:
+  technologies: /blocks/technologies.ect
+  manufacturing: /blocks/manufacturing.ect
+  simpleModels: /blocks/simple-models.ect
+---
+<div class="content">
+  <div class="separator small"></div>
+  <section class="workflow">
+      <div id="items">
+      <% for item in @document.meta.workflow : %>
+          <div>
+              <h4>
+                <!-- <%- item.$title %> -->
+                <%- item.title %>
+              </h4>
+              <div class="subcaption">
+                <!-- <%- item.$subcaption %> -->
+                <%- item.subcaption %>
+              </div>
+              <img src="<%- @href item.image %>" alt="<%= item.title %>">
+              <!-- <%- item.$image %> -->
+              <p>
+                <!-- <%- item.$description %> -->
+                <%- item.description %>
+              </p>
+          </div>
+      <% end %>
+      </div>
+  </section>
+
+  <div class="clear"></div>
+  <div class="separator"></div>
+
+  <div class="advantages">
+    <div class="gradientline"></div>
+    <div class="separator"></div>
+    <div class="advantage">
+      <div>
+        <h4>
+          <!-- <%- @document.meta.advantage.$title %> -->
+          <%- @document.meta.advantage.title %>
+        </h4>
+        <p>
+          <!-- <%- @document.meta.advantage.$description %> -->
+          <%- @document.meta.advantage.description %>
+        </p>
+      </div>
+      <h4>
+        <!-- <%- @document.meta.advantage.$subtitle %> -->
+        <%- @document.meta.advantage.subtitle %>
+      </h4>
+      <ul>
+        <% for list in @document.meta.lists : %>
+        <li>
+          <!-- <%- list.$span %> -->
+          <a class="list" href="<%- @href list.href %>" title="<%= list.title %>"><span><%- list.span %></span></a>
+        </li>
+        <% end %>
+      </ul>
+    </div>
+    <img src="images/kitchen-home.jpg" alt="<%= @href('/kitchens').meta.title %>">
+  </div>
+
+  <div class="separator"></div>
+  <%- @blocks.manufacturing() %>
+  <div class="separator small"></div>
+
+  <div class="ptitle">
+    <div class="separator"></div>
+    <hr/>
+    <h3>
+      <!-- <%- @document.meta.ptitle.$title %> -->
+      <%- @document.meta.ptitle.title %>
+    </h3>
+    <div class="clear"></div>
+    <div class="separator small"></div>
+    <% for col, index in @document.meta.ptitle.columns : %>
+    <p class="col">
+      <!-- <%- @document.meta.ptitle.columns['$' + index] %> -->
+      <%- col %>
+    </p>
+    <% end %>
+  </div>
+
+  <div class="separator"></div>
+  <div class="technologies">
+    <%- @blocks.technologies(@data.technologies) %>
+  </div>
+
+  <div class="content simple models">
+    <% for category in @data.categories: %>
+    <div class="separator medium"></div>
+    <hr />
+    <%- @blocks.simpleModels(category: category, models: @data.models) %>
+    <% end %>
+  </div>
+</div>
+

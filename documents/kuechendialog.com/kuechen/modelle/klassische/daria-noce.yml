@@ -1,0 +1,82 @@
+layout: /model.ect
+title: 'Daria Noce'
+importance: 2
+lang: de
+category: '/kitchens/models/classic'
+href: '/kitchens/models/classic/daria-noce'
+photo: '/kuechen/modelle/klassische/daria-noce/kueche-daria-noce.jpg'
+description: 'Gemütlichkeit und Ruhe. Herrliches Profil mit sanften tiefen Abrundungen und erstklassiger transparenter dunkler Politur. Dieses Modell trägt in sich schöne Erinnerungen, Inspiration und Träume.'
+highlights:
+  - 
+    caption: 'Luxus|Gemütlichkeit und|Ruhe'
+    photo: '/kuechen/modelle/klassische/daria-noce/extravaganz-gemuetlichkeit.png'
+  - 
+    caption: 'Liebe|zum kleinsten|Detail'
+    photo: '/kuechen/modelle/klassische/daria-noce/detail.png'
+  - 
+    caption: 'Wunderschöne|dunkle|Politur'
+    photo: '/kuechen/modelle/klassische/daria-noce/dunkle-politur.png'
+topics:
+  -
+    caption: 'Ruhe und Gemütlichkeit'
+    description: 'Herrliches Profil mit sanften tiefen Abrundungen und wunderschöne dunkle Farbe, die schöne Erinnerungen, Inspiration und Träume in sich trägt.'
+    photos:
+      - '/kuechen/modelle/klassische/daria-noce/daria-noce-1.jpg'
+      - '/kuechen/modelle/klassische/daria-noce/zubehoer-2.jpg'
+  -
+    caption: 'Eschenholz mit charakteristischer Struktur'
+    description: 'Der Kontrast zwischen Braun und Dunkelbraun umreißt die Formen der Türen auf eine faszinierende Art und Weise.'
+    photos:
+      - '/kuechen/modelle/klassische/daria-noce/daria-noce-2.jpg'
+      - '/kuechen/modelle/klassische/daria-noce/tueren-2.jpg'
+  -
+    caption: 'Schöne dekorative Elemente'
+    description: 'Farbglas, Gitter, Gesimse, Pilaster, Außenregale und Griffe aus Porzellan – all diese Elemente liegen dem herrlichen klassischen Look des Modells zugrunde. Viele kleine Schubladen und Türen schaffen das Gefühl vom häuslichen Komfort.'
+    photos:
+      - '/kuechen/modelle/klassische/daria-noce/zubehoer-1.jpg'
+      - '/kuechen/modelle/klassische/daria-noce/tueren-1.jpg'
+  -
+    caption: 'Haushaltsgeräte mit klassischem Look der letzten Generation'
+    description: 'Hinter dem klassischen Look des Küchenmodells werden multifunktionelle Backöfen und Abzugshauben, die alle modernen Funktionen, sowie die aktuellsten Technologien für reibungsloses Öffnen und Schließen und solche, die die maximale Raumnutzung ermöglichen, anbieten.'
+    photos:
+      - '/kuechen/modelle/klassische/daria-noce/technologien-1.jpg'
+      - '/kuechen/modelle/klassische/daria-noce/technologien-2.jpg'
+      - '/kuechen/modelle/klassische/daria-noce/technologien-3.jpg'
+doors:
+  description: 'Massives Eschenholz mit einer Stärke von 20 mm, bearbeitet auf eine spezielle Art und Weise, die ihm eine weiche braune Farbe verleiht. Diese Bearbeitung trägt zur besseren Beständigkeit des Holzes bei, wobei sie es vor äußeren Einflüssen schützt.'
+  categories:
+    - 
+      caption: 'Rahmen aus Birkenholz, Platten aus Edelkirschholz'
+      photos:
+        - '/kuechen/modelle/klassische/daria-noce/tueren/kuechentueren-1.jpg'
+        - '/kuechen/modelle/klassische/daria-noce/tueren/kuechentueren-5.jpg'
+        - '/kuechen/modelle/klassische/daria-noce/tueren/kuechentueren-3.jpg'
+        - '/kuechen/modelle/klassische/daria-noce/tueren/kuechentueren-4.jpg'
+        - '/kuechen/modelle/klassische/daria-noce/tueren/kuechentueren-2.jpg'
+        - '/kuechen/modelle/klassische/daria-noce/tueren/kuechentueren-6.jpg'
+handles:
+  description: 'Die Form, die Größe und die Farbe der Griffe sind speziell für das Modell ausgewählt. Sie sind aus platiniertem Messing und bemalten Porzellan hergestellt.'
+  categories:
+    - 
+      caption: 'patiniertes Messing und bemaltes Porzellan'
+      photos:
+        - '/kuechen/modelle/klassische/daria-noce/griffe/griffe-1.jpg'
+        - '/kuechen/modelle/klassische/daria-noce/griffe/griffe-2.jpg'
+        - '/kuechen/modelle/klassische/daria-noce/griffe/griffe-3.jpg'
+        - '/kuechen/modelle/klassische/daria-noce/griffe/griffe-4.jpg'
+worktops:
+  description: 'Für das perfekte Finish der Küche können Sie Küchenarbeitsplatten aus natürlichen Materialien oder eben aus künstlichen, die sie sehr erfolgreich imitieren, auswählen. Küchenarbeitsplatten von HPL, EGGER und KAINDL – Österreich. Küchenarbeitsplatten aus Granit NATURAL STONES – Italien.'
+  hpl:
+    photos:
+      - '/kuechen/modelle/klassische/daria-noce/kuechenarbeitsplatte/hpl/hpl-1.jpg'
+      - '/kuechen/modelle/klassische/daria-noce/kuechenarbeitsplatte/hpl/hpl-2.jpg'
+      - '/kuechen/modelle/klassische/daria-noce/kuechenarbeitsplatte/hpl/hpl-3.jpg'
+      - '/kuechen/modelle/klassische/daria-noce/kuechenarbeitsplatte/hpl/hpl-4.jpg'
+  granite:
+    photos:
+      - '/kuechen/modelle/klassische/daria-noce/kuechenarbeitsplatte/granit/granit-1.jpg'
+      - '/kuechen/modelle/klassische/daria-noce/kuechenarbeitsplatte/granit/granit-2.jpg'
+      - '/kuechen/modelle/klassische/daria-noce/kuechenarbeitsplatte/granit/granit-3.jpg'
+      - '/kuechen/modelle/klassische/daria-noce/kuechenarbeitsplatte/granit/granit-4.jpg'
+      - '/kuechen/modelle/klassische/daria-noce/kuechenarbeitsplatte/granit/granit-5.jpg'
+      - '/kuechen/modelle/klassische/daria-noce/kuechenarbeitsplatte/granit/granit-6.jpg'

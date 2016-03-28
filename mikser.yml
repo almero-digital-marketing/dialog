@@ -1,0 +1,13 @@
+serverPort: 55021
+plugins: ['guide']
+browser: ['baseline', 'guide']
+shared:
+- kuhnidialog.bg
+- kitchensdialog.com
+- kuhnidialog.ru
+- kuechendialog.com
+routes:
+- /:domain/*domainId
+compile:
+- command: grunt compile
+  pattern: styles/*.less

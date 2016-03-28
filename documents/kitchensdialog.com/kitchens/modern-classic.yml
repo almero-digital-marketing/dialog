@@ -1,0 +1,22 @@
+layout: /category.ect
+href: '/kitchens/models/modern-classic'
+lang: en
+title: "Modern classic kitchens"
+importance: 2
+description: "Perfect design. Solid doors of real oak. Wonderful colours."
+highlights:
+  - 
+    caption: 'Beautiful natural colours'
+    photo: '/kitchens/models/modern-classic/izabella/workmanship-of-the-solid-wood.png'
+  - 
+    caption: 'Modern technologies for better comfort'
+    photo: '/kitchens/models/modern-classic/izabella/technologies-and-modern-vision.png'
+  - 
+    caption: 'An excellent combination of various materials'
+    photo: '/kitchens/models/modern-classic/izabella-noce/contrast-materials.png'
+  - 
+    caption: 'An amazing combination of various styles and colours'
+    photo: '/kitchens/models/modern-classic/rafaella/two-styles-in-a-single-model.png'
+  - 
+    caption: 'Modern vision and impressive design'
+    photo: '/kitchens/models/modern-classic/rafaella-noce/modern-vision.png'

@@ -1,0 +1,95 @@
+---
+layout: /article.ect
+plugins: [guide]
+blocks:
+  technologies: /blocks/technologies.ect
+  simpleModels: /blocks/simple-models.ect
+  manufacturing: /blocks/manufacturing.ect
+  info: /blocks/order-info.ect
+---
+<div class="content">
+  <div class="separator small"></div>
+  <section class="workflow">
+      <div id="items">
+          <div>
+            <%- @blocks.info(@document.meta.request) %>
+            <a class="button-brown" href="<%- @href '/kitchens/offer' %>">
+              <!-- <%- @href('/translation').meta.$onlineRequest %> -->
+              <%- @href('/translation').meta.onlineRequest %>
+            </a>
+            <span>
+              <!-- <%- @href('/translation').meta.$onlineRequestLocation %> -->
+              <%- @href('/translation').meta.onlineRequestLocation %>
+            </span>
+            <a class="button" href="<%- @href '/kitchens/stores' %>">
+              <!-- <%- @href('/translation').meta.$storeRequest %> -->
+              <%- @href('/translation').meta.storeRequest %>
+            </a>
+            <span>
+              <!-- <%- @href('/translation').meta.$storeRequestLocation %> -->
+              <%- @href('/translation').meta.storeRequestLocation %>
+            </span>
+          </div>
+          <div>
+            <%- @blocks.info(@document.meta.project) %>
+          </div>
+          <div>
+          <%- @blocks.info(@document.meta.price) %>
+          </div>
+      </div>
+  </section>
+
+
+  <div class="ptitle">
+    <div class="separator"></div>
+    <hr/>
+    <h3>
+      <!-- <%- @document.meta.ptitleSchema.$title %> -->
+      <%- @document.meta.ptitleSchema.title %>
+    </h3>
+    <div class="clear"></div>
+    <div class="separator small"></div>
+    <% for column in @document.meta.ptitleSchema.columns : %>
+    <p class="col">
+      <!-- <%- column.$description %> -->
+      <%- column.description %>
+    </p>
+    <% end %>
+  </div>
+
+  <div class="separator"></div>
+  <div class="technologies">
+  <%- @blocks.technologies(@data.technologies) %>
+  </div>
+
+  <div class="ptitle">
+    <div class="separator"></div>
+    <hr/>
+    <h3>
+      <!-- <%- @document.meta.ptitleProject.$title %> -->
+      <%- @document.meta.ptitleProject.title %>
+    </h3>
+    <div class="clear"></div>
+    <div class="separator small"></div>
+    <% for column in @document.meta.ptitleProject.columns : %>
+    <p class="col">
+      <!-- <%- column.$description %> -->
+      <%- column.description %>
+    </p>
+    <% end %>
+  </div>
+
+  <div class="separator"></div>
+  <%- @blocks.manufacturing() %>
+  <div class="separator"></div>
+
+  <div class="separator small"></div>
+  <div class="content simple models">
+    <% for category in @data.categories: %>
+      <div class="separator medium"></div>
+      <hr />
+      <%- @blocks.simpleModels(category: category) %>
+    <% end %>
+  </div>
+
+</div>

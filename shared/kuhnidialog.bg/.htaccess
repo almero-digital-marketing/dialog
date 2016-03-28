@@ -1,0 +1,213 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.kuhnidialog.bg [NC]
+RewriteRule (.*) http://kuhnidialog.bg/$1 [L,R=301]
+RewriteRule ^index\.html$ http://kuhnidialog.bg/ [R=301,L]
+RewriteRule ^(.*)/index\.html$ http://kuhnidialog.bg/$1/ [R=301,L]
+
+AddDefaultCharset utf-8
+
+<IfModule mod_mime.c>
+
+  # Audio
+    AddType audio/mp4                                   m4a f4a f4b
+    AddType audio/ogg                                   oga ogg opus
+
+  # Data interchange
+    AddType application/json                            json map
+    AddType application/ld+json                         jsonld
+
+  # JavaScript
+    # Normalize to standard type.
+    # http://tools.ietf.org/html/rfc4329#section-7.2
+    AddType application/javascript                      js
+
+  # Video
+    AddType video/mp4                                   f4v f4p m4v mp4
+    AddType video/ogg                                   ogv
+    AddType video/webm                                  webm
+    AddType video/x-flv                                 flv
+
+  # Web fonts
+    AddType application/font-woff                       woff
+    AddType application/vnd.ms-fontobject               eot
+
+    # Browsers usually ignore the font MIME types and simply sniff the bytes
+    # to figure out the font type.
+    # http://mimesniff.spec.whatwg.org/#matching-a-font-type-pattern
+
+    # Chrome however, shows a warning if any other MIME types are used for
+    # the following fonts.
+
+    AddType application/x-font-ttf                      ttc ttf
+    AddType font/opentype                               otf
+
+    # Make SVGZ fonts work on the iPad.
+    # https://twitter.com/FontSquirrel/status/14855840545
+    AddType     image/svg+xml                           svgz
+    AddEncoding gzip                                    svgz
+
+  # Other
+    AddType application/octet-stream                    safariextz
+    AddType application/x-chrome-extension              crx
+    AddType application/x-opera-extension               oex
+    AddType application/x-web-app-manifest+json         webapp
+    AddType application/x-xpinstall                     xpi
+    AddType application/xml                             atom rdf rss xml
+    AddType image/webp                                  webp
+    AddType image/x-icon                                cur
+    AddType text/cache-manifest                         appcache manifest
+    AddType text/vtt                                    vtt
+    AddType text/x-component                            htc
+    AddType text/x-vcard                                vcf
+
+</IfModule>
+
+<IfModule mod_headers.c>
+	# Allow cross-origin AJAX requests.
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+<IfModule mod_mime.c>
+	# Force UTF-8 for certain file formats.
+    AddCharset utf-8 .atom .css .js .json .jsonld .rss .vtt .webapp .xml
+</IfModule>
+
+<IfModule mod_headers.c>
+	# Allow access to web fonts from all domains.
+    <FilesMatch "\.(eot|otf|tt[cf]|woff)$">
+        Header set Access-Control-Allow-Origin "*"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+
+    # Force compression for mangled headers.
+    # http://developer.yahoo.com/blogs/ydn/posts/2010/12/pushing-beyond-gzipping
+    <IfModule mod_setenvif.c>
+        <IfModule mod_headers.c>
+            SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+            RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+        </IfModule>
+    </IfModule>
+
+    # Compress all output labeled with one of the following MIME-types
+    # (for Apache versions below 2.3.7, you don't need to enable `mod_filter`
+    #  and can remove the `<IfModule mod_filter.c>` and `</IfModule>` lines
+    #  as `AddOutputFilterByType` is still in the core directives).
+    <IfModule mod_filter.c>
+        AddOutputFilterByType DEFLATE application/atom+xml \
+                                      application/javascript \
+                                      application/json \
+                                      application/ld+json \
+                                      application/rss+xml \
+                                      application/vnd.ms-fontobject \
+                                      application/x-font-ttf \
+                                      application/x-web-app-manifest+json \
+                                      application/xhtml+xml \
+                                      application/xml \
+                                      font/opentype \
+                                      image/svg+xml \
+                                      image/x-icon \
+                                      text/css \
+                                      text/html \
+                                      text/plain \
+                                      text/x-component \
+                                      text/xml
+    </IfModule>
+
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header unset ETag
+</IfModule>
+
+FileETag None
+
+<IfModule mod_expires.c>
+
+    ExpiresActive on
+    ExpiresDefault                                      "access plus 1 month"
+
+  # CSS
+    ExpiresByType text/css                              "access plus 1 week"
+
+  # Data interchange
+    ExpiresByType application/json                      "access plus 0 seconds"
+    ExpiresByType application/ld+json                   "access plus 0 seconds"
+    ExpiresByType application/xml                       "access plus 0 seconds"
+    ExpiresByType text/xml                              "access plus 0 seconds"
+
+  # Favicon (cannot be renamed!) and cursor images
+    ExpiresByType image/x-icon                          "access plus 1 week"
+
+  # HTML components (HTCs)
+    ExpiresByType text/x-component                      "access plus 1 month"
+
+  # HTML
+    ExpiresByType text/html                             "access plus 0 seconds"
+
+  # JavaScript
+    ExpiresByType application/javascript                "access plus 1 week"
+
+  # Manifest files
+    ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
+    ExpiresByType text/cache-manifest                   "access plus 0 seconds"
+
+  # Media
+    ExpiresByType audio/ogg                             "access plus 1 month"
+    ExpiresByType image/gif                             "access plus 1 month"
+    ExpiresByType image/jpeg                            "access plus 1 month"
+    ExpiresByType image/png                             "access plus 1 month"
+    ExpiresByType video/mp4                             "access plus 1 month"
+    ExpiresByType video/ogg                             "access plus 1 month"
+    ExpiresByType video/webm                            "access plus 1 month"
+
+  # Web feeds
+    ExpiresByType application/atom+xml                  "access plus 1 hour"
+    ExpiresByType application/rss+xml                   "access plus 1 hour"
+
+  # Web fonts
+    ExpiresByType application/font-woff                 "access plus 1 month"
+    ExpiresByType application/vnd.ms-fontobject         "access plus 1 month"
+    ExpiresByType application/x-font-ttf                "access plus 1 month"
+    ExpiresByType font/opentype                         "access plus 1 month"
+    ExpiresByType image/svg+xml                         "access plus 1 month"
+
+</IfModule>
+
+Redirect 301 /запитване.html http://kuhnidialog.bg/%D0%B7%D0%B0%D0%BF%D0%B8%D1%82%D0%B2%D0%B0%D0%BD%D0%B5-%D0%BA%D1%83%D1%85%D0%BD%D1%8F.html
+Redirect 301 /kuhni-dialog-kontakti/kuhni-dialog-magazin-sofia/ http://kuhnidialog.bg/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B8.html#sofia?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-kontakti/kuhni-dialog-magazin-plovdiv/ http://kuhnidialog.bg/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B8.html#plovdiv?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /%d0%ba%d0%be%d0%bc%d0%bf%d0%be%d0%bd%d0%b5%d0%bd%d1%82%d0%b8/ http://kuhnidialog.bg/%D0%BA%D1%83%D1%85%D0%BD%D0%B8/%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /2013/%d0%bc%d0%b0%d0%b9%d1%81%d0%ba%d0%be-%d0%bf%d1%80%d0%b5%d0%b4%d0%bb%d0%be%d0%b6%d0%b5%d0%bd%d0%b8%d0%b5/ http://kuhnidialog.bg/index.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 2013/easter201/ http://kuhnidialog.bg/index.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-kontakti/kuhni-dialog-office/ http://kuhnidialog.bg/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B8.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-shops/kuhni-dialog-poruchka/ http://kuhnidialog.bg/%D0%BF%D0%BE%D1%80%D1%8A%D1%87%D0%BA%D0%B0-%D0%BD%D0%B0-%D0%BA%D1%83%D1%85%D0%BD%D1%8F.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-user/%d1%81%d0%b5%d1%80%d0%b2%d0%b8%d0%b7/ http://kuhnidialog.bg/%D0%B3%D0%B0%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F-%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D0%B7.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-how-to-pay/ http://kuhnidialog.bg/%D0%BF%D0%BE%D1%80%D1%8A%D1%87%D0%BA%D0%B0-%D0%BD%D0%B0-%D0%BA%D1%83%D1%85%D0%BD%D1%8F.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-profile-info/ http://kuhnidialog.bg/index.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-user/kuhni-dialog-poddrujka/instrukcii-za-poddrujka/ http://kuhnidialog.bg/%D0%B3%D0%B0%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F-%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D0%B7.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-user/kuhni-dialog-garancii/ http://kuhnidialog.bg/%D0%B3%D0%B0%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F-%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D0%B7.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-user/kuhni-dialog-remont-i-serviz/ http://kuhnidialog.bg/%D0%B3%D0%B0%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F-%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D0%B7.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /2012/2367/ http://kuhnidialog.bg/index.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /2013/%d0%bf%d1%80%d0%be%d0%bc%d0%be%d1%86%d0%b8%d1%8f-%d0%b0%d0%bf%d1%80%d0%b8%d0%bb-2013/ http://kuhnidialog.bg/index.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /2013/%d0%bf%d1%80%d0%be%d0%b5%d0%ba%d1%82-%d0%bd%d0%b0-%d0%bc%d0%b5%d1%81%d0%b5%d1%86%d0%b0-%d0%bc%d0%b0%d1%80%d1%82-2013/ http://kuhnidialog.bg/index.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /2013/%d0%bf%d1%80%d0%be%d0%b5%d0%ba%d1%82-%d0%bd%d0%b0-%d0%bc%d0%b5%d1%81%d0%b5%d1%86%d0%b0-%d1%84%d0%b5%d0%b2%d1%80%d1%83%d0%b0%d1%80%d0%b8-2013/ http://kuhnidialog.bg/index.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /2013/%d0%bf%d1%80%d0%be%d0%b5%d0%ba%d1%82-%d0%bd%d0%b0-%d0%bc%d0%b5%d1%81%d0%b5%d1%86%d0%b0-%d1%8f%d0%bd%d1%83%d0%b0%d1%80%d0%b8-2013/ http://kuhnidialog.bg/index.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-user/kuhni-dialog-poddrujka/ http://kuhnidialog.bg/%D0%B3%D0%B0%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F-%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D0%B7.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-user/kuhni-dialog-poddrujka/instrukciya-za-eksploataciya/ http://kuhnidialog.bg/%D0%B3%D0%B0%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F-%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D0%B7.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-user/kuhni-dialog-faq/ http://kuhnidialog.bg/index.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-profile-info/kuhni-dialog-raboten-proces/kuhni-dialog-kak-go-pravim-v-dialog/ http://kuhnidialog.bg/%D0%BA%D1%83%D1%85%D0%BD%D0%B8/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /2012/%d0%b2%d0%b5%d1%87%d0%b5-%d0%b8%d0%bc%d0%b0-%d0%b8-%d0%b5%d0%bb%d0%b5%d0%ba%d1%82%d1%80%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8-%d0%ba%d1%83%d1%85%d0%bd%d0%b8-2/ http://kuhnidialog.bg/index.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-kontakti/kuhni-dialog-feedback/ http://kuhnidialog.bg/%D0%B7%D0%B0%D0%BF%D0%B8%D1%82%D0%B2%D0%B0%D0%BD%D0%B5-%D0%BA%D1%83%D1%85%D0%BD%D1%8F.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-kuhnyata-e/ http://kuhnidialog.bg/index.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-profile-info/kuhni-dialog-dobro-reshenie/ http://kuhnidialog.bg/index.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-profile-info/kuhni-dialog-raboten-proces/ http://kuhnidialog.bg/%D0%BA%D1%83%D1%85%D0%BD%D0%B8/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-komponenti/ http://kuhnidialog.bg/%D0%BA%D1%83%D1%85%D0%BD%D0%B8/%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-shops/kuhni-dialog-zapitvane/ http://kuhnidialog.bg/%D0%B7%D0%B0%D0%BF%D0%B8%D1%82%D0%B2%D0%B0%D0%BD%D0%B5-%D0%BA%D1%83%D1%85%D0%BD%D1%8F.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-shops/ http://kuhnidialog.bg/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B8.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-kontakti/ http://kuhnidialog.bg/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B8.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-modeli/ http://kuhnidialog.bg/%D0%BA%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-gialog-blog/ http://kuhnidialog.bg/index.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site
+Redirect 301 /kuhni-dialog-user/ http://kuhnidialog.bg/index.html?utm_source=dialogbg.com&utm_medium=redirect&utm_campaign=site

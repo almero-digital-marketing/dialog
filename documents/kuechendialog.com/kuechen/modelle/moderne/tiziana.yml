@@ -1,0 +1,128 @@
+layout: /model.ect
+href: '/kitchens/models/modern/tiziana'
+lang: de
+category: '/kitchens/models/modern'
+title: 'Tiziana'
+importance: 3
+parent: '/kitchens/modern.html'
+photo: '/kuechen/modelle/moderne/tiziana/kueche-tiziana.jpg'
+description: 'Lack mit einer reichen Farbpalette. Beeindruckender Glanz und Tiefe des Lacksüberzugs, absolute Reinheit. Schicker und eleganter Profilgriff. Bunte Gemälde für kühne Innenausstattung.'
+highlights:
+  - 
+    caption: 'Elegante|Design-Lösung|ohne Griffe'
+    photo: '/kuechen/modelle/moderne/tiziana/loesung-ohne-griffe.png'
+  - 
+    caption: 'Eine Kombination|aus Luxus|und Stil'
+    photo: '/kuechen/modelle/moderne/tiziana/luxus-und-stil.png'
+  - 
+    caption: 'Glanzpolierte|Oberfläche'
+    photo: '/kuechen/modelle/moderne/tiziana/glanzpolierte-oberflaeche.png'
+topics:
+  -
+    caption: 'Eine unendliche Auswahl an Farben'
+    description: 'Lack mit einer reichen Farbpalette. Beeindruckender Glanz und Tiefe der Beschichtung für eine außergewöhnlich praktische und einfache Pflege.'
+    photos:
+      - '/kuechen/modelle/moderne/tiziana/auswahl-an-farben.jpg'
+      - '/kuechen/modelle/moderne/tiziana/auswahl-an-farben-1.jpg'
+      - '/kuechen/modelle/moderne/tiziana/auswahl-an-farben-2.jpg'
+  -
+    caption: 'Metallgriffe oder integrierte Griffe möglich'
+    description: 'Die beiden Möglichkeiten für Griffe bei diesem Modell lassen die Küche unterschiedlich aussehen. Für die bequeme Nutzung der Griffe stellen wir die Türen aus MDF-Platten mit größerer Dicke her, wobei nach dem Fräsen des Griffes genug Platz für eine einfache Handhabung bleibt.'
+    photos:
+      - '/kuechen/modelle/moderne/tiziana/griffe-2.jpg'
+      - '/kuechen/modelle/moderne/tiziana/griffe-3.jpg'
+  -
+    caption: 'Eine Kombination aus Aluminium und Glas'
+    description: 'Als Ergänzung zu diesem modernen Aussehen des Modells können Glastüren mit Aluminiumrahmen, Glaswandpaneele, Metallpaneele und bedruckte Glastüren angefertigt werden.'
+    photos:
+      - '/kuechen/modelle/moderne/tiziana/aluminium-glas-2.jpg'
+      - '/kuechen/modelle/moderne/tiziana/aluminium-glas-1.jpg'
+      - '/kuechen/modelle/moderne/tiziana/aluminium-glas-3.jpg'
+  -
+    caption: 'Eine Kombination von modernem Aussehen und modernen Technologien'
+    description: 'Die elegante Linie dieses Modells ermöglicht den Einsatz unterschiedlicher Haushaltsgeräte, was Form, Farbe und Material betrifft. Sie können sowohl eingebaut, als auch freistehend sein, ohne dass das Design der Küche beeinträchtigt wird. Die modernen Technologien bei den Schränken schaffen Komfort und Funktionalität.'
+    photos:
+      - '/kuechen/modelle/moderne/tiziana/technologien-1.jpg'
+      - '/kuechen/modelle/moderne/tiziana/technologien-2.jpg'
+      - '/kuechen/modelle/moderne/tiziana/technologien-3.jpg'
+doors:
+  description: 'Die Türen dieses Modells werden aus 18 mm und 22 mm MDF-Platten, mit Grundfolie für tiefe Profilierung, gestrichen mit Polyurethan-Farben und –Lacken, hergestellt. Die Platten werden für zusätzliche Robustheit und Beständigkeit poliert. Große Auswahl an Farben für Türen aus lackierten MDF-Platten.'
+  categories:
+    - 
+      caption: 'Lackierte MDF-Platten'
+      photos:
+        - '/kuechen/modelle/moderne/tiziana/tueren/lackierte-mdf-platten/lackierte-mdf-platten-1.jpg'
+        - '/kuechen/modelle/moderne/tiziana/tueren/lackierte-mdf-platten/lackierte-mdf-platten-2.jpg'
+        - '/kuechen/modelle/moderne/tiziana/tueren/lackierte-mdf-platten/lackierte-mdf-platten-3.jpg'
+        - '/kuechen/modelle/moderne/tiziana/tueren/lackierte-mdf-platten/mdf-farben.jpg'
+    - 
+      caption: 'Aluminiumrahmen'
+      photos:
+        - '/kuechen/modelle/moderne/tiziana/tueren/aluminiumrahmen/aluminiumrahmen-1.jpg'
+        - '/kuechen/modelle/moderne/tiziana/tueren/aluminiumrahmen/aluminiumrahmen-2.jpg'
+        - '/kuechen/modelle/moderne/tiziana/tueren/aluminiumrahmen/aluminiumrahmen-3.jpg'
+    - 
+      caption: 'Türen ohne Griffe'
+      photos:
+        - '/kuechen/modelle/moderne/tiziana/tueren/tueren-ohne-griffe/tueren-ohne-griffe-1.jpg'
+        - '/kuechen/modelle/moderne/tiziana/tueren/tueren-ohne-griffe/tueren-ohne-griffe-2.jpg'
+        - '/kuechen/modelle/moderne/tiziana/tueren/tueren-ohne-griffe/tueren-ohne-griffe-3.jpg'
+        - '/kuechen/modelle/moderne/tiziana/tueren/tueren-ohne-griffe/tueren-ohne-griffe-4.jpg'
+        - '/kuechen/modelle/moderne/tiziana/tueren/tueren-ohne-griffe/tueren-ohne-griffe-5.jpg'
+        - '/kuechen/modelle/moderne/tiziana/tueren/tueren-ohne-griffe/tueren-ohne-griffe-6.jpg'
+handles:
+  description: 'Eine Vielzahl von Standard- und Design-Griffe. Für die Oberschränke können integrierte Türgriffe verwendet werden. Komplett aus Metall angefertigt für bessere Haltbarkeit beim Einsatz.'
+  categories:
+    - 
+      caption: 'Schmale und breite Metallgriffe'
+      photos:
+        - '/kuechen/modelle/moderne/tiziana/griffe/griffe-1.jpg'
+        - '/kuechen/modelle/moderne/tiziana/griffe/griffe-2.jpg'
+        - '/kuechen/modelle/moderne/tiziana/griffe/griffe-3.jpg'
+        - '/kuechen/modelle/moderne/tiziana/griffe/griffe-4.jpg'
+        - '/kuechen/modelle/moderne/tiziana/griffe/griffe-5.jpg'
+        - '/kuechen/modelle/moderne/tiziana/griffe/griffe-6.jpg'
+        - '/kuechen/modelle/moderne/tiziana/griffe/griffe-7.jpg'
+        - '/kuechen/modelle/moderne/tiziana/griffe/griffe-8.jpg'
+        - '/kuechen/modelle/moderne/tiziana/griffe/griffe-9.jpg'
+        - '/kuechen/modelle/moderne/tiziana/griffe/griffe-10.jpg'
+        - '/kuechen/modelle/moderne/tiziana/griffe/griffe-11.jpg'
+        - '/kuechen/modelle/moderne/tiziana/griffe/griffe-12.jpg'
+        - '/kuechen/modelle/moderne/tiziana/griffe/griffe-13.jpg'
+worktops:
+  description: 'Eine große Auswahl an Dekoren und Materialien für die Küchearbeitsplatten. Sie können mit dem Design der Küche leicht kombiniert werden. Küchenarbeitsplatten von HPL, EGGER und KAINDL – Österreich. Küchenarbeitsplatten aus Kunststein QUARELLA – Italien. Küchenarbeitsplatten aus Granit NATURAL STONES – Italien.'
+  hpl:
+    photos:
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/hpl/hpl-1.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/hpl/hpl-2.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/hpl/hpl-3.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/hpl/hpl-4.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/hpl/hpl-5.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/hpl/hpl-6.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/hpl/hpl-7.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/hpl/hpl-8.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/hpl/hpl-9.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/hpl/hpl-10.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/hpl/hpl-11.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/hpl/hpl-12.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/hpl/hpl-13.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/hpl/hpl-14.jpg'
+  granite:
+    photos:
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/granit/granit-1.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/granit/granit-2.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/granit/granit-3.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/granit/granit-4.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/granit/granit-5.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/granit/granit-6.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/granit/granit-7.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/granit/granit-8.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/granit/granit-9.jpg'
+  technicalStone:
+    photos:
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/kunststein/kunststein-1.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/kunststein/kunststein-2.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/kunststein/kunststein-3.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/kunststein/kunststein-4.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/kunststein/kunststein-5.jpg'
+      - '/kuechen/modelle/moderne/tiziana/kuechenarbeitsplatte/kunststein/kunststein-6.jpg'

@@ -1,0 +1,93 @@
+layout: /model.ect
+href: '/kitchens/models/modern-classic/izabella'
+lang: en
+category: '/kitchens/models/modern-classic'
+title: 'Izabella'
+importance: 1
+photo: '/kitchens/models/modern-classic/izabella/kitchen-izabella.jpg'
+description: 'The fragrance of an oak forest, wonderful natural colour and exquisite workmanship.'
+highlights:
+  - 
+    caption: 'Technologies|and modern|vision'
+    photo: '/kitchens/models/modern-classic/izabella/technologies-and-modern-vision.png'
+  - 
+    caption: 'Beautiful|natural|colour'
+    photo: '/kitchens/models/modern-classic/izabella/natural-colour.png'
+  - 
+    caption: 'Exquisitely|machined|solid oak'
+    photo: '/kitchens/models/modern-classic/izabella/workmanship-of-the-solid-wood.png'
+topics:
+  -
+    caption: 'Doors of solid oak material and a wide frame'
+    description: 'Beautiful natural colour and impeccable workmanship. Solid doors which can be made with frosted glass or solid, i.e. completely made of solid wood. The material used is of the best quality. Over the years, we have specialized in machining the solid wood and we dare say we are the best.'
+    highlight: Opportunity for combination|of doors with wood metal and glass'
+    photos:
+      - '/kitchens/models/modern-classic/izabella/doors-1.jpg'
+      - '/kitchens/models/modern-classic/izabella/doors-2.jpg'
+      - '/kitchens/models/modern-classic/izabella/doors-4.jpg'
+  -
+    caption: 'Island design area with an eat-in space '
+    description: 'With their flexibility and vision, the kitchens of the Izabella model offer a wide range of solutions for the various areas: “storage”, “washing-up”, “preparation”, “cooking”. Where space allows it, we also make an “eat-in” zone by increasing the worktops.'
+    photos:
+      - '/kitchens/models/modern-classic/izabella/island-shape.jpg'
+  -
+    caption: 'A beautiful combination of solid material, metal and glass'
+    description: 'Modern trends cannot miss the kitchen and introduce some more style to it. The Izabella kitchen will offer you not only style, but also dynamics. A beautiful combination of metal with frosted glass doors and solid frames. There is an option for metal sides and a metal panel (back of the worktop). Excellently combines with inox as well.'
+    photos:
+      - '/kitchens/models/modern-classic/izabella/metal-and-glass.jpg'
+      - '/kitchens/models/modern-classic/izabella/metal-and-glass-2.jpg'
+      - '/kitchens/models/modern-classic/izabella/metal-and-glass-4.jpg'
+  -
+    caption: 'Ornamental aluminium shelves'
+    description: 'The ornamental shelves are an excellent addition to the combination of solid material and metal, and the LED bottom, emitting light upwards and downwards (optional), can add a refreshing touch and improve even more the style of your kitchen. The shelves can be assembled in a space depending on your desires and the layout of your kitchen.'
+    highlight: 'Aluminium shelves|that make the kitchen better'
+    photos:
+      - '/kitchens/models/modern-classic/izabella/shelves-and-led-lighting.jpg'
+      - '/kitchens/models/modern-classic/izabella/technologies-and-led-lighting.jpg'
+      - '/kitchens/models/modern-classic/izabella/metal-and-glass-1.jpg'
+  -
+    caption: 'Mechanisms for functional use of space '
+    description: 'Easier operating processes, sufficient space for storage and a high level of comfort are achieved by the use of the Blum drawers and mechanisms for upward opening. These are exceptionally sturdy, large and comfortable drawers with the help of which you will use optimally the whole space. Even the darkest corner of the kitchen will be tidy and easy to use.'
+    photos:
+      - '/kitchens/models/modern-classic/izabella/technologies-1.jpg'
+      - '/kitchens/models/modern-classic/izabella/technologies.jpg'
+doors:
+  description: 'The doors of the upper cupboards are completely opened without any interference to the nearby space. Each door is coloured and patinated in order to enhance the effect of the wood and to seal the pores of the timber thereby protecting it against the influence of the external factors, the moisture and the sun. The doors are made of solid oak, 25 mm in thickness. Fine workmanship and excellent sturdiness which will last for a long time.'
+  categories:
+    - 
+      caption: 'Solid oak, 25 mm thick'
+      photos:
+        - '/kitchens/models/modern-classic/izabella/doors/doors-1.jpg'
+        - '/kitchens/models/modern-classic/izabella/doors/doors-2.jpg'
+        - '/kitchens/models/modern-classic/izabella/doors/doors-3.jpg'
+        - '/kitchens/models/modern-classic/izabella/doors/doors-4.jpg'
+handles:
+  description: 'Wide, noticeable metal handles. Well selected in order to be comfortable and elegant, matching the model which we offer. The handles are made of high-quality metal whose properties do not change over time. They do not darken and do not scale.'
+  categories:
+    - 
+      caption: 'Metal'
+      photos:
+        - '/kitchens/models/modern-classic/izabella/handles/metal-handles-1.jpg'
+        - '/kitchens/models/modern-classic/izabella/handles/metal-handles-2.jpg'
+        - '/kitchens/models/modern-classic/izabella/handles/metal-handles-3.jpg'
+        - '/kitchens/models/modern-classic/izabella/handles/metal-handles-4.jpg'
+worktops:
+  description: 'For the perfect finish of your kitchen, we offer a wide choice of worktops, walls and panels which may be made of natural stone or of a material which is an excellent imitation of stone. Exceptionally reliable and proven over time.'
+  hpl:
+    photos:
+      - '/kitchens/models/modern-classic/izabella/worktop/hpl/hpl-1.jpg'
+      - '/kitchens/models/modern-classic/izabella/worktop/hpl/hpl-2.jpg'
+      - '/kitchens/models/modern-classic/izabella/worktop/hpl/hpl-3.jpg'
+      - '/kitchens/models/modern-classic/izabella/worktop/hpl/hpl-4.jpg'
+  technicalStone:
+    photos:
+      - '/kitchens/models/modern-classic/izabella/worktop/technical-stone/technical-stone-1.jpg'
+      - '/kitchens/models/modern-classic/izabella/worktop/technical-stone/technical-stone-2.jpg'
+  granite:
+    photos:
+      - '/kitchens/models/modern-classic/izabella/worktop/granite/granite-1.jpg'
+      - '/kitchens/models/modern-classic/izabella/worktop/granite/granite-2.jpg'
+      - '/kitchens/models/modern-classic/izabella/worktop/granite/granite-3.jpg'
+      - '/kitchens/models/modern-classic/izabella/worktop/granite/granite-4.jpg'
+      - '/kitchens/models/modern-classic/izabella/worktop/granite/granite-5.jpg'
+      - '/kitchens/models/modern-classic/izabella/worktop/granite/granite-6.jpg'

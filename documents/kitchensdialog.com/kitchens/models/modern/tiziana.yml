@@ -1,0 +1,128 @@
+layout: /model.ect
+href: '/kitchens/models/modern/tiziana'
+lang: en
+category: '/kitchens/models/modern'
+title: 'Tiziana'
+importance: 3
+parent: '/kitchens/modern.html'
+photo: '/kitchens/models/modern/tiziana/kitchen-tiziana.jpg'
+description: 'Varnish offered in a rich palette of colours. Impressive gloss and depth of cover, absolute cleanliness. Extravagant and elegant profile handle. Colourful pictures for audacious interior solutions.'
+highlights:
+  - 
+    caption: 'An elegant|handless|design solution'
+    photo: '/kitchens/models/modern/tiziana/handless-design-solution.png'
+  - 
+    caption: 'A combination|of luxury|and style'
+    photo: '/kitchens/models/modern/tiziana/luxury-and-style.png'
+  - 
+    caption: 'Shiny|polished gloss|finish'
+    photo: '/kitchens/models/modern/tiziana/polished-finish.png'
+topics:
+  -
+    caption: 'Infinite choice of colours'
+    description: 'Varnish offered in a wide palette of colours. Impressive shine and depth of the coat for exceptionally practical and easy maintenance.'
+    photos:
+      - '/kitchens/models/modern/tiziana/polish-and-colours.jpg'
+      - '/kitchens/models/modern/tiziana/polish-and-colours-1.jpg'
+      - '/kitchens/models/modern/tiziana/polish-and-colours-2.jpg'
+  -
+    caption: 'Option for metal or integrated handles'
+    description: 'The two handle options in this model offer two different visions. For the more comfortable use of handles, we make the MDF doors thicker so that, after the handle is milled, there is enough space left for easy handling.'
+    photos:
+      - '/kitchens/models/modern/tiziana/handles-2.jpg'
+      - '/kitchens/models/modern/tiziana/handles-3.jpg'
+  -
+    caption: 'A combination of aluminium and glass'
+    description: 'To complement the modern vision of the model, there can be integrated glass doors with aluminium frames, glass wall panels, metal panels and printed glass doors.'
+    photos:
+      - '/kitchens/models/modern/tiziana/aluminium-glass-2.jpg'
+      - '/kitchens/models/modern/tiziana/aluminium-glass-1.jpg'
+      - '/kitchens/models/modern/tiziana/aluminium-glass-3.jpg'
+  -
+    caption: 'A combination of modern vision with modern technologies'
+    description: 'The elegant line of this model allows for the use of electrical appliances of various shape, colour and material, both built-in and free-standing, without impairing the vision of the kitchen. The modern technologies used for the cupboards contribute to the comfort and functionality achieved.'
+    photos:
+      - '/kitchens/models/modern/tiziana/technologies-1.jpg'
+      - '/kitchens/models/modern/tiziana/technologies-2.jpg'
+      - '/kitchens/models/modern/tiziana/technologies-3.jpg'
+doors:
+  description: 'The doors of this model are made of 18 mm and 22 mm MDF, with a priming foil for deep profiling, painted with polyurethane paints and varnishes. Polished for additional sturdiness and durability. A wide choice of colours for varnished MDF doors.'
+  categories:
+    - 
+      caption: 'Varnished MDF'
+      photos:
+        - '/kitchens/models/modern/tiziana/doors/varnished-mdf/varnished-mdf-1.jpg'
+        - '/kitchens/models/modern/tiziana/doors/varnished-mdf/varnished-mdf-2.jpg'
+        - '/kitchens/models/modern/tiziana/doors/varnished-mdf/varnished-mdf-3.jpg'
+        - '/kitchens/models/modern/tiziana/doors/varnished-mdf/mdf-colourful.jpg'
+    - 
+      caption: 'Aluminium frame'
+      photos:
+        - '/kitchens/models/modern/tiziana/doors/aluminium-frame/aluminium-frame-1.jpg'
+        - '/kitchens/models/modern/tiziana/doors/aluminium-frame/aluminium-frame-2.jpg'
+        - '/kitchens/models/modern/tiziana/doors/aluminium-frame/aluminium-frame-3.jpg'
+    - 
+      caption: 'Handless doors'
+      photos:
+        - '/kitchens/models/modern/tiziana/doors/handless-doors/handless-doors-1.jpg'
+        - '/kitchens/models/modern/tiziana/doors/handless-doors/handless-doors-2.jpg'
+        - '/kitchens/models/modern/tiziana/doors/handless-doors/handless-doors-3.jpg'
+        - '/kitchens/models/modern/tiziana/doors/handless-doors/handless-doors-4.jpg'
+        - '/kitchens/models/modern/tiziana/doors/handless-doors/handless-doors-5.jpg'
+        - '/kitchens/models/modern/tiziana/doors/handless-doors/handless-doors-6.jpg'
+handles:
+  description: 'A wide variety of standard and designer handle solutions. Integrated door handles can be used for the upper cupboards. They are completely made out of metal for sturdiness when used. '
+  categories:
+    - 
+      caption: 'Narrow and wide metal handles'
+      photos:
+        - '/kitchens/models/modern/tiziana/handles/handles-1.jpg'
+        - '/kitchens/models/modern/tiziana/handles/handles-2.jpg'
+        - '/kitchens/models/modern/tiziana/handles/handles-3.jpg'
+        - '/kitchens/models/modern/tiziana/handles/handles-4.jpg'
+        - '/kitchens/models/modern/tiziana/handles/handles-5.jpg'
+        - '/kitchens/models/modern/tiziana/handles/handles-6.jpg'
+        - '/kitchens/models/modern/tiziana/handles/handles-7.jpg'
+        - '/kitchens/models/modern/tiziana/handles/handles-8.jpg'
+        - '/kitchens/models/modern/tiziana/handles/handles-9.jpg'
+        - '/kitchens/models/modern/tiziana/handles/handles-10.jpg'
+        - '/kitchens/models/modern/tiziana/handles/handles-11.jpg'
+        - '/kitchens/models/modern/tiziana/handles/handles-12.jpg'
+        - '/kitchens/models/modern/tiziana/handles/handles-13.jpg'
+worktops:
+  description: 'A wide variety of worktop decors and materials. They can easily be combined with the kitchen design. Worktops by HPL, EGGER and KAINDL – Austria. Worktops of technical stone QUARELLA – Italy. Granite worktops NATURAL STONES – Italy.'
+  hpl:
+    photos:
+      - '/kitchens/models/modern/tiziana/worktop/hpl/hpl-1.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/hpl/hpl-2.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/hpl/hpl-3.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/hpl/hpl-4.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/hpl/hpl-5.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/hpl/hpl-6.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/hpl/hpl-7.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/hpl/hpl-8.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/hpl/hpl-9.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/hpl/hpl-10.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/hpl/hpl-11.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/hpl/hpl-12.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/hpl/hpl-13.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/hpl/hpl-14.jpg'
+  granite:
+    photos:
+      - '/kitchens/models/modern/tiziana/worktop/granite/granite-1.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/granite/granite-2.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/granite/granite-3.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/granite/granite-4.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/granite/granite-5.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/granite/granite-6.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/granite/granite-7.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/granite/granite-8.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/granite/granite-9.jpg'
+  technicalStone:
+    photos:
+      - '/kitchens/models/modern/tiziana/worktop/technical-stone/technical-stone-1.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/technical-stone/technical-stone-2.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/technical-stone/technical-stone-3.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/technical-stone/technical-stone-4.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/technical-stone/technical-stone-5.jpg'
+      - '/kitchens/models/modern/tiziana/worktop/technical-stone/technical-stone-6.jpg'

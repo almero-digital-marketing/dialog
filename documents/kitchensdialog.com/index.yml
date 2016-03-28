@@ -1,0 +1,108 @@
+layout: /index.ect
+href: '/kitchens'
+lang: en
+title: 'Dialog Kitchens'
+navigationTitle: 'Kitchens Dialog'
+description: 'Dialog offers original, classic and modern kitchens to suit any style and way of life. Each model has been carefully designed to be practical, ergonomic and functional.'
+slideshows:
+  -
+    title: 'Designed and manufactured in Bulgaria'
+    subtitle: 'proven to be the best kitchens'
+    photo: '/images/main-image.jpg'
+    smallphoto: '/kitchens/models/modern-classic/rafaella/kitchen-rafaella.jpg'
+  -
+    title: 'Modern vision and design'
+    subtitle: 'Modern technologies and perfect quality'
+    photo: '/images/main-image-2.jpg'
+    smallphoto: '/kitchens/models/modern/ernesta/kitchen-ernesta.jpg'
+  -
+    title: 'A true masterpiece of solid wood'
+    subtitle: 'High-quality machining which cannot be matched'
+    photo: '/images/main-image-3.jpg'
+    smallphoto: '/kitchens/models/classic/daria-noce/kitchen-daria-noce.jpg'
+  - 
+    title: 'Modern classics in the kitchen'
+    subtitle: 'A combination of solid wood and metal'
+    photo: '/images/main-image-4.jpg'
+    smallphoto: '/kitchens/models/modern-classic/izabella-noce/kitchen-izabella-noce.jpg'
+showcases:
+  -
+    title: 'Modern kitchens'
+    href: '/kitchens/models/modern'
+    subtitle: 'Attractive and provocative. Irresistibly fresh models with temperamentally youth flavour.'
+    photo: '/kitchens/models/modern/liviana/kitchen-liviana.jpg'
+    description: 'Luxury and style in a combination of MDF, mat and gloss finish. Veneer machined as solid wood and particle board of a new generation.'
+    highlights:
+      - '/kitchens/models/modern/ernesta/practical-kitchen.png'
+      - '/kitchens/models/modern/liviana/wonderful-vision.png'
+    captions:
+      - 'Practical solution for the kitchen'
+      - 'An optimal solution as regards price and vision'
+    category: '/kitchens/models/modern'
+  -
+    title: 'Modern Classic'
+    href: '/kitchens/models/modern-classic'
+    subtitle: 'A perfect design. Solid doors of real oak. Wonderful colours'
+    photo: '/kitchens/models/modern-classic/izabella-noce/izabella-noce-light-doors.jpg'
+    description: 'A wonderful combination of classic and modern style. Exquisite machining of the solid wood.'
+    highlights:
+      - '/kitchens/models/modern-classic/rafaella/two-styles-in-a-single-model.png'
+      - '/kitchens/models/modern-classic/rafaella-noce/modern-vision.png'
+    captions:
+      - 'An amazing combination of styles and colours'
+      - 'Comfort, coziness and modern vision in one'
+    category: '/kitchens/models/modern-classic'
+  -
+    title: 'Classic kitchens'
+    href: '/kitchens/models/classic'
+    subtitle: 'Classical kitchens uniting quality and tradition.'
+    photo: '/kitchens/models/classic/daria-noce/kitchen-daria-noce.jpg'
+    description: 'Kitchens in which we have seen to every detail. A retro fragrance, combined with modern flavour. Natural materials and natural colours.'
+    highlights:
+      - '/kitchens/models/classic/daria/light-colour.png'
+      - '/kitchens/models/classic/daria-noce/extravagance-coziness.png'
+    captions:
+      - 'Exquisite workmanship of the solid wood'
+      - 'Extravagance, coziness and tranquillity'
+    category: '/kitchens/models/classic'
+videoTitle: 'You should see them in real'
+videoDescription: 'Together, we will make the best combination of components, colours and accessories'
+workflow: 
+  title: 'Method of work in Dialog kitchens'
+  content:
+    -
+      title: 'Design'
+      description: '3D model and specification of all components'
+      image: '/images/проект.jpg'
+      href: '/kitchens/kitchen-order'
+    -
+      title: 'Manufacture'
+      description: 'Uncompromised quality and attention to detail'
+      image: '/images/производство.jpg'
+      href: '/kitchens/workflow'
+    -
+      title: 'Delivery'
+      description: 'Own transport of the company and always on time'
+      image: '/images/доставка.jpg'
+      href: '/kitchens/workflow'
+    -
+      title: 'Assembly'
+      description: 'Carried out by a specialized assembly team'
+      image: '/images/монтаж.jpg'
+      href: '/kitchens/workflow'
+rfp: 
+  title: 'Enquiry, quotation and price'
+  description: 'In order to make an enquiry, visit the Dialog kitchens shops. After you state your requirements, we will make a 3D design and will determine the price of your kitchen.'
+warranty:
+  title: 'Warranty and service'
+  description: 'A warranty card is issued for each kitchen. We provide a warranty for the product and a warranty for the service. Dialog services its clients during the warranty period through its specialized repair service.'
+  href: '/kitchens/warranty'
+contacts:
+  title: 'Contacts:'
+  addressSofia: 'City of Sofia, tel: +359 885 29 18 80|139 Tsarigradsko Shose Blvd, fl. 2'
+  addressPlovdiv: 'City of Plovdiv, tel.: +359 32 62 58 25|48 St Petersburg Blvd'
+  email: 'dialog@kuhnidialog.bg'
+dialog:
+  link: 'Dialog Kitchens © 2016 All rights reserved'
+almero:
+  link: 'Digital Marketing'

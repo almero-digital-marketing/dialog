@@ -1,0 +1,34 @@
+layout: /order.ect
+href: '/kitchens/kitchen-order'
+lang: en
+title: 'Ordering a kitchen'
+navigationTitle: 'Ordering a kitchen'
+request:
+  title: 'Enquiry'
+  subtitle: 'We would like to welcome you to the shops of Dialog kitchens'
+  image: '/images/enquiry.jpg'
+  description: 'In order to make an enquiry, you are welcome to visit the shops of Dialog kitchens. After you state your requirements, as well as what you like about our models, we will be able to provide you with maximum support in your choice and to consult you on all possible issues. In order to provide you with a precise quotation and to be maximally correct, it is best that you make a sketch of the premises.'
+project:
+  title: 'Project'
+  subtitle: 'We will make a 3D Photorealistic design'
+  image: '/images/project-big.jpg'
+  description: 'The design itself is one of the most important stages in the process of creating the kitchen. A member of the technical staff of Dialog will measure the exact details and geometry of the room. Using specialised software, we will make a 3D photorealistic design which will be maximally close to your real kitchen and which ca be actually implemented. '
+price:
+  title: 'Price'
+  subtitle: 'Price, up to 2 working days after a submitter enquiry'
+  image: '/images/price-2.jpg'
+  description: 'If you enquire about a price per linear metre, our reply will be that there is no precise answer to this question because in one linear metre may be included an unknown number and various types of components. As basic guidelines, you are welcome to visit our shops, where you will find labels with the exact price of each kitchen. And if you would like to know the specific price of the kitchen which you have chosen, please do not hesitate to make an enquiry to which we will reply within 2 working days.'
+ptitleSchema: 
+  title: 'Sketch of the premises'
+  columns: 
+    -
+      description: 'The sketch of the palce is a dimensioned view from above with an approximately sizes. It will be good to point out the distances to the exicting terminals for clean and dirty water, an aspiration vent of the chimney, the height of the place and everything else that you feel important and needs to be described.'
+    -
+      description: 'It is important to point out all of the windows, coloumns, alcoves, griders, bends, chimneys and etc. This information will be useful for our designers in the initial design and in the creating of your personal offer.'
+ptitleProject: 
+  title: 'Kitchen Project'
+  columns: 
+    -
+      description: 'In Dialog we will pay attention on the family traditions, the number of people in your familly, and your lifestyle. We will comment the model, which you already approved, we will compare it to some other models to show you the differences in the materials and to let you make the best choice for yourself. Together with you we will choose the best combination of components, colours and accesssories, we will choose the most appropriate electrical – appliances, the sing and the tap and will choose a exact date for the montage of all these things.'
+    -
+      description: 'In addition to the approved project we will create (for free) projects for the water and sewerage and electrical and aspiration systems and we will consult you in their montage. The project that you have approved will be in a kit with a price, contract, deadline for the installation and date for the montage. You can choose a payment method that will be the most comfortable for you.'

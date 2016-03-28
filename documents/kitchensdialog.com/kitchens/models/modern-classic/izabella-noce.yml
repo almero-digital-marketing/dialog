@@ -1,0 +1,90 @@
+layout: /model.ect
+href: '/kitchens/models/modern-classic/izabella-noce'
+lang: en
+category: '/kitchens/models/modern-classic'
+title: 'Izabella Noce'
+importance: 2
+photo: '/kitchens/models/modern-classic/izabella-noce/kitchen-izabella-noce.jpg'
+description: 'An overwhelming dark colour and solid doors of real oak. A true classic!'
+highlights:
+  - 
+    caption: 'Dark|and light|solid wood'
+    photo: '/kitchens/models/modern-classic/izabella-noce/dark-light-solid-wood.png'
+  - 
+    caption: 'Contrast|between|materials'
+    photo: '/kitchens/models/modern-classic/izabella-noce/contrast-materials.png'
+  - 
+    caption: 'Solid|doors'
+    photo: '/kitchens/models/modern-classic/izabella-noce/mechanisms-doors.png'
+topics:
+  -
+    caption: 'Solid oak in overwhelming colours'
+    description: 'Solid wood doors with the option to be combined with frosted glass doors and a solid frame. A powerful dark colour and precise workmanship of the real oak. We offer the option of combining natural and dark tones..'
+    highlight: 'Opportunity for combination|of dark and light colour of the doors'
+    photos:
+      - '/kitchens/models/modern-classic/izabella-noce/kitchen-unilateral.jpg'
+      - '/kitchens/models/modern-classic/izabella-noce/island-kitchen.jpg'
+  -
+    caption: 'Metal, glass and solid wood.'
+    description: 'A combination of solid wood, metal and glass. Unique design and true perfection. A combination of contrastingly different materials. We offer the option of metal sides and metal panels (back of the worktop). The glass that we use in our kitchens is exceptionally strong, and the metal does not change and preserves its aesthetic appearance over a long period of time.'
+    highlight: 'Wonderful combination|of glass, solid wood and metal'
+    photos:
+      - '/kitchens/models/modern-classic/izabella-noce/metal-1.jpg'
+      - '/kitchens/models/modern-classic/izabella-noce/metal-2.jpg'
+  -
+    caption: 'Ornamental aluminium shelves'
+    description: 'The ornamental shelves are an excellent addition to and combine beautifully with solid wood and metal. The LED bottom of the upper cupboards (which emits light upwards and downwards) lights the inside of the cupboards and the worktops at the same time. With these final touches, the kitchen is completely transformed.'
+    highlight: 'Aluminium shelves|that make the kitchen better'
+    photos:
+      - '/kitchens/models/modern-classic/izabella-noce/shelves.jpg'
+  -
+    caption: 'Optimal use of the space'
+    description: 'This is not simply a beautiful kitchen, this is comfort and attention to every detail. The large drawers and doors allow us to use mechanisms for rational organisation of items and easy access to the whole space of the cupboards.'
+    highlight: 'Functionality|and comfort'
+    photos:
+      - '/kitchens/models/modern-classic/izabella-noce/mechanisms-closet.jpg'
+      - '/kitchens/models/modern-classic/izabella-noce/mechanisms-upper-door.jpg'
+      - '/kitchens/models/modern-classic/izabella-noce/mechanisms-lower-door.jpg'
+doors:
+  description: 'Each door is coloured and patinated in order to enhance the effect of the wood and to seal the pores of the timber. The doors are made of solid oak, 25 mm in thickness. All this contributes to the improved durability of the timber and to protecting it against the influence of the external factors, the moisture and the sun. Varnished, with mat finish.'
+  categories:
+    - 
+      caption: 'Solid oak, 25 mm thick'
+      photos:
+        - '/kitchens/models/modern-classic/izabella-noce/doors/doors-1.jpg'
+        - '/kitchens/models/modern-classic/izabella-noce/doors/doors-3.jpg'
+        - '/kitchens/models/modern-classic/izabella-noce/doors/doors-2.jpg'
+        - '/kitchens/models/modern-classic/izabella-noce/doors/doors-4.jpg'
+handles:
+  description: 'Wide, noticeable metal handles. In contrast to plastic handles with metal coating, these handles do not wear off and the coat does not fall. Their appearance does not change over time. Carefully selected for easy holding and door opening.'
+  categories:
+    - 
+      caption: 'Metal'
+      photos:
+        - '/kitchens/models/modern-classic/izabella-noce/handles/handles-1.jpg'
+        - '/kitchens/models/modern-classic/izabella-noce/handles/handles-2.jpg'
+        - '/kitchens/models/modern-classic/izabella-noce/handles/handles-3.jpg'
+        - '/kitchens/models/modern-classic/izabella-noce/handles/handles-4.jpg'
+worktops:
+  description: 'To ensure the perfect finish of your kitchen, you can choose from worktops and wall panels of natural stone or made of materials which imitate it successfully. The worktops that we use are made of HPL, granite and technical stone and have proven over time to be shock- and heat-resistant. This gives them a huge advantage as compared to all other materials offered on the market.'
+  hpl:
+    photos:
+    - '/kitchens/models/modern-classic/izabella-noce/worktop/hpl/worktop-1.jpg'
+    - '/kitchens/models/modern-classic/izabella-noce/worktop/hpl/worktop-2.jpg'
+    - '/kitchens/models/modern-classic/izabella-noce/worktop/hpl/worktop-3.jpg'
+    - '/kitchens/models/modern-classic/izabella-noce/worktop/hpl/worktop-4.jpg'
+    - '/kitchens/models/modern-classic/izabella-noce/worktop/hpl/worktop-5.jpg'
+    - '/kitchens/models/modern-classic/izabella-noce/worktop/hpl/worktop-6.jpg'
+    - '/kitchens/models/modern-classic/izabella-noce/worktop/hpl/worktop-7.jpg'
+    - '/kitchens/models/modern-classic/izabella-noce/worktop/hpl/worktop-8.jpg'
+  technicalStone:
+    photos:
+    - '/kitchens/models/modern-classic/izabella-noce/worktop/technical-stone/technical-stone-1.jpg'
+  granite:
+    photos:
+    - '/kitchens/models/modern-classic/izabella-noce/worktop/granite/granite-1.jpg'
+    - '/kitchens/models/modern-classic/izabella-noce/worktop/granite/granite-2.jpg'
+    - '/kitchens/models/modern-classic/izabella-noce/worktop/granite/granite-3.jpg'
+    - '/kitchens/models/modern-classic/izabella-noce/worktop/granite/granite-4.jpg'
+    - '/kitchens/models/modern-classic/izabella-noce/worktop/granite/granite-5.jpg'
+    - '/kitchens/models/modern-classic/izabella-noce/worktop/granite/granite-6.jpg'

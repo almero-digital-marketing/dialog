@@ -1,0 +1,38 @@
+layout: /technology.ect
+title: 'Zubehör'
+lang: de
+importance: 9
+href: '/kitchens/technologies/accessories'
+photo: '/kuechen/technologien/zubehoer/zubehoer-kueche-1.jpg'
+description: "Schöne Gestelle, Gitter, Inneneinteilungen, Schienen, Aufhänger, Regale, Trennwände aus Glas und andere."
+highlights:
+  - 
+    caption: 'Glassicherungen'
+    photo: '/kuechen/technologien/zubehoer/glassicherungen.png'
+  - 
+    caption: 'Dekorative Regale'
+    photo: '/kuechen/technologien/zubehoer/dekorative-regale.png'
+  - 
+    caption: 'Inneneinteilungen für Schubladen'
+    photo: '/kuechen/technologien/zubehoer/inneneinteilungen-fuer-schubladen.png'
+  - 
+    caption: 'Küchensets'
+    photo: '/kuechen/technologien/zubehoer/kuechensets.png'
+  - 
+    caption: 'Tellerhalter'
+    photo: '/kuechen/technologien/zubehoer/tellerhalter.png'
+topics:
+  -
+    caption: 'Organisation des Raums'
+    description: 'Schöne Gestelle, Gitter, Inneneinteilungen, Schienen, Aufhänger, Regale, Trennwände aus Glas und andere.'
+    photos:
+      - '/kuechen/technologien/zubehoer/inneneinteilungen-1.jpg'
+      - '/kuechen/technologien/zubehoer/zubehoer-kueche-2.jpg'
+      - '/kuechen/technologien/zubehoer/inneneinteilungen-2.jpg'
+  -
+    caption: 'Praktisch und bequem'
+    description: 'Schöne Gestelle, Gitter, Inneneinteilungen, Schienen, Aufhänger, Regale, Trennwände aus Glas und andere.'
+    photos:
+      - '/kuechen/technologien/zubehoer/zubehoer-kueche.jpg'
+      - '/kuechen/technologien/zubehoer/zubehoer-kueche-8.jpg'
+      - '/kuechen/technologien/zubehoer/zubehoer-kueche-9.jpg'

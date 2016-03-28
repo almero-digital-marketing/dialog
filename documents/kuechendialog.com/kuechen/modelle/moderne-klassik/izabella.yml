@@ -1,0 +1,91 @@
+layout: /model.ect
+href: '/kitchens/models/modern-classic/izabella'
+lang: de
+category: '/kitchens/models/modern-classic'
+title: 'Izabella'
+importance: 1
+photo: '/kuechen/modelle/moderne-klassik/izabella/kueche-izabella.jpg'
+description: 'Eichenholz-Duft, wunderschöne natürliche Farbe und perfekte Anfertigung.'
+highlights:
+  - 
+    caption: 'Technologien|und modernes|Aussehen'
+    photo: '/kuechen/modelle/moderne-klassik/izabella/technologien-und-modernes-aussehen.png'
+  - 
+    caption: 'Wunderschöne|natürliche|Farbe'
+    photo: '/kuechen/modelle/moderne-klassik/izabella/natuerliche-farbe.png'
+  - 
+    caption: 'Perfekt|bearbeitetes|massives Eichenholz'
+    photo: '/kuechen/modelle/moderne-klassik/izabella/perfekt-bearbeitetes-massives-eichenholz.png'
+topics:
+  -
+    caption: 'Türen aus massivem Eichenholz und mit breitem Rahmen'
+    description: 'Wunderschöne natürliche Farbe und perfekte Anfertigung. Robuste Türen, die mit Milchglas oder ganz aus Massivholz angefertigt werden können. Das eingesetzte Material ist von höchster Qualität. Im Laufe der Jahre haben wir uns auf die Bearbeitung des Massivholzes spezialisiert und wir wagen es sogar zu behaupten, dass wir die Besten in diesem Bereich sind.'
+    photos:
+      - '/kuechen/modelle/moderne-klassik/izabella/tueren-1.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella/tueren-2.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella/tueren-4.jpg'
+  -
+    caption: 'Inselteil mit Essbereich'
+    description: 'Die Küchen Modell Izabella bieten mit ihrer Flexibilität und klassischen Optik eine breite Palette an Design-Lösungen für die verschiedenen Bereiche: "Aufbewahrung", "Waschen", "Vorbereitung", "Kochen". In Räumen, in denen es möglich ist, wird ein Bereich für "Schnellimbiss" mit mehr Arbeitsplatten gestaltet.'
+    photos:
+      - '/kuechen/modelle/moderne-klassik/izabella/inselteil.jpg'
+  -
+    caption: 'Schöne Kombination aus Massivholz, Metall und Glas'
+    description: 'Auch die Küche wird von den Modetrends, die mehr Stil hineinbringen, beeinflusst. Die Küche Izabella bietet Ihnen nicht nur Stil, sondern auch eine einzigartige Dynamik. Eine schöne Kombination aus Metall mit Glastüren aus Milchglas und massiven Rahmen. Es besteht die Möglichkeit zur Auswahl von Metallseiten und Metalplatte (Rückseite der Arbeitsplatte). Es kombiniert sich hervorragend auch mit Inox.'
+    photos:
+      - '/kuechen/modelle/moderne-klassik/izabella/metall-und-glas.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella/metall-und-glas-2.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella/metall-und-glas-4.jpg'
+  -
+    caption: 'Dekorative Aluminiumregale'
+    description: 'Die dekorativen Regale sind eine hervorragende Ergänzung zur Kombination von Massivholz und Metall, und der LED-Boden, der nach oben und nach unten (Option) leuchtet, kann die Atmosphäre auflockern und mehr Stil in die Küche hineinbringen. Die Regale können an einem beliebigen Platz eingebaut werden, je nach Ihren Anforderungen und nach der Lage der Küche.'
+    photos:
+      - '/kuechen/modelle/moderne-klassik/izabella/regale-und-led.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella/technologien-und-led.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella/metall-und-glas-1.jpg'
+  -
+    caption: 'Mechanismen für eine funktionelle Raumnutzung'
+    description: 'Erleichterte Arbeitsabläufe, viel Stauraum und ein hohes Maß an Komfort werden mit dem Einsatz der Blum Schubladen und Mechanismen für Öffnung nach oben erreicht. Extrem robuste, große und bequeme Schubladen, mit deren Hilfe den ganzen Innenraum optimal genutzt wird. Selbst die dunkelste Ecke der Küche wird aufgeräumt und einfach zu bedienen sein.'
+    photos:
+      - '/kuechen/modelle/moderne-klassik/izabella/technologien-1.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella/technologien.jpg'
+doors:
+  description: 'Die Türen der Oberschränke öffnen sich vollständig ohne zu stören. Jede Tür ist gefärbt und patiniert, um den Wert des Holzes zu steigern und die Holzporen zu versiegeln, was das Holz vor äußeren Einflüssen, Feuchtigkeit und Sonneneinstrahlung schützt. Die Schranktüren sind aus massivem Eichenholz mit einer Stärke von 25 mm hergestellt. Eine Meisterhafte Anfertigung und Festigkeit, die lange Zeit erhalten bleibt.'
+  categories:
+    - 
+      caption: 'Massives Eichenholz mit einer Stärke von 25 mm'
+      photos:
+        - '/kuechen/modelle/moderne-klassik/izabella/tueren/tueren-1.jpg'
+        - '/kuechen/modelle/moderne-klassik/izabella/tueren/tueren-2.jpg'
+        - '/kuechen/modelle/moderne-klassik/izabella/tueren/tueren-3.jpg'
+        - '/kuechen/modelle/moderne-klassik/izabella/tueren/tueren-4.jpg'
+handles:
+  description: 'Breite Metallgriffe, die sich merken lassen. Sie sind passend ausgewählt, um bequem und stillvoll zu sein, im Einklang mit dem Modell, das wir anbieten. Die Griffe sind aus hochwertigem Metall hergestellt, das seine Eigenschaften mit der Zeit nicht ändert. Sie verdunkeln und blättern nicht ab.'
+  categories:
+    - 
+      caption: 'Metall'
+      photos:
+        - '/kuechen/modelle/moderne-klassik/izabella/griffe/griffe-1.jpg'
+        - '/kuechen/modelle/moderne-klassik/izabella/griffe/griffe-2.jpg'
+        - '/kuechen/modelle/moderne-klassik/izabella/griffe/griffe-3.jpg'
+        - '/kuechen/modelle/moderne-klassik/izabella/griffe/griffe-4.jpg'
+worktops:
+  description: 'Für das perfekte Finish der Küche gibt es eine große Auswahl an Küchenarbeitsplatten, Wänden und Paneelen, die aus Naturstein oder aus einem Material, das eine sehr gute Imitation des Steins ist, hergestellt werden können. Extrem zuverlässig und über die Zeit bewährt.'
+  hpl:
+    photos:
+      - '/kuechen/modelle/moderne-klassik/izabella/kuechenarbeitsplatte/hpl/hpl-1.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella/kuechenarbeitsplatte/hpl/hpl-2.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella/kuechenarbeitsplatte/hpl/hpl-3.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella/kuechenarbeitsplatte/hpl/hpl-4.jpg'
+  technicalStone:
+    photos:
+      - '/kuechen/modelle/moderne-klassik/izabella/kuechenarbeitsplatte/kunststein/kunststein-1.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella/kuechenarbeitsplatte/kunststein/kunststein-2.jpg'
+  granite:
+    photos:
+      - '/kuechen/modelle/moderne-klassik/izabella/kuechenarbeitsplatte/granit/granit-1.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella/kuechenarbeitsplatte/granit/granit-2.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella/kuechenarbeitsplatte/granit/granit-3.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella/kuechenarbeitsplatte/granit/granit-4.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella/kuechenarbeitsplatte/granit/granit-5.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella/kuechenarbeitsplatte/granit/granit-6.jpg'

@@ -1,0 +1,38 @@
+layout: /technology.ect
+title: 'Mechanisms'
+importance: 3
+lang: de
+href: '/kitchens/technologies/mechanisms'
+photo: '/kuechen/technologien/mechanismen/mechanismen-4.jpg'
+description: "Mechanismen mit sanftem Einzug, Vollauszug, vertikale und eckige Mechanismen, mit einer Inneneinteilung für Flaschen und unterschiedlicher Tragfähigkeit."
+highlights:
+  - 
+    caption: 'Mechanismen für mehr Komfort in der Küche'
+    photo: '/kuechen/technologien/mechanismen/mechanismen-fuer-mehr-komfort-in-der-kueche.png'
+  - 
+    caption: 'Begeisternde Übersicht und Ordnung in der Küche'
+    photo: '/kuechen/technologien/mechanismen/begeisternde-uebersicht-und-ordnung-in-der-kueche.png'
+  - 
+    caption: 'Praktische Mechanismen für Flaschen'
+    photo: '/kuechen/technologien/mechanismen/praktische-mechanismen-fuer-flaschen.png'
+  - 
+    caption: 'Guter Überblick selbst in der dunkelsten Ecke'
+    photo: '/kuechen/technologien/mechanismen/guter-ueberblick-selbst-in-der-dunkelsten-ecke.png'
+  - 
+    caption: 'Präzise Einteilung der Staugüter'
+    photo: '/kuechen/technologien/mechanismen/praezise-einteilung-der-staugueter.png'
+topics:
+  -
+    caption: 'Mechanismen mit unübertroffener Funktionalität'
+    description: 'Mechanismen mit sanftem Einzug, Vollauszug, vertikale und eckige Mechanismen, mit einer Inneneinteilung für Flaschen und unterschiedlicher Tragfähigkeit von 10, 25, 30, 40, 50 und 80 kg, SIGE – Italien und REJS – Polen!'
+    photos:
+      - '/kuechen/technologien/mechanismen/mechanismen-1.jpg'
+      - '/kuechen/technologien/mechanismen/mechanismen-2.jpg'
+      - '/kuechen/technologien/mechanismen/mechanismen-3.jpg'
+  -
+    caption: 'Mechanismen, die das Fassungsvermögen erhöhe'
+    description: 'Leichter Zugang zu schmalen Nischen und unbequemen Plätzen. Ermöglichen eine bessere Organisation des Schrankinneren. Erhöhen das Fassungsvermögen.'
+    photos:
+      - '/kuechen/technologien/mechanismen/mechanismen-4.jpg'
+      - '/kuechen/technologien/mechanismen/mechanismen-5.jpg'
+      - '/kuechen/technologien/mechanismen/mechanismen-6.jpg'

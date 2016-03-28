@@ -1,0 +1,105 @@
+layout: /model.ect
+href: '/kitchens/models/modern-classic/rafaella'
+lang: en
+category: '/kitchens/models/modern-classic'
+title: 'Rafaella'
+importance: 3
+photo: '/kitchens/models/modern-classic/rafaella/kitchen-rafaella.jpg'
+description: 'Fascination in white. Varnished wood of charmingly live structure. Exquisite workmanship.'
+highlights:
+  - 
+    caption: 'Fascinatingly|live|structure'
+    photo: '/kitchens/models/modern-classic/rafaella/live-structure.png'
+  - 
+    caption: 'Modern|white colour|of the wood'
+    photo: '/kitchens/models/modern-classic/rafaella/white-colour-wood.png'
+  - 
+    caption: 'Two styles|in a single|model'
+    photo: '/kitchens/models/modern-classic/rafaella/two-styles-in-a-single-model.png'
+topics:
+  -
+    caption: 'Tradition and modern elegance'
+    description: 'A kitchen with classic gentle lines, suitable for furnishing houses and flats which aim at a soothing atmosphere in the kitchen. The ornamental elements (cornices, wall piers, shelves) have been specially designed for this door profile.'
+    photos:
+      - '/kitchens/models/modern-classic/rafaella/classic-vision.jpg'
+      - '/kitchens/models/modern-classic/rafaella/classic-vision-2.jpg'
+      - '/kitchens/models/modern-classic/rafaella/classic-vision-3.jpg'
+  -
+    caption: 'Solid doors of ash-tree and white varnish.'
+    description: 'Varnished wood of fascinatingly live structure. Solid doors made of ash-tree, laminated with white satin varnish. Successfully combined with stained glass doors and multi-coloured candies. An excellent combination of solid wood and coloured polish.'
+    photos:
+      - '/kitchens/models/modern-classic/rafaella/doors-1.jpg'
+      - '/kitchens/models/modern-classic/rafaella/doors-2.jpg'
+      - '/kitchens/models/modern-classic/rafaella/doors-3.jpg'
+  -
+    caption: 'Worktops which merge with the kitchen completely'
+    description: 'For this model especially, the worktops are made with a wooden edge which is specially machined to match the vision of the doors. You may choose from a wide variety of nuances of black, white, monochrome worktops in various colours or worktops which imitate stone or are made of natural stone.'
+    highlight: 'Modern vision|and fascination in white'
+    photos:
+      - '/kitchens/models/modern-classic/rafaella/worktop-2.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop-1.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop-3.jpg'
+  -
+    caption: 'Colour centrepiece'
+    description: 'A colour centrepiece which stands out against the white colour and the wood. The varnish coat may be in colours which can be combined with various interiors and kitchens'
+    photos:
+      - '/kitchens/models/modern-classic/rafaella/colourful-combination-1.jpg'
+      - '/kitchens/models/modern-classic/rafaella/colourful-combination-2.jpg'
+      - '/kitchens/models/modern-classic/rafaella/colourful-combination-3.jpg'
+  -
+    caption: 'State-of-the-art technologies and classic vision'
+    description: 'Behind every door there can be hidden numerous solutions for optimal and flexible use of the space, as well as all electrical appliances needed in a kitchen. Thus you will not only have a beautiful kitchen, but a highly functional and comfortable solution for your household.'
+    photos:
+      - '/kitchens/models/modern-classic/rafaella/technologies-2.jpg'
+      - '/kitchens/models/modern-classic/rafaella/technologies-1.jpg'
+      - '/kitchens/models/modern-classic/rafaella/technologies-3.jpg'
+doors:
+  description: 'Solid doors of ash-tree, 25 mm thick, and surface finish with white satin varnish.'
+  categories:
+    - 
+      caption: 'Solid ash-tree, 25 mm thick'
+      photos:
+        - '/kitchens/models/modern-classic/rafaella/doors/doors-1.jpg'
+        - '/kitchens/models/modern-classic/rafaella/doors/doors-2.jpg'
+        - '/kitchens/models/modern-classic/rafaella/doors/doors-3.jpg'
+        - '/kitchens/models/modern-classic/rafaella/doors/doors-4.jpg'
+handles:
+  description: 'Metal handles which are not inferior to any other handles as regards quality and comfort of the grip. Perfectly selected to suit the model. Maximally simple and elegant design.'
+  categories:
+    - 
+      caption: 'Metal'
+      photos:
+        - '/kitchens/models/modern-classic/rafaella/handles/metal-handles.jpg'
+worktops:
+  description: 'The white colour of the model makes possible combinations with any colours and worktops which may be made both of natural and artificial materials. You may choose from worktops with a 60 mm thick wooden edge, HPL, granite or technical stone.'
+  hpl:
+    photos:
+      - '/kitchens/models/modern-classic/rafaella/worktop/hpl/hpl-1.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/hpl/hpl-2.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/hpl/hpl-3.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/hpl/hpl-4.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/hpl/hpl-5.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/hpl/hpl-6.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/hpl/hpl-7.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/hpl/hpl-8.jpg'
+  hpl60mm:
+    photos:
+      - '/kitchens/models/modern-classic/rafaella/worktop/hpl-60mm/hpl-9.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/hpl-60mm/hpl-10.jpg'
+  technicalStone:
+    photos:
+      - '/kitchens/models/modern-classic/rafaella/worktop/technical-stone/technical-stone-1.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/technical-stone/technical-stone-2.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/technical-stone/technical-stone-3.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/technical-stone/technical-stone-4.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/technical-stone/technical-stone-5.jpg'
+  granite:
+    photos:
+      - '/kitchens/models/modern-classic/rafaella/worktop/granite/granite-1.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/granite/granite-2.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/granite/granite-3.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/granite/granite-4.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/granite/granite-5.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/granite/granite-6.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/granite/granite-7.jpg'
+      - '/kitchens/models/modern-classic/rafaella/worktop/granite/granite-8.jpg'

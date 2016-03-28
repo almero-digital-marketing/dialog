@@ -1,0 +1,42 @@
+layout: /workflow.ect
+title: 'Method of work'
+href: '/kitchens/workflow'
+lang: en
+workflow:
+  -
+    title: 'Manufacture'
+    subcaption: 'High Quality, good ergonomic properties and aesthetic appearance'
+    description: 'The kitchen is made over a period from 3 to 40 days and is stored and kept by us until the shipment date. Even as early as the stage of developing and launching the model, we pay attention to every detail. Our aim is always the same: better quality, better ergonomic properties and appearance, improved reliability and warranty'
+    image: '/images/manufacturing-big.jpg'
+  -
+    title: 'Delivery'
+    subcaption: 'Own transport of the company and always on time'
+    description: 'The furniture and components are delivered using our own transport to the specified address during the week agreed in the contract. The shipment and loading and unloading works are carried out by employees of Dialog. The furniture and components are delivered to the room where they are to be installed or another vacant room on the same floor.'
+    image: '/images/delivery-big.jpg'
+  -
+    title: 'Assembly'
+    subcaption: 'By a specialised assembly team'
+    description: 'The assembly of the kitchen furniture and components is carried out by specialised assembly teams of Dialog kitchens. The duration may vary – from several days to several weeks. This depends on the complexity of the project, the quality of the repair works carried out in the premises.'
+    image: '/images/assembly.jpg'
+advantage:
+  title: 'Why should I choose "Dialog" kitchens??'
+  description: 'Dialog offers original, classic and modern kitchens to suit any style and way of life. Each model has been carefully designed to be practical, ergonomic and functional. We offer complex servicing and uncompromising quality.'
+  subtitle: 'For the longevity of your kitchen'
+lists:
+  -
+    title: 'Operating instructions'
+    href: '/kitchens/warranty/instructions-for-exploitation'
+    span: 'Operating instructions'
+  - 
+    title: 'Warranty service'
+    href: '/kitchens/warranty'
+    span: 'Warranty service'
+  -
+    title: 'Servicing after the warranty period'
+    href: '/kitchens/warranty'
+    span: 'Servicing after the warranty period'
+ptitle: 
+  title: 'Professional assembly of the kitchen'
+  columns: 
+    - 'Our products are with a high quality, which hides behind the  unseen technical details for the final customer, like the properties of the materials, our attitude to the working process and the choice of a business partners. The installers in Dialog Kitchen work very carefully.'
+    - 'The quality of the service is from a essential importance for us. We value and safe the property in your home, clean and tidy up our workplace. The overall view of your home will be significantly improved when a beautiful Dialog kitchen is installed.'

@@ -1,0 +1,34 @@
+layout: /order.ect
+href: '/kitchens/kitchen-order'
+lang: de
+title: 'Bestellung von Küchen'
+navigationTitle: 'Bestellung von Küchen'
+request:
+  title: 'Anfrage'
+  subtitle: 'Besuchen Sie die Geschäfte der Firma Dialog'
+  image: '/images/enquiry.jpg'
+  description: 'Um eine Anfrage zu machen, bitte besuchen Sie eines unserer Geschäfte. Nachdem Sie uns Ihre Anforderungen sowie das, was Ihnen von unseren Modellen gefallen hat, mitteilen, können wir bei Ihrer Wahl maximal nützlich sein und alle Ihren Fragen beantworten. Damit wir Ihnen einen genauen Kostenvoranschlag geben können und Ihnen maximal von Nutzen sein können, ist es empfehlenswert, dass Sie eine Skizze Ihrer Küche mitbringen.'
+project:
+  title: 'Projekt'
+  subtitle: 'Wir werden für Sie ein 3d fotorealistisches Projekt erstellen'
+  image: '/images/project-big.jpg'
+  description: 'Die tatsächliche Projektierung ist eine der wichtigsten Etappen im Prozess der Erstellung der Küche. Ein Mitarbeiter von der technischen Abteilung der Firma Dialog wird die genauen Abmessungen und die Geometrie ihres Raumes entnehmen. Mit Hilfe einer speziellen Software werden wir ein 3D fotorealistisches Projekt erstellen, das ihrer Vorstellungen und Wünsche maximal nahekommt. Wir werden Ihnen ein Projekt anbieten, das tatsächlich ausgeführt werden kann.'
+price:
+  title: 'Preis'
+  subtitle: 'Preis innerhalb von 2 Arbeitstagen nach Eingang Ihrer Anfrage'
+  image: '/images/price-2.jpg'
+  description: 'Wenn Sie nach einem Preis pro laufendem Meter fragen, werden wir Ihnen antworten, dass es keine genaue Antwort auf dies Frage gibt, da in einem laufenden Meter eine beliebige Anzahl von Komponenten unterschiedlicher Art enthalten sein kann. Damit Sie sich orientieren können, was die Preise betrifft, bitte besuchen Sie eines unserer Geschäfte, wo jede ausgestellte Küche ein Etikett mit dem genauen Preis hat. Um einen genauen Preis für die Küche, die Sie ausgewählt haben, zu bekommen, zögern Sie nicht eine Anfrage zu machen. Sie bekommen ein Angebot von uns innerhalb von 2 Arbeitstagen.'
+ptitleSchema: 
+  title: 'Raumplan'
+  columns: 
+    -
+      description: 'Der Raumplan stellt ein Grundriss mit Maßangaben dar. Es ist wünschenswert die Abstände zu bestehenden Wasser- und Abwasserleitungen, Lüftungsgitter am Schornstein, die Raumhöhe sowie alles Weitere, das Ihnen wichtig erscheint oder ggf. eine Konfliktstelle darstellt, zu verzeichnen.'
+    -
+      description: 'Wichtig ist es sämtliche Fenster, Säulen, Nischen, Träger, Mauervorsprünge, Schornsteine u. A. zu vermerken. Diese Angaben werden den Dialog-Planern für den ersten Entwurf Ihres Angebots von hohem Nutzen sein.'
+ptitleProject: 
+  title: 'Küchenentwurf'
+  columns: 
+    -
+      description: 'Die Familientraditionen, die Anzahl der Familienmitglieder sowie Ihre Lebensweise werden von Dialog berücksichtigt. Wir werden das von Ihnen ausgesuchte Modell besprechen, dieses mit anderen Modellen vergleichen, Ihnen den Unterschied zwischen den Materialien aufweisen und auf dieser Grundlage werden Sie die Entscheidung, die Ihrem Geschmack entspricht, treffen. Wir werden zusammen die beste Kombination zwischen Bestandteile, Farben und Zubehör wählen und die geeignetsten elektrischen Geräten, Spülbecken, Armaturen und Abluftanlage aussuchen.'
+    -
+      description: 'Zum genehmigten Entwurf werden wir (kostenfrei) Entwürfe für Wasser und Abwasser, Elektroinstallation und Küchenabluft erstellen und Sie bei Ihrer Ausführung gern beraten. Ein Endpreis, ein Vertrag, eine Ausführungsfrist und ein Einbautermin begleiten den von Ihnen genehmigte Entwurf. Sie können eine für Sie bequeme Zahlungsart wählen.'

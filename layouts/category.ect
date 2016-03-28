@@ -1,0 +1,71 @@
+---
+layout: /article.ect
+plugins: [guide]
+blocks:
+  technologies: /blocks/technologies.ect
+---
+<div class="separator medium"></div>
+
+<%-@content%>
+
+<div class="content">
+	<div class="model-features">
+		<% for model in @data.models when model.meta.category is @document.meta.href: %>
+		<h3>
+			<!-- <%- model.meta.$title %> -->
+			<%- model.meta.title %>
+		</h3>
+		<a class="button" href="<%- @href model %>" title="<%= @href('/translation').meta.viewModels %> <%- model.meta.title%>">
+			<!-- <%- @href('/translation').meta.$viewModel %> -->
+			<%- @href('/translation').meta.viewModel %>
+		</a>
+		<p>
+			<!-- <%- model.meta.$description %> -->
+			<%- model.meta.description %>
+		</p>
+		<a href="<%- @href model %>" title="<%= @href('/translation').meta.viewModel %>">
+			<!-- <%- model.meta.$photo %> -->
+			<img src="<%- @href model.meta.photo.replace('.jpg','.w.jpg') %>" alt="<%= @href('/translation').meta.model %> <%- model.meta.title%>">
+		</a>
+		<div class="features">
+			<% for highlight in model.meta.highlights: %>
+			<div class="feature">
+				<img src="<%- @href highlight.photo %>" alt="<%- highlight.caption.replace('|',' ').replace('|',' ') %>">
+				<!-- <%- highlight.$photo %> -->
+				<p>
+					<!-- <%- highlight.$caption %> -->
+					<%- highlight.caption.replace('|',' ').replace('|',' ') %>
+				</p>
+			</div>
+			<% end %>
+		</div>
+		<% end %>
+	</div>
+	<div class="clear"></div>
+	<% for category in @data.categories : %>
+	<% if @document.url isnt category.url: %>
+	<div class="separator"></div>
+	<div class="category">
+		<hr />
+		<h3>
+			<!-- <%- category.meta.$title %> -->
+			<%- category.meta.title %>
+		</h3>
+		<div class="clear"></div>
+		<% for model in @data.models when model.meta.category is category.meta.href: %>
+		<a href="<%- @href model %>" title="<%= @href('/translation').meta.viewModels %><%- model.meta.title%>">
+			<!-- <%- model.meta.$title %> -->
+			<%- model.meta.title%>
+			<img src="<%- @href model.meta.photo.replace('.jpg','.w.jpg') %>" alt="<%= @href('/translation').meta.model %><%- model.meta.title%>">
+			<!-- <%- model.meta.$photo %> -->
+		</a>
+		<% end %>
+	</div>
+	<% end %>
+	<% end %>
+	<div class="separator"></div>
+	<div class="technologies">
+	<%- @blocks.technologies(@data.technologies) %>
+	</div>
+	<div class="clear"></div>
+</div>

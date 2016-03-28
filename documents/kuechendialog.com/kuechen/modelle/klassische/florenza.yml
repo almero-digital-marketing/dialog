@@ -1,0 +1,81 @@
+layout: /model.ect
+title: 'Florenza'
+importance: 3
+lang: de
+category: '/kitchens/models/classic'
+href: '/kitchens/models/classic/florenza'
+photo: '/kuechen/modelle/klassische/florenza/kuechen-florenza.jpg'
+description: 'Heiß! Zierrahmen aus Birkenholz, feine Platten aus Edelkirschholz und provokative unbeschreibbare rot-gelb-braune Farbe. Liebe und Leidenschaft – das ist Florenza!'
+highlights:
+  - 
+    caption: 'Unvergleichbar|qualitativ hochwertige|Bearbeitung'
+    photo: '/kuechen/modelle/klassische/florenza/unvergleichbar-qualitativ-hochwertige-bearbeitung.png'
+  - 
+    caption: 'Edelkirsch-|Farbe'
+    photo: '/kuechen/modelle/klassische/florenza/edelkirsch-farbe.png'
+  - 
+    caption: 'Kombination|von Stein|und Holz'
+    photo: '/kuechen/technologien/kuechenarbeitsplatten-und-wandpaneele/meisterhaft-bearbeiteter-granit.png'
+topics:
+  -
+    caption: 'Elegante Verzierungen'
+    description: 'Retro-Hauch kombiniert mit modernem Look. Natürliche Materialien und natürliche Farben. Zierrahmen aus Birkenholz, Platten aus Edelkirschholz und provokative rot-gelb-braune Farbe. Farbglas in einem schmalen Metallrahmen und schöne dekorative Gitter.'
+    photos:
+      - '/kuechen/modelle/klassische/florenza/tueren-1.jpg'
+      - '/kuechen/modelle/klassische/florenza/gebogene-tueren-1.jpg'
+  -
+    caption: 'Sanft gebogene Türen'
+    description: 'Ein Stil, der sich merken lässt. Türen, die die Abrundungen jeder Ecke in der Küche folgen und einen schönen Finish der ganzen Einrichtung verleihen. Bequem und außerordentlich schöne, werden sie auch sehr funktionell sein. Die Schranktüren können entweder ganz aus Holz oder in Kombination mit Farbglas hergestellt werden.'
+    photos:
+      - '/kuechen/modelle/klassische/florenza/gebogene-tueren-2.jpg'
+      - '/kuechen/modelle/klassische/florenza/gebogene-tueren-3.jpg'
+  -
+    caption: 'Eigenständige Module im Einklang mit dem Modell'
+    description: 'Die schöne Linie des Modells Florenza geht in das Esszimmer mit zusätzlichen Einzelmodulen über. Sie können zwischen Schrank mit Türen, die ganz aus Holz angefertigt sind, mit dekorativen Türen Typ Gitter oder Schrank mit Farbglas, wo Sie Ihr schönes Tafelgeschirr arrangieren können.'
+    photos:
+      - '/kuechen/modelle/klassische/florenza/modul-1.jpg'
+      - '/kuechen/modelle/klassische/florenza/modul-3.jpg'
+  -
+    caption: 'Moderne Technologien im klassischen Look'
+    description: 'Die Schönheit der klassischen Küchen beeinträchtigt den Komfort und die rationelle Raumnutzung nicht. Alle modernen Haushaltsgeräte und Mechanismen finden hier ihren Platz. Die Schränke sind mit Mechanismen ausgerüstet, die eine bessere Übersichtlichkeit von dem, was Sie dort hineingelegt haben, ermöglichen.'
+    photos:
+      - '/kuechen/modelle/klassische/florenza/technologien-1.jpg'
+      - '/kuechen/modelle/klassische/florenza/technologien-2.jpg'
+      - '/kuechen/modelle/klassische/florenza/technologien-3.jpg'
+doors:
+  description: 'Rahmen aus massivem Birkenholz und Platten in Kirschfarbe, jede Tür ist zusätzlich gefärbt und patiniert, um die Wirkung des Holzes zu verstärken und seine Poren zu versiegeln. Die Bearbeitung wird mit einem Satinlack vollendet. Auf diese Weise bekommen die Türen einen bezaubernden Glanz, der lange Zeit erhalten bleibt.'
+  categories:
+    - 
+      caption: 'Rahmen aus Birkenholz, Platten aus Edelkirschholz'
+      photos:
+        - '/kuechen/modelle/klassische/florenza/tueren/kuechentueren-6.jpg'
+        - '/kuechen/modelle/klassische/florenza/tueren/kuechentueren-3.jpg'
+        - '/kuechen/modelle/klassische/florenza/tueren/kuechentueren-4.jpg'
+        - '/kuechen/modelle/klassische/florenza/tueren/kuechentueren-2.jpg'
+        - '/kuechen/modelle/klassische/florenza/tueren/kuechentueren-5.jpg'
+        - '/kuechen/modelle/klassische/florenza/tueren/kuechentueren-1.jpg'
+handles:
+  description: 'Was ihre Form, Größe und Farbe betrifft, sind die Griffe speziell für das Modell ausgewählt. Sie sind aus Messing und bemaltem Porzellan im Retro-Stil angefertigt. Sie ergänzen das Design und den Look der Küche ganz gut. Das Porzellan ist sehr beständig und zusammen mit dem Metall erhalten die Griffe ihr Aussehen lange Zeit.'
+  categories:
+    - 
+      caption: 'Patiniertes Messing und bemaltes Porzellan'
+      photos:
+        - '/kuechen/modelle/klassische/florenza/griffe/griffe-1.jpg'
+        - '/kuechen/modelle/klassische/florenza/griffe/griffe-2.jpg'
+worktops:
+  description: 'Für das perfekte Finish der Küche können Sie Küchenarbeitsplatten aus natürlichen Materialien oder eben aus künstlichen, die sie sehr erfolgreich imitieren, auswählen. Wir verfügen über eine große Auswahl an Nuancen von dunkler, heller, ganz weißer oder beiger Farbe. Die beste Kombination bekommt man, wenn die Arbeitsplatte aus Granit ist.'
+  hpl:
+    photos:
+      - '/kuechen/modelle/klassische/florenza/kuechenarbeitsplatte/hpl/hpl-1.jpg'
+      - '/kuechen/modelle/klassische/florenza/kuechenarbeitsplatte/hpl/hpl-2.jpg'
+      - '/kuechen/modelle/klassische/florenza/kuechenarbeitsplatte/hpl/hpl-3.jpg'
+      - '/kuechen/modelle/klassische/florenza/kuechenarbeitsplatte/hpl/hpl-4.jpg'
+  granite:
+    photos:
+      - '/kuechen/modelle/klassische/florenza/kuechenarbeitsplatte/granit/granit-1.jpg'
+      - '/kuechen/modelle/klassische/florenza/kuechenarbeitsplatte/granit/granit-2.jpg'
+      - '/kuechen/modelle/klassische/florenza/kuechenarbeitsplatte/granit/granit-3.jpg'
+      - '/kuechen/modelle/klassische/florenza/kuechenarbeitsplatte/granit/granit-4.jpg'
+      - '/kuechen/modelle/klassische/florenza/kuechenarbeitsplatte/granit/granit-5.jpg'
+      - '/kuechen/modelle/klassische/florenza/kuechenarbeitsplatte/granit/granit-6.jpg'
+      - '/kuechen/modelle/klassische/florenza/kuechenarbeitsplatte/granit/granit-7.jpg'

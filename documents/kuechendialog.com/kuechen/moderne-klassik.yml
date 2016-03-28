@@ -1,0 +1,22 @@
+layout: /category.ect
+href: '/kitchens/models/modern-classic'
+lang: de
+title: "Moderne Klassik Küchen"
+importance: 2
+description: "Perfektes Design. Massivtüren aus echtem Eichenholz. Wunderschöne Farben."
+highlights:
+  - 
+    caption: 'Schöne natürliche Farben'
+    photo: '/kuechen/modelle/moderne-klassik/izabella/perfekt-bearbeitetes-massives-eichenholz.png'
+  - 
+    caption: 'Moderne Technologien für mehr Komfort'
+    photo: '/kuechen/modelle/moderne-klassik/izabella/technologien-und-modernes-aussehen.png'
+  - 
+    caption: 'Ausgezeichnete Kombination aus verschiedenen Materialien'
+    photo: '/kuechen/modelle/moderne-klassik/izabella-noce/kontrast-zwischen-den-materialien.png'
+  - 
+    caption: 'Hervorragende Kombination von verschiedenen Stilen und Farben'
+    photo: '/kuechen/modelle/moderne-klassik/rafaella/zwei-stile-in-einem-modell.png'
+  - 
+    caption: 'Modernes Aussehen und beeindruckendes Design'
+    photo: '/kuechen/modelle/moderne-klassik/rafaella-noce/modernes-aussehen.png'

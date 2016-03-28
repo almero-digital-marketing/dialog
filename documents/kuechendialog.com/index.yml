@@ -1,0 +1,108 @@
+layout: /index.ect
+href: '/kitchens'
+lang: de
+title: 'Küchen Dialog'
+navigationTitle: 'Küchen Dialog'
+description: 'Firma Dialog bietet originelle, klassische und moderne Küchen für jeden Stil und jede Lebensart. Jedes Modell wurde sorgfältig entworfen, um praktisch, ergonomisch und funktional zu sein. Wir bieten einen komplexen Service und eine kompromisslose Qualität.'
+slideshows:
+  -
+    title: 'Entworfen und hergestellt in Bulgarien'
+    subtitle: 'Nachgewiesen die besten Küchen'
+    photo: '/images/main-image.jpg'
+    smallphoto: '/kuechen/modelle/moderne-klassik/rafaella/kueche-rafaella.jpg'
+  -
+    title: 'Modernes Aussehen und Design'
+    subtitle: 'Moderne Technologien und kompromisslose Qualität'
+    photo: '/images/main-image-2.jpg'
+    smallphoto: '/kuechen/modelle/moderne/ernesta/kueche-ernesta.jpg'
+  -
+    title: 'Wahre Meisterwerke aus Massivholz'
+    subtitle: 'Unvergleichbar qualitativ hochwertige Bearbeitung'
+    photo: '/images/main-image-3.jpg'
+    smallphoto: '/kuechen/modelle/klassische/daria-noce/kueche-daria-noce.jpg'
+  - 
+    title: 'Moderne Klassik in der Küche'
+    subtitle: 'Kombination von Massivholz und Metall'
+    photo: '/images/main-image-4.jpg'
+    smallphoto: '/kuechen/modelle/moderne-klassik/izabella-noce/kueche-izabella-noce.jpg'
+showcases:
+  -
+    title: 'Moderne Küchen'
+    href: '/kitchens/models/modern'
+    subtitle: 'Attraktives und charmant freches Design. Unwiderstehlich frische Modelle mit jugendlichem, temperamentvollem Touch.'
+    photo: '/kuechen/modelle/moderne/liviana/kueche-liviana.jpg'
+    description: 'Luxus und Stil in einer Kombination von MDF, matter und glänzender Oberfläche. Bearbeitetes Furnier, als Massivholz und Spanplatten einer neuen Generation.'
+    highlights:
+      - '/kuechen/modelle/moderne/ernesta/praktische-kueche.png'
+      - '/kuechen/modelle/moderne/liviana/wunderschoenes-aussehen.png'
+    captions:
+      - 'Praktische Lösung für die Küche'
+      - 'Optimales Preis-Aussehen-Verhältnis'
+    category: '/kitchens/models/modern'
+  -
+    title: 'Moderne Klassik'
+    href: '/kitchens/models/modern-classic'
+    subtitle: 'Perfektes Design. Massivtüren aus echtem Eichenholz. Wunderschöne Farben.'
+    photo: '/kuechen/modelle/moderne-klassik/izabella-noce/izabella-noce-tueren.jpg'
+    description: 'Eine wunderbare Kombination von klassischem und modernem Stil. Hervorragende Verarbeitung des Massivholzes.'
+    highlights:
+      - '/kuechen/modelle/moderne-klassik/rafaella/zwei-stile-in-einem-modell.png'
+      - '/kuechen/modelle/moderne-klassik/rafaella-noce/modernes-aussehen.png'
+    captions:
+      - 'Eine wunderbare Kombination von verschiedenen Küchen-Stilen und Farben'
+      - 'Komfort, Gemütlichkeit und modernes Design in einem'
+    category: '/kitchens/models/modern-classic'
+  -
+    title: 'Klassische Küchen'
+    href: '/kitchens/models/classic'
+    subtitle: 'Klassische Küchen, die Qualität und Tradition in einem vereinen'
+    photo: '/kuechen/modelle/klassische/daria-noce/kueche-daria-noce.jpg'
+    description: 'Küchen, in denen wir auf jedes Detail geachtet haben. Retro-Hauch kombiniert mit modernem Look. Natürliche Materialien und natürliche Farben.'
+    highlights:
+      - '/kuechen/modelle/klassische/daria/weiche-vanille-farbe.png'
+      - '/kuechen/modelle/klassische/daria-noce/extravaganz-gemuetlichkeit.png'
+    captions:
+      - 'Perfekt verarbeitetes Massivholz'
+      - 'Pracht, Gemütlichkeit und Entspannung'
+    category: '/kitchens/models/classic'
+videoTitle: 'Man muss sie in echt sehen'
+videoDescription: 'Gemeinsam werden wir die besten Kombination von Komponenten, Farben und Zubehör wählen'
+workflow: 
+  title: 'Die Arbeitsweise der Firma Dialog'
+  content:
+    -
+      title: 'Projekt'
+      description: '3D-Modell und Spezifikation aller Komponenten'
+      image: '/images/проект.jpg'
+      href: '/kitchens/kitchen-order'
+    -
+      title: 'Produktion'
+      description: 'Mit kompromissloser Qualität und Liebe zum Detail'
+      image: '/images/производство.jpg'
+      href: '/kitchens/workflow'
+    -
+      title: 'Lieferung'
+      description: 'Lieferung mit unserem Firmentransport innerhalb der vorgesehenen Frist'
+      image: '/images/доставка.jpg'
+      href: '/kitchens/workflow'
+    -
+      title: 'Montage'
+      description: 'Der Zusammenbau wird von einer spezialisierten Montage-Gruppe durchgeführt'
+      image: '/images/монтаж.jpg'
+      href: '/kitchens/workflow'
+rfp: 
+  title: 'Anfrage, Angebot und Preis'
+  description: 'Um eine Anfrage zu machen, bitte besuchen Sie eines unserer Geschäfte. Nachdem Sie uns Ihre Anforderungen mitteilen, werden wir ein 3D-Projekt anfertigen und den Preis für die Küche bestimmen.'
+warranty:
+  title: 'Garantie und Service'
+  description: 'Jede Küche verfügt über eine Garantiekarte. Wir gewährleisten eine Garantie unseres Produktes und eine Garantie unserer erbrachten Leistung.'
+  href: '/kitchens/warranty'
+contacts:
+  title: 'Kontakt:'
+  addressSofia: 'Stadt Sofia, tel.: +359 2 88 40 73 2 | blvd. Tsarigradsko Chaussee 139'
+  addressPlovdiv: 'Stadt Plovdiv, tel.: +359 32 62 58 25 | blvd. Sankt Peterburg 48'
+  email: 'dialog@kuhnidialog.bg'
+dialog:
+  link: 'Küchen Dialog © 2016 Alle Rechte vorbehalten'
+almero:
+  link: 'Marketing und Geschäftsentwicklung'

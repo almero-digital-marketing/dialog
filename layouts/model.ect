@@ -1,0 +1,226 @@
+---
+layout: /article.ect
+plugins: [guide]
+blocks:
+  technologies: /blocks/technologies.ect
+---
+<div class="model-highlights">
+	<img src="<%- @href @document.meta.photo.replace('.jpg','.w.jpg') %>" srcset="<%- @href @document.meta.photo.replace('.jpg','.w.jpg') %> 1600w, <%- @href @document.meta.photo.replace('.jpg','.jpg') %>  800w" alt="<%= @href('/translation').meta.model %> <% @document.title %>" sizes='100vw'>
+	<!-- <%- @document.meta.$photo %> -->
+	<div class="content">
+		<% for highlight in @document.meta.highlights: %>
+		<div class="highlight">
+			<span>
+				<!-- <%- highlight.$caption %> -->
+				<%- highlight.caption.split('|')[0] %>
+			</span>
+			<span class="alternate">
+				<!-- <%- highlight.$caption %> -->
+				<%- highlight.caption.split('|')[1] %>
+			</span>
+			<span>
+				<!-- <%- highlight.$caption %> -->
+				<%= highlight.caption.split('|')[2] %>
+			</span>
+			<img src="<%- @href highlight.photo %>" alt="<%= highlight.caption.replace('|',' ').replace('|',' ') %>">
+			<!-- <%- highlight.$photo %> -->
+		</div>
+		<% end %>
+	</div>
+</div>
+<div class="content">
+	<%-@content%>
+	<div class="model-details">
+		<% for topic in @document.meta.topics: %>
+		<div class="detail">
+			<h3>
+				<!-- <%- topic.$caption %> -->
+				<%= topic.caption %>
+			</h3>
+			<p>
+				<!-- <%- topic.$description %> -->
+				<%= topic.description %>
+			</p>
+		</div>
+		<div class="slider">
+			<ul class="detail-slideshow">
+				<% for photo, index in topic.photos: %>
+				<li>
+					<!-- <%- topic.photos['$' + index] %> -->
+					<img src="<%- @href photo %>" alt="<%= topic.caption %>">
+			 	</li>
+				<% end %>
+			</ul>
+			<% if topic.photos.length > 1: %>
+			<div class="detail-thumbs">
+				<% for photo, idx in topic.photos: %>
+				<a data-slide-index="<%- idx %>" href="">
+					<!-- <%- topic.photos['$' + idx] %> -->
+					<div class="overlay"><img src="<%- @href photo %>" alt="<%= topic.caption %>"></div>
+				</a>
+				<% end %>
+			</div>
+			<% else : %>
+				<div class="separator"></div>
+			<% end %>
+		</div>
+		<div class="clear"></div>
+		<% end %>
+	</div>
+
+	<% if @document.meta.doors?: %>
+		<div class="model-materials accordeon closed">
+			<hr/>
+			<a class="button-accordeon" href="#"></a>
+			<h4>
+				<!-- <%- @href('/translation').meta.$doors %> -->
+				<a class="button-accordeon" href="#"><%- @href('/translation').meta.doors %></a>
+			</h4>
+			<p>
+				<!-- <%- @document.meta.doors.$description %> -->
+				<%- @document.meta.doors.description %>
+			</p>
+			<% for category in @document.meta.doors.categories: %>
+			<h5>
+				<!-- <%- @href('/translation').meta.$doorsFor %> -->
+				<%- @href('/translation').meta.doorsFor %> - <%- category.caption %>
+			</h5>
+			<% for photo, index in category.photos: %>
+			<img src="<%- @href photo %>" alt="<%= category.caption %>">
+			<!-- <%- category.photos['$' + index] %> -->
+			<% end %>
+			<div class="clear"></div>
+			<% end %>
+			<div class="separator small"></div>
+		</div>
+	<% end %>
+
+	<% if @document.meta.handles?: %>
+		<div class="model-materials accordeon closed">
+			<hr/>
+			<a class="button-accordeon" href="#"></a>
+			<h4>
+				<!-- <%- @href('/translation').meta.$handles %> -->
+				<a class="button-accordeon" href="#"><%- @href('/translation').meta.handles %></a>
+			</h4>
+			<p>
+				<!-- <%- @document.meta.handles.$description %> -->
+				<%= @document.meta.handles.description %>
+			</p>
+			<% for category in @document.meta.handles.categories: %>
+			<h5>
+				<!-- <%- @href('/translation').meta.$handlesFor %> -->
+				<%- @href('/translation').meta.handlesFor %> - <%- category.caption %>
+			</h5>
+			<% for photo, index in category.photos: %>
+			<img src="<%- @href photo %>" alt="<%= category.caption %> за кухня">
+			<!-- <%- category.photos['$' + index] %> -->
+			<% end %>
+			<div class="clear"></div>
+			<% end %>
+			<div class="separator small"></div>
+		</div>
+	<% end %>
+
+	<% if @document.meta.worktops?: %>
+	<div class="model-materials accordeon closed">
+		<hr/>
+		<a class="button-accordeon" href="#"></a>
+		<h4>
+			<!-- <%- @href('/translation').meta.$worktop %> -->
+			<a class="button-accordeon" href="#"><%- @href('/translation').meta.worktop %></a>
+		</h4>
+		<p>
+			<!-- <%- @document.meta.worktops.$description %> -->
+			<%- @document.meta.worktops.description %>
+		</p>
+		<% if @document.meta.worktops.hpl?: %>
+		<h5>
+			<!-- <%-  @href('/translation').meta.$worktopFor %> -->
+			<%- @href('/translation').meta.worktopFor %> - <%- @href('/translation').meta.hpl%>
+		</h5>
+		<% for photo, index in @document.meta.worktops.hpl.photos: %>
+		<img src="<%- @href photo %>" alt="<%= @href('/translation').meta.hpl%>">
+		<!-- <%- @document.meta.worktops.hpl.photos['$' + index] %> -->
+		<% end %>
+		<% end %>
+		<% if @document.meta.worktops.hpl60mm?: %>
+		<div class="separator small"></div>
+		<h5>
+			<!-- <%- @href('/translation').meta.$worktopFor %> -->
+			<%- @href('/translation').meta.worktopFor %> - <%- @href('/translation').meta.hpl60%>
+		</h5>
+		<% for photo, index in @document.meta.worktops.hpl60mm.photos: %>
+		<img src="<%- @href photo %>" alt="<%= @href('/translation').meta.hpl60%>">
+		<!-- <%- @document.meta.worktops.hpl60mm.photos['$' + index] %> -->
+		<% end %>
+		<% end %>
+		<% if @document.meta.worktops.granite?: %>
+		<div class="separator small"></div>
+		<h5>
+			<!-- <%- @href('/translation').meta.$worktopFor %> -->
+			<%- @href('/translation').meta.worktopFor %> - <%- @href('/translation').meta.granite%>
+		</h5>
+		<% for photo in @document.meta.worktops.granite.photos: %>
+		<img src="<%- @href photo %>" alt="<%= @href('/translation').meta.granite%>">
+		<!-- <%- @document.meta.worktops.granite.photos['$' + index] %> -->
+		<% end %>
+		<% end %>
+		<% if @document.meta.worktops.technicalStone?: %>
+		<div class="separator small"></div>
+		<h5>
+			<!-- <%- @href('/translation').meta.$worktopFor %> -->
+			<%- @href('/translation').meta.worktopFor %> - <%- @href('/translation').meta.technicalStone %>
+		</h5>
+		<% for photo, index in @document.meta.worktops.technicalStone.photos: %>
+		<img class="adouble" src="<%- @href photo %>" alt="<%= @href('/translation').meta.technicalStone %>">
+		<!-- <%- @document.meta.worktops.technicalStone.photos['$' + index] %> -->
+		<% end %>
+		<% end %>
+		<div class="separator small"></div>
+	</div>
+	<% end %>
+
+	<% if @document.meta.housing?: %>
+	<div class="separator"></div>
+	<div class="model-materials accordeon">
+		<hr/>
+		<a class="button-accordeon" href="#"></a>
+		<h4>
+			<!-- <%- @href('/translation').meta.$housing %> -->
+			<a class="button-accordeon" href="#"><%- @href('/translation').meta.housing %></a>
+		</h4>
+		<p>
+			<!-- <%- @document.meta.housing.$description %> -->
+			<%- @document.meta.housing.description %>
+		</p>
+		<% for photo, index in @document.meta.housing.photos: %>
+		<img src="<%- @href photo %>" alt="<%= @href('/translation').meta.housingFor%>">
+		<!-- <%- @document.meta.housing.photos['$' + index] %> -->
+		<% end %>
+		<div class="separator small"></div>
+	</div>
+	<% end %>
+
+	<div class="separator small"></div>
+	<div class="category">
+		<hr />
+		<h3>
+			<!-- <%- @href('/translation').meta.$otherModels %> -->
+			<%- @href('/translation').meta.otherModels%> <%- @href(@document.meta.category).meta.title %>
+		</h3>
+		<div class="clear"></div>
+		<% for model in @data.models when model.meta.category is @document.meta.category : %>
+		<a href="<%- @href model %>" title="<%= @href('/translation').meta.model%> - <%- model.meta.title%>">
+			<%- model.meta.title%>
+			<img src="<%- @href model.meta.photo %>" alt="<%= @href('/translation').meta.model %> <%- model.meta.title %>">
+			<!-- <%- model.meta.$photo %> -->
+		</a>
+		<% end %>
+	</div>
+
+	<div class="separator"></div>
+	<div class="technologies">
+	<%- @blocks.technologies(@data.technologies) %>
+	</div>
+</div>

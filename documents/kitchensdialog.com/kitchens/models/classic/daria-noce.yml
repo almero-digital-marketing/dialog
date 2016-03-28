@@ -1,0 +1,83 @@
+layout: /model.ect
+title: 'Daria Noce'
+importance: 2
+lang: en
+category: '/kitchens/models/classic'
+href: '/kitchens/models/classic/daria-noce'
+photo: '/kitchens/models/classic/daria-noce/kitchen-daria-noce.jpg'
+description: 'Coziness and tranquillity. A lavish profile with smooth deep curves and superb transparent dark varnish. It carries the feeling of sweet memories, inspiration and dreams.'
+highlights:
+  - 
+    caption: 'Extravagance|coziness and|tranquillity'
+    photo: '/kitchens/models/classic/daria-noce/extravagance-coziness.png'
+  - 
+    caption: 'Attention|to every|detail'
+    photo: '/kitchens/models/classic/daria-noce/detail.png'
+  - 
+    caption: 'Superb|dark|varnish'
+    photo: '/kitchens/models/classic/daria-noce/dark-varnish.png'
+topics:
+  -
+    caption: 'Tranquillity and coziness'
+    description: 'A lavish profile with smooth deep curves and superb transparent dark colour, carrying the feeling of sweet memories, inspiration and dreams. '
+    photos:
+      - '/kitchens/models/classic/daria-noce/scarf-1.jpg'
+      - '/kitchens/models/classic/daria-noce/accessories-2.jpg'
+  -
+    caption: 'Ash-tree with characteristic structure'
+    description: 'The contrast between brown and dark-brown outlines the door shapes in a charming way. '
+    highlight: 'Solid|doors of birch'
+    photos:
+      - '/kitchens/models/classic/daria-noce/scarf-2.jpg'
+      - '/kitchens/models/classic/daria-noce/doors-2.jpg'
+  -
+    caption: 'Beautiful ornamental elements'
+    description: 'Stained glass, lattices, cornices, wall piers, additional shelves and porcelain handles – all these elements form the superb classic vision of the model. Numerous drawers and small doors create the feeling of home comfort. '
+    photos:
+      - '/kitchens/models/classic/daria-noce/accessories-1.jpg'
+      - '/kitchens/models/classic/daria-noce/doors-1.jpg'
+  -
+    caption: 'Electrical appliances with classic vision of a last generation'
+    description: 'Behind the classic vision of this kitchen model there are successfully hidden multifunctional ovens and extractor hoods offering all modern functions, as well as up-to-date technologies for smooth opening and closing, and technologies which allow the optimal use of space.'
+    photos:
+      - '/kitchens/models/classic/daria-noce/technologies-1.jpg'
+      - '/kitchens/models/classic/daria-noce/technologies-2.jpg'
+      - '/kitchens/models/classic/daria-noce/technologies-3.jpg'
+doors:
+  description: 'Solid ash-tree, 20 mm thick, with a special surface finish which gives it a soft brown colour. This finish contributes to the better durability of the timber and protects it against the effects of external forces..'
+  categories:
+    - 
+      caption: 'Birch frame, cherry panel'
+      photos:
+        - '/kitchens/models/classic/daria-noce/doors/kitchen-doors-1.jpg'
+        - '/kitchens/models/classic/daria-noce/doors/kitchen-doors-5.jpg'
+        - '/kitchens/models/classic/daria-noce/doors/kitchen-doors-3.jpg'
+        - '/kitchens/models/classic/daria-noce/doors/kitchen-doors-4.jpg'
+        - '/kitchens/models/classic/daria-noce/doors/kitchen-doors-2.jpg'
+        - '/kitchens/models/classic/daria-noce/doors/kitchen-doors-6.jpg'
+handles:
+  description: 'The shape, size and colour of the handles have been specially selected for the model. Made of patinated brass and painted porcelain.'
+  categories:
+    - 
+      caption: 'Patinated brass and painted porcelain'
+      photos:
+        - '/kitchens/models/classic/daria-noce/handles/handles-1.jpg'
+        - '/kitchens/models/classic/daria-noce/handles/handles-2.jpg'
+        - '/kitchens/models/classic/daria-noce/handles/handles-3.jpg'
+        - '/kitchens/models/classic/daria-noce/handles/handles-4.jpg'
+worktops:
+  description: 'For the perfect finishing touch of your kitchen you can choose worktops made of natural materials or of materials which successfully imitate them. Worktops by HPL, EGGER and KAINDL – Austria. Worktops of granite NATURAL STONES – Italy.'
+  hpl:
+    photos:
+      - '/kitchens/models/classic/daria-noce/worktop/hpl/hpl-1.jpg'
+      - '/kitchens/models/classic/daria-noce/worktop/hpl/hpl-2.jpg'
+      - '/kitchens/models/classic/daria-noce/worktop/hpl/hpl-3.jpg'
+      - '/kitchens/models/classic/daria-noce/worktop/hpl/hpl-4.jpg'
+  granite:
+    photos:
+      - '/kitchens/models/classic/daria-noce/worktop/granite/granite-1.jpg'
+      - '/kitchens/models/classic/daria-noce/worktop/granite/granite-2.jpg'
+      - '/kitchens/models/classic/daria-noce/worktop/granite/granite-3.jpg'
+      - '/kitchens/models/classic/daria-noce/worktop/granite/granite-4.jpg'
+      - '/kitchens/models/classic/daria-noce/worktop/granite/granite-5.jpg'
+      - '/kitchens/models/classic/daria-noce/worktop/granite/granite-6.jpg'

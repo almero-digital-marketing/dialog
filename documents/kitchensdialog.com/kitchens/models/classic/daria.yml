@@ -1,0 +1,84 @@
+layout: /model.ect
+title: 'Daria'
+importance: 1
+lang: en
+category: '/kitchens/models/classic'
+href: '/kitchens/models/classic/daria'
+photo: '/kitchens/models/classic/daria/kitchen-daria.jpg'
+description: 'Unique! Marvellous ash-tree of light soft vanilla colour and a coating irradiated with light. A true masterpiece.'
+highlights:
+  - 
+    caption: 'Light|soft vanilla|colour'
+    photo: '/kitchens/models/classic/daria/light-colour.png'
+  - 
+    caption: 'Charming|ornamental|elements'
+    photo: '/kitchens/models/classic/daria/complementary-cornice.png'
+  - 
+    caption: 'Exquisite|workmanship|of the solid wood'
+    photo: '/kitchens/models/classic/daria/workmanship-of-the-solid-wood.png'
+topics:
+  -
+    caption: 'Superb ash-tree timber'
+    description: 'A classic vision of the wood in light beige colour which creates a different feeling of space, light and coziness. The model can be successfully combined with various colour ceramics solutions..'
+    highlight: 'Wonderful|natural colour'
+    photos:
+      - '/kitchens/models/classic/daria/accessories-1.jpg'
+      - '/kitchens/models/classic/daria/accessories-2.jpg'
+  -
+    caption: 'Doors machined using a special technology'
+    description: 'The doors have been machined using a special technology achieving a characteristic slightly curved frieze. The elegance of the doors, together with the curved frieze and the specific patinated ash-tree solid material contribute to the characteristic contrast between the various nuances of the beige in this model.'
+    photos:
+      - '/kitchens/models/classic/daria/doors-1.jpg'
+      - '/kitchens/models/classic/daria/stained-glass-lattices-2.jpg'
+  -
+    caption: 'Beautiful ornamental elements'
+    description: 'Stained glass, lattices, cornices, wall piers, additional shelves and porcelain handles – all these elements form the superb classic vision of the model. Numerous drawers and small doors create the feeling of home comfort.'
+    photos:
+      - '/kitchens/models/classic/daria/stained-glass-lattices-1.jpg'
+      - '/kitchens/models/classic/daria/stained-glass-lattices-3.jpg'
+  -
+    caption: 'Electrical appliances with classic vision of a last generation'
+    description: 'Behind the classic vision of this kitchen model there are successfully hidden multifunctional ovens and extractor hoods offering all modern functions, as well as up-to-date technologies for smooth opening and closing, and technologies which allow the optimal use of space.'
+    photos:
+      - '/kitchens/models/classic/daria/technologies-1.jpg'
+      - '/kitchens/models/classic/daria/technologies-2.jpg'
+      - '/kitchens/models/classic/daria/technologies-3.jpg'
+doors:
+  description: 'Solid ash-tree, 20 mm thick, with a special surface finish which gives it a soft brown colour. This finish contributes to the better durability of the timber and protects it against the effects of external forces.'
+  categories:
+    - 
+      caption: 'Birch frame, cherry panel'
+      photos:
+        - '/kitchens/models/classic/daria/doors/kitchen-doors-1.jpg'
+        - '/kitchens/models/classic/daria/doors/kitchen-doors-5.jpg'
+        - '/kitchens/models/classic/daria/doors/kitchen-doors-3.jpg'
+        - '/kitchens/models/classic/daria/doors/kitchen-doors-4.jpg'
+        - '/kitchens/models/classic/daria/doors/kitchen-doors-2.jpg'
+        - '/kitchens/models/classic/daria/doors/kitchen-doors-6.jpg'
+handles:
+  description: 'The shape, size and colour of the handles have been specially selected for the model. Made of patinated brass and painted porcelain.'
+  categories:
+    - 
+      caption: 'Patinated brass and painted porcelain'
+      photos:
+        - '/kitchens/models/classic/daria/handles/handles-1.jpg'
+        - '/kitchens/models/classic/daria/handles/handles-2.jpg'
+        - '/kitchens/models/classic/daria/handles/handles-3.jpg'
+        - '/kitchens/models/classic/daria/handles/handles-4.jpg'
+worktops:
+  description: 'For the perfect finishing touch of your kitchen you can choose worktops made of natural materials or of materials which successfully imitate them. Worktops by HPL, EGGER and KAINDL – Austria. Worktops of granite NATURAL STONES – Italy.'
+  hpl:
+    photos:
+      - '/kitchens/models/classic/daria/worktop/hpl/hpl-1.jpg'
+      - '/kitchens/models/classic/daria/worktop/hpl/hpl-2.jpg'
+      - '/kitchens/models/classic/daria/worktop/hpl/hpl-3.jpg'
+      - '/kitchens/models/classic/daria/worktop/hpl/hpl-4.jpg'
+      - '/kitchens/models/classic/daria/worktop/hpl/hpl-5.jpg'
+  granite:
+    photos:
+      - '/kitchens/models/classic/daria/worktop/granite/granite-1.jpg'
+      - '/kitchens/models/classic/daria/worktop/granite/granite-2.jpg'
+      - '/kitchens/models/classic/daria/worktop/granite/granite-3.jpg'
+      - '/kitchens/models/classic/daria/worktop/granite/granite-4.jpg'
+      - '/kitchens/models/classic/daria/worktop/granite/granite-5.jpg'
+      - '/kitchens/models/classic/daria/worktop/granite/granite-6.jpg'

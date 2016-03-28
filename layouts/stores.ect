@@ -1,0 +1,103 @@
+---
+layout: /article.ect
+plugins: [guide]
+scripts:
+  - http://maps.googleapis.com/maps/api/js?key=AIzaSyBc3p23gMuzepoMyZ_QNu5LPaHN9VhvxZg&sensor=true
+  - /scripts/stores.js
+---
+<% @data.scripts = @layout.meta.scripts.concat @data.scripts ? [] %>
+<div class="content">
+  <div class="highlights">
+    <div class="separator" id="sofia"></div>
+    <hr>
+    <h3>
+      <!-- <%- @document.meta.sofia.$title %> -->
+      <%- @document.meta.sofia.title %>
+    </h3>
+    <div class="separator small"></div>
+    <div class="map" id="map-sofia"></div>
+    <div class="separator medium"></div>
+    <div class="contacts">
+      <div class="contact-address">
+        <p>
+          <!-- <%- @document.meta.sofia.$address %> -->
+          <%- @metatext @document.meta.sofia.address %>
+        </p>
+      </div>
+      <div class="contact-phone">
+        <p>
+          <!-- <%- @document.meta.sofia.$phone %> -->
+          <%- @metatext @document.meta.sofia.phone %>
+        </p>
+      </div>
+      <div class="contact-time">
+        <p>
+          <!-- <%- @document.meta.sofia.$workTime %> -->
+          <%- @metatext @document.meta.sofia.workTime %>
+        </p>
+      </div>
+    </div>
+    <div class="personnel">
+    <% for person in @document.meta.sofia.personnel : %>
+      <div class="vcard">
+        <img src="<%- @href person.image %>" alt="<%= person.name %>">
+        <!-- <%- person.$image %> -->
+        <h4>
+          <!-- <%- person.$name %> -->
+          <%- person.name %>
+        </h4>
+        <p>
+          <!-- <%- person.$email %> -->
+          <%- @metatext(person.email).replace('<hr>','_') %>
+        </p>
+      </div>
+    <% end %>
+    </div>
+
+    <div class="separator" id="plovdiv"></div>
+    <hr>
+    <h3>
+      <!-- <%- @document.meta.plovdiv.$title %> -->
+      <%- @document.meta.plovdiv.title %>
+    </h3>
+    <div class="separator small"></div>
+    <div class="map" id="map-plovdiv"></div>
+      <div class="separator medium"></div>
+    <div class="contacts">
+      <div class="contact-address">
+        <p>
+          <!-- <%- @document.meta.plovdiv.$address %> -->
+          <%- @metatext @document.meta.plovdiv.address %>
+        </p>
+      </div>
+      <div class="contact-phone">
+        <p>
+          <!-- <%- @document.meta.plovdiv.$phone %> -->
+          <%- @metatext @document.meta.plovdiv.phone %>
+        </p>
+      </div>
+      <div class="contact-time">
+        <p>
+          <!-- <%- @document.meta.plovdiv.$workTime %> -->
+          <%- @metatext @document.meta.plovdiv.workTime %>
+        </p>
+      </div>
+    </div>
+    <div class="personnel">
+    <% for person in @document.meta.plovdiv.personnel : %>
+      <div class="vcard">
+        <img src="<%- @href person.image %>" alt="<%= person.name %>">
+        <!-- <%- person.$image %> -->
+        <h4>
+          <!-- <%- person.$name %> -->
+          <%- person.name %>
+        </h4>
+        <p>
+          <!-- <%- person.$email %> -->
+          <%- @metatext(person.email).replace('<hr>','_') %>
+        </p>
+      </div>
+    <% end %>
+    </div>
+  </div>
+</div>

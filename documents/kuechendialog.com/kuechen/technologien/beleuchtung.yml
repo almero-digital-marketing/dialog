@@ -1,0 +1,37 @@
+layout: /technology.ect
+title: 'Beleuchtung'
+importance: 6
+lang: de
+href: '/kitchens/technologies/lighting'
+photo: '/kuechen/technologien/beleuchtung/beleuchtung-5.jpg'
+description: 'Bessere Sichtbarkeit der Arbeitsbereiche und Flächen mit LED-, Halogen- und Leuchtstofflampen.'
+highlights:
+  - 
+    caption: 'Verdeckter LED-Einbau'
+    photo: '/kuechen/technologien/beleuchtung/led-einbau.png'
+  - 
+    caption: 'Leuchtplatten'
+    photo: '/kuechen/technologien/beleuchtung/leuchtplatten.png'
+  - 
+    caption: 'Beleuchtung in den Schränken'
+    photo: '/kuechen/technologien/beleuchtung/beleuchtung-in-den-schraenken.png'
+  - 
+    caption: 'Dekorative Beleuchtung'
+    photo: '/kuechen/technologien/beleuchtung/dekorative-beleuchtung.png'
+  - 
+    caption: 'Beleuchtung als Teil des Küchendesigns'
+    photo: '/kuechen/technologien/beleuchtung/beleuchtung-als-teil-des-kuechendesigns.png'
+topics:
+  -
+    caption: 'Leuchtende Regale und Wandpaneele'
+    description: 'Bessere Sichtbarkeit der Arbeitsplatten und -Flächen mit LED-, Halogen- und Leuchtstofflampen.'
+    photos:
+      - '/kuechen/technologien/beleuchtung/leuchtplatten-1.jpg'
+      - '/kuechen/technologien/beleuchtung/led-einbau-1.jpg'
+      - '/kuechen/technologien/beleuchtung/beleuchtung-in-den-schraenken-1.jpg'
+  -
+    caption: 'Einbauleuchte'
+    description: 'Firma Dialog bietet ideale Lösungen hinsichtlich der Beleuchtung. Das sind Leuchtplatten, die am Schrankboden oder am Brett eingebaut sind. Sie beleuchten perfekt gleichzeitig die Arbeitsplatte, das Wandpaneel und den Schrankinnenraum, verbrauchen weniger Strom und machen die Augen nicht müde.'
+    photos:
+      - '/kuechen/technologien/beleuchtung/еinbauleuchte.jpg'
+      - '/kuechen/technologien/beleuchtung/beleuchtung-3.jpg'

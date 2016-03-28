@@ -1,0 +1,37 @@
+<% if !@document.videos?: %>
+<div class="gradientline"></div>
+<div class="separator tiny"></div>
+<% end %>
+<h3>
+	<!-- <%- @href('/translation').meta.$kitchenTech %> -->
+	<%- @href('/translation').meta.kitchenTech %>
+</h3>
+<div class="clear"></div>
+<a class="next"><img src="<%- @href '/images/right-arrow.png' %>" alt="<%= @href('/translation').meta.prev %>"></a>
+<a class="prev"><img src="<%- @href '/images/left-arrow.png' %>" alt="<%= @href('/translation').meta.next %>"></a>
+<div class="carousel" data-items="4">
+	<% for technology in @options : %>
+	<div class="technology">
+		<a href="<%- @href technology %>" title="<%= technology.meta.title %>">
+			<!-- <%- technology.meta.$photo %> -->
+			<img src="<%- @href technology.meta.photo %>" alt="<%= technology.meta.title %>">
+		</a>
+		<h5>
+			<!-- <%- technology.meta.$title %> -->
+			<%- technology.meta.title %>
+		</h5>
+		<p>
+			<!-- <%- technology.meta.$description %> -->
+			<%- technology.meta.description %>
+		</p>
+		<a class="more" href="<%- @href technology %>" title="<%= technology.meta.title%>">
+			<span>
+				<!-- <%- @href('/translation').meta.$learnMore %> -->
+				<%- @href('/translation').meta.learnMore %>
+			</span>
+		</a>
+	</div>
+	<% end %>
+</div>
+
+

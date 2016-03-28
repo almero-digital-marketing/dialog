@@ -1,0 +1,120 @@
+layout: /model.ect
+title: 'Angela'
+importance: 4
+lang: de
+href: '/kitchens/models/modern/angela'
+category: '/kitchens/models/modern'
+photo: '/kuechen/modelle/moderne/angela/kueche-angela.jpg'
+description: 'Praktisch und vielseitig. Die Türen und die Frontelemente sind aus Spanplatten mit Melaminbeschichtung und ABS-Kanten hergestellt. Es gibt kostengünstige Optionen mit monochromen und hölzernen Dekoren.'
+highlights:
+  - 
+    caption: 'Platten|neuer|Generation'
+    photo: '/kuechen/modelle/moderne/angela/platten-neuer-generation.png'
+  - 
+    caption: 'Vitrinen|mit Aluminium|und Glas'
+    photo: '/kuechen/modelle/moderne/angela/aluminium-und-glas.png'
+  - 
+    caption: 'Wasserdichter|Aluminiumsockel'
+    photo: '/kuechen/modelle/moderne/angela/wasserdichter-aluminiumsockel.png'
+topics:
+  -
+    caption: 'Warme Farbtöne mit lebendiger Holzstruktur'
+    description: 'Die neuen Dekore der Spanplatten werden durch ein besonders natürliches Aussehen, lebendige Struktur und eine breite Farbpalette im Einklang mit mehreren universellen Farben gekennzeichnet.'
+    photos:
+      - '/kuechen/modelle/moderne/angela/kombination-1.jpg'
+      - '/kuechen/modelle/moderne/angela/technologien-1.jpg'
+      - '/kuechen/modelle/moderne/angela/kombination-2.jpg'
+  -
+    caption: 'Praktische und moderne Küche'
+    description: 'Große Auswahl an Kombinationen von Spanplatten mit Melaminbeschichtung der neuen Generation. Ausgezeichnetes Aussehen, sowohl mit den Holzdekoren als auch mit den monochromen und verschiedenen Kombinationen zwischen ihnen. Der Preis für die Küche bleibt optimal.'
+    photos:
+      - '/kuechen/modelle/moderne/angela/praktische-kueche-1.jpg'
+  -
+    caption: 'Ergänzendes Zubehör für die Küche'
+    description: 'Aufhängungssysteme, an denen zusätzlich Küchenrollenhalter, Gewürzgestell oder Haken zum Aufhängen aufgesetzt werden können. Als abschließende Dekorelemente zur Küche können Wandbretter aus Aluminium oder Glas hinzugefügt werden.'
+    photos:
+      - '/kuechen/modelle/moderne/angela/zubehoer-1.jpg'
+      - '/kuechen/modelle/moderne/angela/zubehoer-2.jpg'
+  -
+    caption: 'Moderne Technologien, die mehr Komfort gewährleisten'
+    description: 'Für einen maximalen Komfort in der Küche wird ein Beschlag mit sanftem Schließen aller Türen und Schubladen verwendet, damit sich die Küchenschränke mühelos bewegen und sich sanft und leise schließen können.'
+    photos:
+      - '/kuechen/modelle/moderne/angela/technologien-2.jpg'
+      - '/kuechen/modelle/moderne/angela/technologien-3.jpg'
+      - '/kuechen/technologien/zubehoer/inneneinteilungen-1.jpg'
+doors:
+  description: 'Für die Türen werden 18 mm dicke Spanplatten mit Melaminbeschichtung, eigefasst mit 2 mm dicker Kante. Für die Umrandung werden deutsche Technologie und deutsche Materialien, die einwandfreie Ergebnisse garantieren, eingesetzt.'
+  categories:
+    - 
+      caption: 'Spanplatten mit Melaminbeschichtung'
+      photos:
+        - '/kuechen/modelle/moderne/angela/tueren/spanplatten/spanplatten-1.jpg'
+        - '/kuechen/modelle/moderne/angela/tueren/spanplatten/spanplatten-2.jpg'
+        - '/kuechen/modelle/moderne/angela/tueren/spanplatten/spanplatten-3.jpg'
+    - 
+      caption: 'Aluminiumrahmen'
+      photos:
+        - '/kuechen/modelle/moderne/angela/tueren/aluminiumrahmen/aluminiumrahmen-1.jpg'
+        - '/kuechen/modelle/moderne/angela/tueren/aluminiumrahmen/aluminiumrahmen-2.jpg'
+        - '/kuechen/modelle/moderne/angela/tueren/aluminiumrahmen/aluminiumrahmen-3.jpg'
+handles:
+  description: 'Eine Vielzahl von Standard- und Design-Griffe. Sie werden gewählt, um bequem und stillvoll zu sein, im Einklang mit dem Modell, das wir anbieten. Die Griffe sind aus hochwertigem Metall hergestellt, das seine Eigenschaften mit der Zeit nicht ändert. Sie verdunkeln und blättern nicht ab.'
+  categories:
+    - 
+      caption: 'Schmale und breite Metallgriffe'
+      photos:
+        - '/kuechen/modelle/moderne/angela/griffe/griffe-1.jpg'
+        - '/kuechen/modelle/moderne/angela/griffe/griffe-2.jpg'
+        - '/kuechen/modelle/moderne/angela/griffe/griffe-3.jpg'
+        - '/kuechen/modelle/moderne/angela/griffe/griffe-4.jpg'
+        - '/kuechen/modelle/moderne/angela/griffe/griffe-5.jpg'
+        - '/kuechen/modelle/moderne/angela/griffe/griffe-6.jpg'
+        - '/kuechen/modelle/moderne/angela/griffe/griffe-7.jpg'
+        - '/kuechen/modelle/moderne/angela/griffe/griffe-8.jpg'
+        - '/kuechen/modelle/moderne/angela/griffe/griffe-9.jpg'
+        - '/kuechen/modelle/moderne/angela/griffe/griffe-10.jpg'
+        - '/kuechen/modelle/moderne/angela/griffe/griffe-11.jpg'
+        - '/kuechen/modelle/moderne/angela/griffe/griffe-12.jpg'
+        - '/kuechen/modelle/moderne/angela/griffe/griffe-13.jpg'
+worktops:
+  description: 'Eine Vielzahl an Dekoren und Materialien für Küchenarbeitsplatten. Sie können leicht dem Design der Küche angepasst werden. Küchenarbeitsplatten von HPL, EGGER und KAINDL – Österreich. Küchenarbeitsplatten aus Kunststein QUARELLA – Italien. Küchenarbeitsplatten aus Granit NATURAL STONES – Italien.'
+  hpl:
+    photos:
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-1.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-2.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-3.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-4.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-5.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-6.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-7.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-8.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-9.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-10.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-11.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-12.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-13.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-14.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-15.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-16.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-17.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-18.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/hpl/hpl-19.jpg'
+  granite:
+    photos:
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/granit/granit-1.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/granit/granit-2.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/granit/granit-3.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/granit/granit-4.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/granit/granit-5.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/granit/granit-6.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/granit/granit-7.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/granit/granit-8.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/granit/granit-9.jpg'
+  technicalStone:
+    photos:
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/kunststein/kunststein-1.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/kunststein/kunststein-2.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/kunststein/kunststein-3.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/kunststein/kunststein-4.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/kunststein/kunststein-5.jpg'
+      - '/kuechen/modelle/moderne/angela/kuechenarbeitsplatte/kunststein/kunststein-6.jpg'

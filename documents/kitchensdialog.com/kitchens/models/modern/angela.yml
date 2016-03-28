@@ -1,0 +1,121 @@
+layout: /model.ect
+title: 'Angela'
+importance: 4
+lang: en
+href: '/kitchens/models/modern/angela'
+category: '/kitchens/models/modern'
+photo: '/kitchens/models/modern/angela/kitchen-angela.jpg'
+description: 'Practical and diverse. Doors and front elements of particle board with melamine coating and ABS edging. Economy options with monochrome and wood decorations.'
+highlights:
+  - 
+    caption: 'Particle boards|of a new|generation'
+    photo: '/kitchens/models/modern/angela/particle-board-of-a-new-generation.png'
+  - 
+    caption: 'Aluminium|and glass|cabinets'
+    photo: '/kitchens/models/modern/angela/aluminium-and-glass.png'
+  - 
+    caption: 'Water-resistant|aluminium|baseboard'
+    photo: '/kitchens/models/modern/angela/aluminium-baseboard.png'
+topics:
+  -
+    caption: 'Warm colour tones with live timber structure'
+    description: 'The new decors of the particle boards are characterised by an exceptionally natural vision, live timber structure and a wide colour spectrum in harmony with a large number of universal colours.'
+    photos:
+      - '/kitchens/models/modern/angela/combination-1.jpg'
+      - '/kitchens/models/modern/angela/technologies-1.jpg'
+      - '/kitchens/models/modern/angela/combination-2.jpg'
+  -
+    caption: 'Practical and modern kitchen'
+    description: 'A rich choice of combinations using particle boards with melamine coating of a new generation. Excellent vision, achieved both with the timber decors and with the monochrome ones, and the various combinations between them. Optimal price of the kitchen..'
+    photos:
+      - '/kitchens/models/modern/angela/practical-price-1.jpg'
+  -
+    caption: 'Accessories complementing the kitchen'
+    description: 'Hanging systems on which there can be additionally placed tissue holders, spice racks or hanging hooks. Aluminium or glass shelves can be installed as a complementary decoration of your kitchen.'
+    photos:
+      - '/kitchens/models/modern/angela/accessories-1.jpg'
+      - '/kitchens/models/modern/angela/accessories-2.jpg'
+  -
+    caption: 'Modern technologies ensuring comfort'
+    description: 'For maximum comfort in the kitchen, we use hardware ensuring smooth closing of all doors and drawers, so that your cupboards are operated almost effortlessly and closed smoothly and silently.'
+    highlight: 'Functionality|and comfort'
+    photos:
+      - '/kitchens/models/modern/angela/technologies-2.jpg'
+      - '/kitchens/models/modern/angela/technologies-3.jpg'
+      - '/kitchens/technologies/accessories/divider-for-closet.jpg'
+doors:
+  description: 'For the doors there are used 18 mm particle boards with melamine coating and a 2 mm edging. For the edging we use a German technology and materials ensuring an impeccable result.'
+  categories:
+    - 
+      caption: 'Particle board'
+      photos:
+        - '/kitchens/models/modern/angela/doors/particle-board/particle-board-1.jpg'
+        - '/kitchens/models/modern/angela/doors/particle-board/particle-board-2.jpg'
+        - '/kitchens/models/modern/angela/doors/particle-board/particle-board-3.jpg'
+    - 
+      caption: 'Aluminium frame'
+      photos:
+        - '/kitchens/models/modern/angela/doors/aluminium-frame/aluminium-frame-1.jpg'
+        - '/kitchens/models/modern/angela/doors/aluminium-frame/aluminium-frame-2.jpg'
+        - '/kitchens/models/modern/angela/doors/aluminium-frame/aluminium-frame-3.jpg'
+handles:
+  description: 'A wide variety of handles of standard and designer solutions. Well selected to be comfortable and stylish, to match the model which we are offering. Handles are made of high-quality metal whose properties do not change in any way over time. Handles do not become darker and do not scale.'
+  categories:
+    - 
+      caption: 'Narrow and wide metal handles'
+      photos:
+        - '/kitchens/models/modern/angela/handles/handles-1.jpg'
+        - '/kitchens/models/modern/angela/handles/handles-2.jpg'
+        - '/kitchens/models/modern/angela/handles/handles-3.jpg'
+        - '/kitchens/models/modern/angela/handles/handles-4.jpg'
+        - '/kitchens/models/modern/angela/handles/handles-5.jpg'
+        - '/kitchens/models/modern/angela/handles/handles-6.jpg'
+        - '/kitchens/models/modern/angela/handles/handles-7.jpg'
+        - '/kitchens/models/modern/angela/handles/handles-8.jpg'
+        - '/kitchens/models/modern/angela/handles/handles-9.jpg'
+        - '/kitchens/models/modern/angela/handles/handles-10.jpg'
+        - '/kitchens/models/modern/angela/handles/handles-11.jpg'
+        - '/kitchens/models/modern/angela/handles/handles-12.jpg'
+        - '/kitchens/models/modern/angela/handles/handles-13.jpg'
+worktops:
+  description: 'A wide variety of worktop decors and materials. These can be easily combined with the kitchen design. Worktops by HPL, EGGER and KAIND – Austria. Worktops of technical stone QUARELLA – Italy. Granite worktops NATURAL STONES – Italy.'
+  hpl:
+    photos:
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-1.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-2.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-3.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-4.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-5.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-6.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-7.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-8.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-9.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-10.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-11.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-12.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-13.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-14.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-15.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-16.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-17.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-18.jpg'
+      - '/kitchens/models/modern/angela/worktop/hpl/hpl-19.jpg'
+  granite:
+    photos:
+      - '/kitchens/models/modern/angela/worktop/granite/granite-1.jpg'
+      - '/kitchens/models/modern/angela/worktop/granite/granite-2.jpg'
+      - '/kitchens/models/modern/angela/worktop/granite/granite-3.jpg'
+      - '/kitchens/models/modern/angela/worktop/granite/granite-4.jpg'
+      - '/kitchens/models/modern/angela/worktop/granite/granite-5.jpg'
+      - '/kitchens/models/modern/angela/worktop/granite/granite-6.jpg'
+      - '/kitchens/models/modern/angela/worktop/granite/granite-7.jpg'
+      - '/kitchens/models/modern/angela/worktop/granite/granite-8.jpg'
+      - '/kitchens/models/modern/angela/worktop/granite/granite-9.jpg'
+  technicalStone:
+    photos:
+      - '/kitchens/models/modern/angela/worktop/technical-stone/technical-stone-1.jpg'
+      - '/kitchens/models/modern/angela/worktop/technical-stone/technical-stone-2.jpg'
+      - '/kitchens/models/modern/angela/worktop/technical-stone/technical-stone-3.jpg'
+      - '/kitchens/models/modern/angela/worktop/technical-stone/technical-stone-4.jpg'
+      - '/kitchens/models/modern/angela/worktop/technical-stone/technical-stone-5.jpg'
+      - '/kitchens/models/modern/angela/worktop/technical-stone/technical-stone-6.jpg'

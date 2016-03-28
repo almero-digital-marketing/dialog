@@ -1,0 +1,39 @@
+layout: /technology.ect
+title: 'Drawers'
+lang: en
+importance: 2
+href: '/kitchens/technologies/drawers'
+photo: '/kitchens/technologies/drawers/practic-layout-of-the-cooking-utensils.jpg'
+description: 'Drawers with a fitted system for smooth and synchronised closing. Smooth closing, smooth running on Teflon rolls; maximal internal volume. '
+highlights:
+  - 
+    caption: 'Proven ergonomic properties'
+    photo: '/kitchens/technologies/drawers/extremely-smooth-and-easy-open-and-close.png'
+  - 
+    caption: 'Easy running on Teflon rolls'
+    photo: '/kitchens/technologies/drawers/intelligent-storage-of-the-sets.png'
+  - 
+    caption: 'Smooth closing'
+    photo: '/kitchens/technologies/drawers/excellent-organization-under-the-sing.png'
+  - 
+    caption: 'Optimally used internal space'
+    photo: '/kitchens/technologies/drawers/practical-layout-of-the-cooking-utensils.png'
+  - 
+    caption: 'Luxurious accessories'
+    photo: '/kitchens/technologies/drawers/convenient-drawer-for-the-sets.png'
+topics:
+  -
+    caption: 'Unmatched functionality'
+    description: 'Components whose functionality cannot be matched, with proven ergonomic properties. The drawers are fitted with a system for smooth closing and synchronised running. Metabox – drawer with metal sides. Smooth closing with an external Blumotion; easy running on Teflon rolls; optimally used internal space. Blum – Austria.'
+    highlight: 'Opportunity for combining|of doors with wood, metal и glass'
+    photos:
+      - '/kitchens/technologies/drawers/technologies-4.jpg'
+      - '/kitchens/technologies/drawers/technologies-5.jpg'
+      - '/kitchens/technologies/drawers/rack-for-oil-and-canned.jpg'
+  -
+    caption: 'Smooth operation with excessive loads'
+    description: 'Tandembox – drawers with a built-in system for smooth closing and synchronised running with unevenly distributed load; Electro-system for assisted opening Servo drive; common controls via one controller „Aventos“ + „Tandembox“, easy removal of the front board ensures easy cleaning; individual design of the drawer with Tandembox intivo; railing systems for superstructures and separations; luxurious accessories. Blum – Austria'
+    photos:
+      - '/kitchens/technologies/drawers/technologies-3.jpg'
+      - '/kitchens/technologies/drawers/technologies-6.jpg'
+      - '/kitchens/technologies/drawers/technologies-2.jpg'

@@ -1,0 +1,181 @@
+---
+layout: /article.ect
+plugins: [guide]
+blocks:
+  simpleModels: /blocks/simple-models.ect
+scripts:
+  - /vendor/jquery.validate.min.js
+  - /scripts/rfp.js
+---
+<% @data.scripts = @layout.meta.scripts.concat @data.scripts ? [] %>
+
+<form id="rfp" class="content" action="http://almero.pro:8080/api/form" method="POST">
+  <div class="separator medium"></div>
+  <div class="form-container">
+    <div id="common">
+      <hr/>
+      <h5>
+        <!-- <%- @href('/translation').meta.request.title%> -->
+        <%- @href('/translation').meta.request.title %>
+      </h5>
+      <label class="required"><%- @href('/translation').meta.request.name %> <span>*</span></label>
+      <input type="text" name="name" required/>
+      <label class="required"><%- @href('/translation').meta.request.email %> <span>*</span></label>
+      <input id="from" type="text" name="from" required/>
+      <label class="required"><%- @href('/translation').meta.request.phone %> <span>*</span></label>
+      <input id="phone" type="text" name="phone" required/>
+      <label class="required"><%- @href('/translation').meta.request.city %> <span>*</span></label>
+      <input id="city" type="text" name="city" required/>
+      <label class="required"><%- @href('/translation').meta.request.message %> <span>*</span></label>
+      <textarea name="message" required></textarea>
+      <label><%- @href('/translation').meta.request.request %></label>
+      <select name="to">
+        <option value="mail.kuhnidialog.bg@gmail.com"><%- @href('/translation').meta.request.wholeCountry %></option>
+        <option value="sofia@kuhnidialog.bg, mail.kuhnidialog.bg@gmail.com"><%- @href('/translation').meta.request.shopSofia %></option>
+        <option value="plovdiv@kuhnidialog.bg, mail.kuhnidialog.bg@gmail.com"><%- @href('/translation').meta.request.shopPlovdiv %></option>
+      </select>
+      <div id="store">
+        <label><%- @href('/translation').meta.request.price %></label>
+        <input type="text" name="price"/>
+        <label><%- @href('/translation').meta.request.promotion %></label>
+        <input type="text" name="promotion"/>
+        <label><%- @href('/translation').meta.request.engagement %></label>
+        <select id="obligation" name="obligation">
+          <option value="<%- @href('/translation').meta.request.shopRequest %>"><%- @href('/translation').meta.request.shopRequest %></option>
+          <option value="<%- @href('/translation').meta.request.offer %>"><%- @href('/translation').meta.request.offer %></option>
+          <option value="<%- @href('/translation').meta.request.contract %>"><%- @href('/translation').meta.request.contract %></option>
+        </select>
+        <label><%- @href('/translation').meta.request.source %></label>
+        <select name="source">
+          <option value="<%- @href('/translation').meta.request.other %>"><%- @href('/translation').meta.request.other %></option>
+          <option value="<%- @href('/translation').meta.request.website %>"><%- @href('/translation').meta.request.website %></option>
+          <option value="<%- @href('/translation').meta.request.client %>"><%- @href('/translation').meta.request.client %></option>
+          <option value="<%- @href('/translation').meta.request.shop %>"><%- @href('/translation').meta.request.shop %></option>
+        </select>
+        <label><%- @href('/translation').meta.request.comments %></label>
+        <textarea name="comments"></textarea>
+      </div>
+    </div>
+    <div id="per-model">
+      <hr/>
+      <h5><%- @href('/translation').meta.request.modelTitle %></h5>
+      <label><%- @href('/translation').meta.request.model %></label>
+      <select id="model" name="model">
+        <% for category in @data.categories: %>
+        <% for model in @data.models when model.meta.category is category.meta.href : %>
+        <option value="<%- model.meta.title%>"><%- model.meta.title%></option>
+        <% end %>
+        <% end %>
+      </select>
+      <label class="caption"><%- @href('/translation').meta.request.picture %></label>
+      <iframe id="upload" src="./system/upload.html"></iframe>
+      <div class="photos" id="files"></div>
+      <label><%- @href('/translation').meta.request.length %></label>
+      <input type="text" name="width"/>
+      <label ><%- @href('/translation').meta.request.configuration %></label>
+      <input type="radio" name="configuration[]" value="<%- @href('/translation').meta.request.gConf %>" /><label class="sublabel"><%- @href('/translation').meta.request.gConf %></label><br/>
+      <input type="radio" name="configuration[]" value="<%- @href('/translation').meta.request.pConf %>" /><label class="sublabel"><%- @href('/translation').meta.request.pConf %></label><br/>
+      <input type="radio" name="configuration[]" value="<%- @href('/translation').meta.request.straight %>" /><label class="sublabel"><%- @href('/translation').meta.request.straight %></label><br/>
+      <input type="checkbox" name="configuration[]" value="<%- @href('/translation').meta.request.island %>" /><label class="sublabel"><%- @href('/translation').meta.request.island %></label><br/>
+      <label><%- @href('/translation').meta.request.features %></label>
+      <textarea name="details"></textarea>
+    </div>
+    <div class="separator small"></div>
+    <input id="date" type="hidden" name="date"/>
+    <input id="redirect" type="hidden" name="redirect" value="http://kuhnidialog.bg/запитване/запитване-кухня-изпратено.html"/>
+    <input id="subject" type="hidden" name="subject" value="Запитване кухня от сайта"/>
+    <input type="hidden" name="visits" value=""/>
+    <input type="hidden" name="pages" value=""/>
+    <textarea name="history" style="display:none;"></textarea>
+    <textarea name="template" style="display:none;">
+{% if obligation %}
+# {{ obligation }}
+{% else %}
+# Запитване кухня
+{% endif %}
+
+## Информация за контакт
+От: **{{ name }}**
+Телефон: **{{ phone }}**
+Email: **{{ from }}**
+Град: **{{ city }}**
+Дата: **{{ date }}**
+
+## Съобщение
+{{ message }}
+
+## Запитване за конкретен модел
+{% if model %}
+Модел: **{{ model }}**
+{% endif %}
+{% if width %}
+Дължина: **{{ width }}**
+{% endif %}
+
+## Конфигурация на кухнята
+{% for element in configuration %}
+* {{ element }}
+{% endfor %}
+
+## Снимки и скица на обекта
+{% for element in files %}
+* [{{ element|replace('http://almero.pro:8080/files/', '') }}]({{ element }}){% endfor %}
+
+## Особенности
+{{ details }}
+
+{% if from|replace('.*@','') == 'kuhnidialog.bg' %}
+## Запитване от магазин
+{% if price %}
+Цена:  **{{ price }}**
+{% endif %}    
+{% if promotion %}
+Промоция:  **{{ promotion }}**
+{% endif %}    
+{% if obligation %}
+Ангажимент:  **{{ obligation }}**
+{% endif %}    
+{% if source %}
+Източник:  **{{ source }}**
+{% endif %}    
+{% if comments %}
+Коментари:  **{{ comments }}**
+{% endif %}    
+{% if promotion %}
+Промоция:  **{{ promotion }}**
+{% endif %}    
+{% endif %}    
+
+- - -
+
+# Анализ на поведението
+Посещения: **{{ visits }}**
+Страници: **{{ pages }}**
+
+## Разгледани страници
+{{ history }}
+    </textarea>
+    <input type="submit" value="<%- @href('/translation').meta.request.send %>"/>
+  </div>
+</form>
+<div class="content warrancy">
+  <div class="separator small"></div>
+  <div class="inservice">
+    <div class="alertbox">
+      <h4>
+        <!-- <%- @href('/translation').meta.warrancy.$title %> -->
+        <%- @href('/translation').meta.warrancy.title %></h4>
+      <p>
+        <!-- <%- @href('/translation').meta.warrancy.$description %> -->
+        <%- @href('/translation').meta.warrancy.description %></p>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+<div class="content simple models">
+  <% for category in @data.categories: %>
+  <div class="separator medium"></div>
+  <hr />
+  <%- @blocks.simpleModels(category: category, models: @data.models) %>
+  <% end %>
+</div>

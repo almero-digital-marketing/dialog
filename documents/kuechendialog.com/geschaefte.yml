@@ -1,0 +1,42 @@
+layout: /stores.ect
+href: '/kitchens/stores'
+lang: de
+title: 'Geschäfte'
+sofia:
+  title: 'Ausstellungsraum von Küchen Dialog in Sofia' 
+  navigationTitle: 'Ausstellungsraum von Küchen Dialog in Sofia'
+  address: 'Stadt Sofia, blvd. Tsarigradsko Chaussee 139,|Stockwerk 2 (im Gebäude von Office 1 Supertore)'
+  phone: '+359 2 88 40 73 2'
+  workTime: 'Öffnungszeiten:|Montag – Freitag von 09:30 bis 19:30 Uhr|Samstag von 10:00 bis 15:30 Uhr'
+  personnel:
+    -
+      name: 'Angelina Totolakova' 
+      email: 'totolakova@kuhnidialog.bg|Handynummer: +359 885 29 18 80'
+      image: '/images/totolakova.jpg'
+    -
+      name: 'Lidiya Kotova' 
+      email: 'kotova_lidia@kuhnidialog.bg|Handynummer: +359 879 13 60 20'
+      image: '/images/kuteva.jpg'
+    -
+      name: 'Manoela Bangeeva' 
+      email: 'manoela@kuhnidialog.bg'
+      image: '/images/bangeeva.jpg'
+plovdiv:
+  title: 'Ausstellungsraum von Küchen Dialog in Plovdiv' 
+  navigationTitle: 'Ausstellungsraum von Küchen Dialog in Plovdiv'
+  address: 'Stadt Plovdiv, blvd. Sankt Peterburg 48|Einkaufszentrum ARKADIYA'
+  phone: '+359 32 62 58 25'
+  workTime: 'Öffnungszeiten:|Montag – Freitag von 10:00 bis 19:30 Uhr|Samstag von 10:00 bis 15:30 Uhr'
+  personnel:
+    -
+      name: 'Radosveta Valkova' 
+      email: 'valkova_r@kuhnidialog.bg|Handynummer: +359 887 43 57 53'
+      image: '/images/valkova.jpg'
+    -
+      name: 'Ekaterina Ivanova' 
+      email: 'ivanova_e@kuhnidialog.bg|Handynummer: +359 889 24 03 84'
+      image: '/images/ivanova.jpg'
+    -
+      name: 'Kristina Bogdanova' 
+      email: 'bogdanova_k@kuhnidialog.bg|Handynummer: +359 889 24 03 84'
+      image: '/images/bogdanova.jpg'

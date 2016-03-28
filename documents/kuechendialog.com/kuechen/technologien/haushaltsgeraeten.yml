@@ -1,0 +1,52 @@
+layout: /technology.ect
+title: 'Haushaltsgeräten'
+lang: de
+importance: 7
+href: '/kitchens/technologies/electrical-appliances'
+photo: '/kuechen/technologien/haushaltsgeraete/einbau-arbeitsplatten-1.jpg'
+description: 'In unserer Firma führen wir Recherchen und wählen die Einbaugeräte für unsere Küchen sorgfältig: Backöfen, Kochplatten, Mikrowellenherde, Geschirrspüler und Waschmaschinen, Haushaltsroboter u.a.'
+highlights:
+  - 
+    caption: 'Moderne Backöfen'
+    photo: '/kuechen/technologien/haushaltsgeraete/moderne-backoefen.png'
+  - 
+    caption: 'Retro-Backöfen'
+    photo: '/kuechen/technologien/haushaltsgeraete/retro-backoefen.png'
+  - 
+    caption: 'Einbau-Geschirrspüler'
+    photo: '/kuechen/technologien/haushaltsgeraete/einbau-geschirrspueler.png'
+  - 
+    caption: 'Einbau-Arbeitsplatten'
+    photo: '/kuechen/technologien/haushaltsgeraete/einbau-arbeitsplatten.png'
+  - 
+    caption: 'Einbau-Kühlschränke'
+    photo: '/kuechen/technologien/haushaltsgeraete/einbau-kuehlschraenke.png'
+topics:
+  -
+    caption: 'Retro-Backöfen'
+    description: 'Hauptkomponenten, die eine wichtige Rolle bei der Gestaltung der Küche und ihrer Funktionalität spielen.'
+    photos:
+      - '/kuechen/technologien/haushaltsgeraete/retro-backoefen-1.jpg'
+      - '/kuechen/technologien/haushaltsgeraete/retro-backoefen-2.jpg'
+      - '/kuechen/technologien/haushaltsgeraete/retro-backoefen-3.jpg'
+  -
+    caption: 'Moderne Backöfen'
+    description: 'Ausschlaggebend bei der Wahl der Haushaltsgeräte sind die technischen Charakteristiken, wie Sicherheit, geringer Stromverbrauch, Lärmpegel, Anzahl der Programme und der möglichen Einstellungen, zusammen mit den Bedürfnissen und der Anzahl der Familienmitgliedern, der Küchengestaltung und den Qualitätsanforderungen.'
+    photos:
+      - '/kuechen/technologien/haushaltsgeraete/einbau-backoefen.jpg'
+      - '/kuechen/technologien/haushaltsgeraete/moderne-backoefen-1.jpg'
+      - '/kuechen/technologien/haushaltsgeraete/moderne-backoefen-2.jpg'
+  -
+    caption: 'Einbau-Arbeitsplatten'
+    description: 'In unserer Firma führen wir Recherchen und wählen die Einbaugeräte für unsere Küchen sorgfältig: Backöfen, Kochplatten, Mikrowellenherde, Geschirrspüler und Waschmaschinen, Kühlschränke und Kühlregale, Kaffeemaschinen, Haushaltsroboter und andere.'
+    photos:
+      - '/kuechen/technologien/haushaltsgeraete/einbau-arbeitsplatten-1.jpg'
+      - '/kuechen/technologien/haushaltsgeraete/einbau-arbeitsplatten-2.jpg'
+      - '/kuechen/technologien/haushaltsgeraete/einbau-arbeitsplatten-3.jpg'
+  -
+    caption: 'Verdeckte Haushaltsgeräte'
+    description: 'Wir bieten Haushaltsgeräte folgender Hersteller an: Bosch, Siemens, Ariston, Gorenje, Fagor, Liebherr, Eurolux, Faber, Nardi, AEG, Electrolux u.a.'
+    photos:
+      - '/kuechen/technologien/haushaltsgeraete/geschirrspueler.jpg'
+      - '/kuechen/technologien/haushaltsgeraete/waschmaschine-1.jpg'
+      - '/kuechen/technologien/haushaltsgeraete/einbau-kuehlschraenke-1.jpg'

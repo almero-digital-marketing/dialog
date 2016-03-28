@@ -1,0 +1,19 @@
+---
+layout: /default.ect
+plugins: [breadcrumb, guide]
+---
+<div class="content">
+	<div class="main-bar">
+		<div class="breadcrumb" itemprop="breadcrumb">
+			<% for link in @data.breadcrumb when link != @document.meta.href : %><a href="<%= @href(link)%>"><%- @href(link).meta.title %></a> / 
+			<% end %>
+			<h1>
+				<!-- <%- @document.meta.$title %> -->
+				<%- @document.meta.title %>
+			</h1>
+		</div>
+		<a href="<%- @href '/kitchens' %>" title="<%= @href('/kitchens').meta.title %>"></a>
+	</div>
+</div>
+<!-- <%- @document.$content %> -->
+<%- @content %>

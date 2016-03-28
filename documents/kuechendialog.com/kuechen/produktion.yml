@@ -1,0 +1,75 @@
+layout: /manufacturing.ect
+href: '/kitchens/manifacturing'
+title: 'Produktion von Küchen'
+navigationTitle: 'Produktion'
+lang: de
+photo: '/kuechen/produktion/die-mannschaft-von-kuechen-dialog.jpg'
+topics:
+  -
+    title: 'Gehäuse'
+    caption: 'Gehäuse in Übereinstimmung mit den europäischen Standards für Qualität und Umweltschutz'
+    description: 'Die Konstruktion der Gehäuse ist klassisch mit tragenden vertikalen Seiten. Sie werden aus Spanplatten mit einer Dicke von 18 mm, von Egger, Kaindl – Österreich und Kronospan – Bulgarien (in Übereinstimmung mit allen europäischen Standards für Qualität und Umweltschutz) hergestellt. Die Gehäuse verfügen über ABS-Kanten von Hranipex mit einer Dicke von 0.5, 1 und 2 mm mit der entsprechenden Abrundung. Die exzentrische Anordnung mit Dübeln Ø8 bietet Genauigkeit, Robustheit und Ästhetik. Für die gute Befestigung des Beschlags an den Spanplatten benutzen wir eine Euroschraube mit einem Durchmesser von Ø6.3 mm. Alle unsichtbaren Kanten werden eingefasst. Die Festigkeit der Gehäuse wird durch die Verbindungselemente Bolzen und Mutter M4 (nicht mit Bohrschraube).'
+    roundphoto: '/kuechen/produktion/gerundet/gehaeuse-1.png'
+    photos:
+      - '/kuechen/produktion/gehaeuse/gehaeuse-1.jpg'
+      - '/kuechen/produktion/gehaeuse/gehaeuse-2.jpg'
+  -
+    title: 'Schubladen'
+    caption: 'Spezielles Schubladensystem mit Tragfähigkeit von 35 bis 50 kg'
+    description: 'Für Schubladen mit Tragfähigkeit von 35 bis 50 kg (Gesamttragfähigkeit) und 20, 35 kg (Nutzlast) verwenden wir „Tandembox“ von Blum mit integriertem System für sanftes Schließen und synchronisierte Führung von unregelmäßig verteilten Staugütern. Der Boden ist hart und hat eine Dicke von 16 mm. Das Relingsystem zum Aufstocken und zur Einteilung ist kombinierbar. Eine kräftige und präzise Befestigung erreicht man durch einen PVC-Dübel Ø10 mm. Die Frontseite kann dank eines Klippsystems, das eine einfache Reinigung gewährleistet, leicht demontiert werden. In den Küchen der Firma Dialog finden Sie ein elektronisches System Servo-drive, dass das Öffnen unterstützt. Es gibt mehrere Vorteile im Vergleich zu den anderen Systemen, der wichtigste davon ist die Steuerung der Schubladen „Tandembox“ und der klappbaren Mechanismen „Aventos“ mit einem einzigen Controller.'
+    roundphoto: '/kuechen/produktion/gerundet/schubladen-2.png'
+    photos:
+      - '/kuechen/produktion/schubladen/schubladen-tandemboks-4.jpg'
+      - '/kuechen/produktion/schubladen/schubladen-tandemboks-3.jpg'
+      - '/kuechen/produktion/schubladen/schubladen-tandemboks-1.jpg'
+  -
+    title: 'Beine'
+    caption: 'Stabile Beine, die hoher Belastung widerstehen'
+    description: 'Die Beine der Gehäuse der unteren Reihe sind einstellbar, um eine perfekte Nivellierung zu gewährleisten, mit breiten Fersen für größere Stabilität, Feingewinde und Tragfähigkeit von 145 kg (pro Bein).'
+    roundphoto: '/kuechen/produktion/gerundet/beine-1.png'
+    photos:
+      - '/kuechen/produktion/beine/beine-1.jpg'
+      - '/kuechen/produktion/beine/beine-2.jpg'
+  -
+    title: 'Scharniere'
+    caption: 'Sicher befestigte Scharniere für sanftes Schließen'
+    description: 'Die Scharniere sorgen für ein sanftes Schließen, sie sind mit einem integrierten oder äußeren Dämpfungssystem Blumotion ausgestattet und sind zum Gehäuse mittels PVC-Dübel der Marke Blum sicher befestigt. Das schnelle Klippsystem ist bei der Reinigung und Wartung sehr bequem.'
+    roundphoto: '/kuechen/produktion/gerundet/scharniere-1.png'
+    photos:
+      - '/kuechen/produktion/scharniere/scharniere-1.jpg'
+      - '/kuechen/produktion/scharniere/scharniere-2.jpg'
+      - '/kuechen/produktion/scharniere/scharniere-3.jpg'
+  -
+    title: 'Sockel'
+    caption: 'PVC-Sockel im modernen Stil'
+    description: 'Die Sockel sind aus PVC mit Aluminiumfolie oder weißer Folie für die modernen Küchen und mit Holzdekoren für die klassischen Küchen. Sie sind beständig gegen Wasser und Reinigungsmittel. Die Sockel sind praktisch und man kann sie leicht demontieren, reinigen und remontieren. Sie sind ergonomisch mit einer Höhe von 100 mm, 120 mm und 150 mm. Sie sind elegant, mit eineр transparenten oder farbigen Wasserschutzleiste aus Silikon. Die Sockel werden mittels flexibler stabiler Klemmen und Ecken an den Beinen befestigt.'
+    roundphoto: '/kuechen/produktion/gerundet/sockel-1.png'
+    photos:
+      - '/kuechen/produktion/sockel/sockel-1.jpg'
+      - '/kuechen/produktion/sockel/sockel-2.jpg'
+      - '/kuechen/produktion/sockel/sockel-3.jpg'
+  -
+    title: 'Metabox'
+    caption: '„Metabox“ von Blum für Schubladen mit Tragfähigkeit bis 20 kg'
+    description: 'Für Schubladen mit Tragfähigkeit bis 20 kg (Gesamttragfähigkeit) und 15 kg (Nutzlast) verwenden wir „Metabox“ von Blum. Das sanfte Schließen wird von einem äußeren Dämpfungssystem Blumotion unterstützt, die Seiten der Schublade sind aus Metall mit einer Höhe von 54 mm, 85 mm und 118 mm. Die Relingsysteme zum Aufstocken sind praktisch und bequem. Die Befestigung und die Fixierung der Frontseite geschehen mittels eines PVC-Dübels Ø10 mm. Die Führung der Schublade ist leicht, die Rollen sind aus Teflon.'
+    roundphoto: '/kuechen/produktion/gerundet/schubladen-1.png'
+    photos:
+      - '/kuechen/produktion/schubladen/schubladen-metabox-1.jpg'
+      - '/kuechen/produktion/schubladen/schubladen-metabox.jpg'
+  -
+    title: 'Aufhängung'
+    caption: 'Aufhängung mit großer Tragfähigkeit'
+    description: 'Die Aufhängung der Gehäuse der oberen Reihe ist sicher und zuverlässig, Tragfähigkeit 2 x 65 kg - Blum'
+    roundphoto: '/kuechen/produktion/gerundet/aufhaengung-1.png'
+    photos:
+      - '/kuechen/produktion/aufhaengung/aufhaengung-1.jpg'
+      - '/kuechen/produktion/aufhaengung/aufhaengung-2.jpg'
+  -
+    title: 'Rückenplatte'
+    caption: 'Rückenplatte entlang der gesamten Länge der Seiten'
+    description: 'Die Rückenplatte ist in dem Kanal über die gesamte Länge der Seiten montiert und mit dünnen Schrauben und Unterlegscheiben (nicht mit Drahtmaschen) an den unteren und oberen Boden befestigt.'
+    roundphoto: '/kuechen/produktion/gerundet/rueckenplatte-1.png'
+    photos:
+      - '/kuechen/produktion/rueckenplatte/rueckenplatte-1.jpg'
+      - '/kuechen/produktion/rueckenplatte/rueckenplatte-2.jpg'
+      - '/kuechen/produktion/rueckenplatte/rueckenplatte-3.jpg'

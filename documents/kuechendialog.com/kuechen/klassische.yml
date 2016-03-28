@@ -1,0 +1,21 @@
+layout: /category.ect
+href: '/kitchens/models/classic'
+lang: de
+title: Klassische Küchen
+description: "Klassische Küchen, die Qualität und Tradition in einem vereinen"
+highlights:
+  - 
+    caption: 'Präzision bis ins kleinste Detail'
+    photo: '/kuechen/modelle/klassische/daria-noce/detail.png'
+  - 
+    caption: 'Perfekt bearbeitetes Massivholz'
+    photo: '/kuechen/modelle/klassische/daria/bearbeitetes-massivholz.png'
+  - 
+    caption: 'Eleganz und schöne Verzierungen'
+    photo: '/kuechen/modelle/klassische/daria/faszinierende-dekorative-elemente.png'
+  - 
+    caption: 'Möglichkeit zur Wahl eigenständiger Module'
+    photo: '/kuechen/modelle/klassische/florenza/kombination-von-massivholz-und-stein.png'
+  - 
+    caption: 'Wunderschöne Kombination von Massivholz, Metall und Glas'
+    photo: '/kuechen/modelle/klassische/daria-noce/extravaganz-gemuetlichkeit.png'

@@ -1,0 +1,22 @@
+layout: /category.ect
+href: '/kitchens/models/modern'
+lang: de
+title: "Moderne Küchen"
+importance: 1
+description: "Attraktives und charmant freches Design. Unwiderstehlich frische Modelle mit jugendlichem, temperamentvollem Touch."
+highlights:
+  - 
+    caption: 'Wahl von Spanplatten neuer Generation'
+    photo: '/kuechen/modelle/moderne/angela/platten-neuer-generation.png'
+  - 
+    caption: 'Praktisches und funktionales Design'
+    photo: '/kuechen/modelle/moderne/ernesta/praktische-kueche.png'
+  - 
+    caption: 'Eine Vielzahl von modernen Farben'
+    photo: '/kuechen/modelle/moderne/liviana/wunderschoenes-aussehen.png'
+  - 
+    caption: 'Luxus und Stil in Kombination von matter und glänzender Oberfläche'
+    photo: '/kuechen/modelle/moderne/tiziana/luxus-und-stil.png'
+  - 
+    caption: 'Moderne Technologien und Türe ohne Griffe'
+    photo: '/kuechen/modelle/moderne/tiziana/loesung-ohne-griffe.png'

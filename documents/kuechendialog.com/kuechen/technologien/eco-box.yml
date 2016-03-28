@@ -1,0 +1,18 @@
+layout: /technology.ect
+title: 'Eco-box'
+importance: 10
+lang: de
+href: '/kitchens/technologies/eco-box'
+photo: '/kuechen/technologien/eco-box/getrennte-sammlung-von-abfaellen.jpg'
+description: 'Kombinierte Eco Box, ausgestattet mit einem gemeinsamen Innendeckel. Einfache getrennte Sammlung von Abfällen. Das elektrische System SERVO-DRIVE „freie Hände“ ist der Favorit, wenn es um Komfort und Bequemlichkeit geht.'
+highlights:
+  - 
+    photo: '/kuechen/technologien/eco-box/moderne-loesungen.png'
+  - 
+    photo: '/kuechen/technologien/eco-box/getrennte-sammlung-von-abfaellen.png'
+topics:
+  -
+    caption: 'Eco Box in der Küche'
+    description: 'Einfache getrennte Sammlung von Abfällen. Kombinierte Eco Box, ausgestattet mit einem gemeinsamen Innendeckel. Das elektrische System SERVO-DRIVE „freie Hände“ ist der Favorit, wenn es um Komfort und Bequemlichkeit geht. Es werden auch Einzeleimer mit Fassungsvermögen von 15L, 20L und 30L.'
+    photos:
+      - '/kuechen/technologien/eco-box/getrennte-sammlung-von-abfaellen.jpg'

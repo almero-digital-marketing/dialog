@@ -1,0 +1,104 @@
+layout: /model.ect
+href: '/kitchens/models/modern-classic/rafaella'
+lang: de
+category: '/kitchens/models/modern-classic'
+title: 'Rafaella'
+importance: 3
+photo: '/kuechen/modelle/moderne-klassik/rafaella/kueche-rafaella.jpg'
+description: 'Faszination in Weiß. Lackiertes Holz mit bezaubernd lebendiger Struktur. Außergewöhnliche Anfertigung.'
+highlights:
+  - 
+    caption: 'Faszinierend|lebendige|Struktur'
+    photo: '/kuechen/modelle/moderne-klassik/rafaella/lebendige-struktur.png'
+  - 
+    caption: 'Moderne|weiße Farbe|des Holzes'
+    photo: '/kuechen/modelle/moderne-klassik/rafaella/weisse-farbe-des-holzes.png'
+  - 
+    caption: 'Zwei Stile|in einem|Modell'
+    photo: '/kuechen/modelle/moderne-klassik/rafaella/zwei-stile-in-einem-modell.png'
+topics:
+  -
+    caption: 'Tradition und moderne Eleganz'
+    description: 'Küche mit klassischen weichen Linien, geeignet für Einrichtung von Häusern und Wohnungen, in denen eine beruhigende Atmosphäre in der Küche bestrebt wird. Die dekorativen Elemente (Gesimse, Pilaster, Regale) wurden speziell für dieses Profil entworfen.'
+    photos:
+      - '/kuechen/modelle/moderne-klassik/rafaella/klassisches-aussehen.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/klassisches-aussehen-2.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/klassisches-aussehen-3.jpg'
+  -
+    caption: 'Massive Türen aus Eschenholz und weißem Lack'
+    description: 'Lackiertes Holz mit faszinierend lebendiger Struktur. Massive Türen aus Eschenholz, laminiert mit weißem Satinlack. Eine gelungene Kombination auch mit Türen aus Farbglas und Süßigkeiten in verschiedenen Farben. Ausgezeichnete Kombination von Massivholz und farbigem Glanz.'
+    photos:
+      - '/kuechen/modelle/moderne-klassik/rafaella/tueren-1.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/tueren-2.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/tueren-3.jpg'
+  -
+    caption: 'Arbeitsplatten, die zum Modell passen'
+    description: 'Speziell für dieses Modell werden die Arbeitsplatten mit Holzkante in Übereinstimmung mit dem Design der Küchentüren angefertigt. Man kann zwischen vielen Nuancen von Schwarz und Weiß, einfarbigen Arbeitsplatten in verschiedenen Farben oder solchen, die Stein imitieren oder aus echtem Stein hergestellt sind, wählen.'
+    photos:
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte-2.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte-1.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte-3.jpg'
+  -
+    caption: 'Farbakzent'
+    description: 'Ein Farbakzent, der auf der weißen Farbe und auf dem Holz hervorragend hervortritt. Der Lacküberzug kann in Farben, die sich mit jeglichen Interieurs und Küchen kombinieren lassen, gehalten werden.'
+    photos:
+      - '/kuechen/modelle/moderne-klassik/rafaella/farbakzent-1.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/farbakzent-2.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/farbakzent-3.jpg'
+  -
+    caption: 'Hochtechnologien und klassischer Look'
+    description: 'Hinter jeder Tür können allerlei Designlösungen zur optimalen und bequemen Nutzung des Raums, sowie alle notwendigen Haushaltsgeräte versteckt werden. Auf diese Weise haben Sie nicht nur eine schöne Küche, sondern eine hochfunktionelle und komfortable Lösung für den Haushalt.'
+    photos:
+      - '/kuechen/modelle/moderne-klassik/rafaella/technologien-2.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/technologien-1.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/technologien-3.jpg'
+doors:
+  description: 'Massive Türen aus Eschenholz mit einer Stärke von 25 mm, mit weißem Satinlack bearbeitete Oberfläche'
+  categories:
+    - 
+      caption: 'Massives Eschenholz mit einer Stärke von 25 mm'
+      photos:
+        - '/kuechen/modelle/moderne-klassik/rafaella/tueren/tueren-1.jpg'
+        - '/kuechen/modelle/moderne-klassik/rafaella/tueren/tueren-2.jpg'
+        - '/kuechen/modelle/moderne-klassik/rafaella/tueren/tueren-3.jpg'
+        - '/kuechen/modelle/moderne-klassik/rafaella/tueren/tueren-4.jpg'
+handles:
+  description: 'Metallgriffe, die nicht schlechter als alle anderen Griffe hinsichtlich Qualität und Bequemlichkeit beim Halten sind. Sie sind sorgfältig ausgewählt, um im Einklang mit dem Modell zu sein. Maximal einfaches und elegantes Design.'
+  categories:
+    - 
+      caption: 'Metall'
+      photos:
+        - '/kuechen/modelle/moderne-klassik/rafaella/griffe/griffe.jpg'
+worktops:
+  description: 'Die weiße Farbe des Modells erlaubt Kombinationen mit beliebigen Farben und Arbeitsplatten, die sowohl aus natürlichen als auch aus künstlichen Materialen angefertigt werden können. Sie können zwischen Arbeitsplatten mit Holzkante 60 mm, HPL, Granit oder Kunststein auswählen.'
+  hpl:
+    photos:
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/hpl/hpl-1.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/hpl/hpl-2.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/hpl/hpl-3.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/hpl/hpl-4.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/hpl/hpl-5.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/hpl/hpl-6.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/hpl/hpl-7.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/hpl/hpl-8.jpg'
+  hpl60mm:
+    photos:
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/hpl-60mm/hpl-9.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/hpl-60mm/hpl-10.jpg'
+  technicalStone:
+    photos:
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/kunststein/kunststein-1.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/kunststein/kunststein-2.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/kunststein/kunststein-3.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/kunststein/kunststein-4.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/kunststein/kunststein-5.jpg'
+  granite:
+    photos:
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/granit/granit-1.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/granit/granit-2.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/granit/granit-3.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/granit/granit-4.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/granit/granit-5.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/granit/granit-6.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/granit/granit-7.jpg'
+      - '/kuechen/modelle/moderne-klassik/rafaella/kuechenarbeitsplatte/granit/granit-8.jpg'

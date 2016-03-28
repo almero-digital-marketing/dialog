@@ -1,0 +1,5 @@
+layout: /conversion.ect
+title: 'Запрос на изготовление кухни'
+href: '/kitchens/kitchen-offer-send'
+lang: ru
+message: Запрос отправлен успешно

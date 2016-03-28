@@ -1,0 +1,85 @@
+layout: /model.ect
+title: 'Florenza'
+importance: 3
+lang: en
+category: '/kitchens/models/classic'
+href: '/kitchens/models/classic/florenza'
+photo: '/kitchens/models/classic/florenza/kitchen-florenza.jpg'
+description: 'Hot! Ornamental frame made of birch, fine panel made of cherry and provocative red-yellow-brown indescribable colour. Love and passion – this is Florenza.'
+highlights:
+  - 
+    caption: 'High-quality|machining|which cannot be matched'
+    photo: '/kitchens/models/classic/florenza/high-quality-maching.png'
+  - 
+    caption: 'Cherry|colour'
+    photo: '/kitchens/models/classic/florenza/cherry-colour.png'
+  - 
+    caption: 'Combination|of stone|and wood'
+    photo: '/kitchens/technologies/worktops-and-wall-panels/worktop-choice-complementary-stone.png'
+topics:
+  -
+    caption: 'Elegant ornaments'
+    description: 'A retro flair combined with a modern touch. Natural materials and colours. Ornamental frames made of birch, panels made of cherry, and provocative red-yellow-brown colour. Stained glass in a thin metal frame and exquisite ornamental lattices.'
+    highlight: 'Wonderful|natural colour'
+    photos:
+      - '/kitchens/models/classic/florenza/doors-1.jpg'
+      - '/kitchens/models/classic/florenza/curves-1.jpg'
+  -
+    caption: 'Gently curved doors'
+    description: 'Style which cannot go unnoticed. Doors which follow the curves of each edge in the kitchen and give a beautiful finishing touch of the whole composition. Comfortable and exceptionally beautiful, they are also very functional. The doors may be solid or with stained glass.'
+    highlight: 'Solid|doors of birch'
+    photos:
+      - '/kitchens/models/classic/florenza/curves-2.jpg'
+      - '/kitchens/models/classic/florenza/curves-3.jpg'
+  -
+    caption: 'Individual modules in unison with the model'
+    description: 'The beautiful line of the doors of the Florenza model is carried into the dining room comprising additional individual modules. You can choose from a cabinet with solid doors, ornamental lattice-type doors or a glass-door cabinet where you can display your beautiful tableware.'
+    highlight: 'A retro fragrance|in a classical style'
+    photos:
+      - '/kitchens/models/classic/florenza/module-1.jpg'
+      - '/kitchens/models/classic/florenza/module-3.jpg'
+  -
+    caption: 'Modern technologies in a classic vision'
+    description: 'The beauty of the classic kitchens does not affect the comfort and rational use of space. All modern electrical appliances and mechanisms are also used here. The cupboards are equipped with mechanisms which allow everything you put in them to be tidy and orderly.'
+    highlight: 'Functionality|and comfort'
+    photos:
+      - '/kitchens/models/classic/florenza/technologies-1.jpg'
+      - '/kitchens/models/classic/florenza/technologies-2.jpg'
+      - '/kitchens/models/classic/florenza/technologies-3.jpg'
+doors:
+  description: 'Doors have frames made of solid birch and cherry-coloured panels. Each door is additionally coloured, patinated in order to enhance the effect of the wood and to seal its pores. The surface finish is completed with satin varnish. Thus the doors have charming brilliance which lasts over time.'
+  categories:
+    - 
+      caption: 'Birch frame, cherry panel'
+      photos:
+        - '/kitchens/models/classic/florenza/doors/doors-6.jpg'
+        - '/kitchens/models/classic/florenza/doors/doors-3.jpg'
+        - '/kitchens/models/classic/florenza/doors/doors-4.jpg'
+        - '/kitchens/models/classic/florenza/doors/doors-2.jpg'
+        - '/kitchens/models/classic/florenza/doors/doors-5.jpg'
+        - '/kitchens/models/classic/florenza/doors/doors-1.jpg'
+handles:
+  description: 'The handles have been perfectly matched to the model as regards shape, size and colour. They are made of brass and painted porcelain, in a retro style, complementing the appearance and vision of the kitchen. Porcelain is exceptionally durable, and it, as well as the metal parts, preserve their appearance over time.'
+  categories:
+    - 
+      caption: 'Patinated brass and painted porcelain'
+      photos:
+        - '/kitchens/models/classic/florenza/handles/handles-1.jpg'
+        - '/kitchens/models/classic/florenza/handles/handles-2.jpg'
+worktops:
+  description: 'For the perfect finishing touch of your kitchen you can choose worktops made of natural materials or of materials which successfully imitate them. We can offer a wide variety of nuances, of darker, lighter, completely white or white-beige colour. The best combination is achieved when the worktop is made of granite.'
+  hpl:
+    photos:
+      - '/kitchens/models/classic/florenza/worktop/hpl/hpl-1.jpg'
+      - '/kitchens/models/classic/florenza/worktop/hpl/hpl-2.jpg'
+      - '/kitchens/models/classic/florenza/worktop/hpl/hpl-3.jpg'
+      - '/kitchens/models/classic/florenza/worktop/hpl/hpl-4.jpg'
+  granite:
+    photos:
+      - '/kitchens/models/classic/florenza/worktop/granite/granite-1.jpg'
+      - '/kitchens/models/classic/florenza/worktop/granite/granite-2.jpg'
+      - '/kitchens/models/classic/florenza/worktop/granite/granite-3.jpg'
+      - '/kitchens/models/classic/florenza/worktop/granite/granite-4.jpg'
+      - '/kitchens/models/classic/florenza/worktop/granite/granite-5.jpg'
+      - '/kitchens/models/classic/florenza/worktop/granite/granite-6.jpg'
+      - '/kitchens/models/classic/florenza/worktop/granite/granite-7.jpg'

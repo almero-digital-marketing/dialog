@@ -1,0 +1,42 @@
+layout: /workflow.ect
+title: 'Arbeitsweise'
+href: '/kitchens/workflow'
+lang: de
+workflow:
+  -
+    title: 'Produktion'
+    subcaption: 'Hohe Qualität, gute ergonomische Eigenschaften und ästhetosche Gestaltung'
+    description: 'Die Küche wird über einen Zeitraum von 3 bis 40 Tagen fertiggestellt und wird bei uns bis zum Versanddatum gelagert und aufbewahrt. Bereits in der Phase der Entwicklung und Einführung des Modells widmen wir jedem Detail große Aufmerksamkeit. Unser Ziel ist immer das gleiche: bessere Qualität, bessere ergonomische Eigenschaften und Ästhetik, größere Zuverlässigkeit und Garantie.'
+    image: '/images/manufacturing-big.jpg'
+  -
+    title: 'Lieferung'
+    subcaption: 'Lieferung mit unserem Firmentransport innerhalb der vorgesehenen Frist'
+    description: 'Mit dem Firmentransport werden die Möbel und die Komponenten an die angegebene Adresse in der im Vertrag festgelegten Kalenderwoche geliefert. Die Versandabfertigung und die Verladearbeiten werden von Mitarbeitern der Firma Dialog durchgeführt. Die Möbel und die Komponenten werden in den Raum, wo sie eingebaut werden sollen, oder in einen anderen freien Raum im gleichen Stockwerk geliefert.'
+    image: '/images/delivery-big.jpg'
+  -
+    title: 'Montage'
+    subcaption: 'Von einer spezialisierten Montage-Gruppe durchgeführt'
+    description: 'Die Montage der Küchenmöbel und der Komponenten wird von den spezialisierten Montage-Gruppen der Firma Dialog durchgeführt. Die Dauer der Montage variiert – von einigen Tagen bis zu mehreren Wochen. Es hängt sowohl von dem Schwierigkeitsgrad des Projekts als auch von den durchgeführten qualitativ hochwertigen und fristgerechten Reparaturarbeiten im Zimmer ab.'
+    image: '/images/assembly.jpg'
+advantage:
+  title: 'Warum sollten wir die Küchen „Dialog” wählen?'
+  description: 'Firma Dialog bietet originelle, klassische und moderne Küchen für jeden Stil und jede Lebensart. Jedes Modell wurde sorgfältig entworfen, um praktisch, ergonomisch und funktional zu sein. Wir bieten einen komplexen Service und eine kompromisslose Qualität.'
+  subtitle: 'Für die lange Lebensdauer Ihrer Küche'
+lists:
+  -
+    title: 'Bedienungsanleitung'
+    href: '/kitchens/warranty/instructions-for-exploitation'
+    span: 'Bedienungsanleitung'
+  - 
+    title: 'Garantieservice'
+    href: '/kitchens/warranty'
+    span: 'Garantieservice'
+  -
+    title: 'Service außerhalb der Garantiefrist'
+    href: '/kitchens/warranty'
+    span: 'Service außerhalb der Garantiefrist'
+ptitle: 
+  title: 'Professionelle Küchenmontage'
+  columns: 
+    - 'Unsere Erzeugnisse sind qualitativ hochwertig, das sich in den für den Verbraucher nicht unmittelbar erkennbaren technischen Eigenschaften der Bestandteile, Beschaffenheit der eingesetzten Stoffe, unserem Einsatz im Herstellungsverfahren sowie in der Wahl unserer Vertragspartner birgt. Die Fachkräfte für die Dialog-Küchenmontage arbeiten sehr sorgfältig.'
+    - 'Die Qualität dieser Dienstleistung ist unsere höchste Priorität. Wir schätzen und gehen mit Ihrer häuslichen Einrichtung sorgsam um, wir reinigen und ordnen unseren Arbeitsplatz. Das Erscheinungsbild Ihres Hauses nach unserer Arbeit wird sich lediglich um die zuverlässig eingebaute und schöne Dialog-Küche ändern.'

@@ -1,0 +1,26 @@
+---
+plugins: [toc]
+data:
+  pages: 
+    query: '{"$and": [{"url": {"$exists": true}}, {"destinationExt": ".html"}]}'
+  toc:
+    query: /data/toc.query
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml" 
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+	<%- @content %>
+	<% for page in @data.pages when page.meta.lang is @document.meta.lang and page.meta.sitemap isnt false : %>
+	<url>
+		<loc>http:/<%- page.url %></loc>
+        <% for lang, alternate of @hrefLang(page.meta.href) : %>
+        <xhtml:link rel="alternate" hreflang="<%- lang %>" href="http:/<%- alternate.url %> %>"/>
+        <% end %>
+		<changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+		<lastmod><%- new Date().toISOString() %></lastmod>
+	</url>
+	<% end %>
+</urlset>

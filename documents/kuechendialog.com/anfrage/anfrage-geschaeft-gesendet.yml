@@ -1,0 +1,5 @@
+layout: /conversion.ect
+title: 'Anfrage in einem Geschäft'
+href: '/kitchens/contract-send'
+lang: de
+message: Die Anfrage wurde erfolgreich übermittelt.

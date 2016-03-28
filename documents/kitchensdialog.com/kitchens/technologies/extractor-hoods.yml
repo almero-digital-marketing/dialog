@@ -1,0 +1,47 @@
+layout: /technology.ect
+title: 'Extractor hoods'
+importance: 8
+lang: en
+href: '/kitchens/technologies/extractor-hoods'
+photo: '/kitchens/technologies/extractor-hoods/building-in-extractor-hoods.jpg'
+description: "Dialog offers extractor hoods of the makes Faber, Elica, Bosch, Ariston, Fagor."
+highlights:
+  - 
+    caption: 'Extractor hoods for building in'
+    photo: '/kitchens/technologies/extractor-hoods/extractor-hoods-for-building-in.png'
+  - 
+    caption: 'Designer extractor hoods'
+    photo: '/kitchens/technologies/extractor-hoods/designer-extractor-hoods.png'
+  - 
+    caption: 'Ornamental extractor hoods'
+    photo: '/kitchens/technologies/extractor-hoods/extractor-hoods-depending-of-the-kitchen-position.png'
+  - 
+    caption: 'Island design extractor hoods'
+    photo: '/kitchens/technologies/extractor-hoods/island-design-extractor-hoods-for-an-island-type-of-kitchen.png'
+  - 
+    caption: 'Retro extractor hoods'
+    photo: '/kitchens/technologies/extractor-hoods/retro-extractor-hoods.png'
+topics:
+  -
+    caption: 'In unison with the kitchen'
+    description: 'Extractor hoods capture cooking fumes, ensure circulation and surplus of fresh air. Depending on their installation, they are built-in, wall or ceiling mounted. Their choice is substantiated by the capacity and noise level required. Dialog offers extractor hoods of the makes Faber, Elica, Bosch, Ariston, Fagor.'
+    highlight: 'Opportunity for combining|of doors with wood, metal и glass'
+    photos:
+      - '/kitchens/technologies/extractor-hoods/building-in-extractor-hoods.jpg'
+      - '/kitchens/technologies/extractor-hoods/retro-extractor-hoods.jpg'
+      - '/kitchens/technologies/extractor-hoods/extractor-hood.jpg'
+  -
+    caption: 'Designer solutions'
+    description: 'Extractor hoods capture cooking fumes, ensure circulation and surplus of fresh air. Depending on their installation, they are built-in, wall or ceiling mounted. Their choice is substantiated by the capacity and noise level required. Dialog offers extractor hoods of the makes Faber, Elica, Bosch, Ariston, Fagor.'
+    photos:
+      - '/kitchens/technologies/extractor-hoods/designer-extractor-hoods-1.jpg'
+      - '/kitchens/technologies/extractor-hoods/designer-extractor-hoods-2.jpg'
+      - '/kitchens/technologies/extractor-hoods/designer-extractor-hoods-3.jpg'
+  -
+    caption: 'Island design extractor hoods'
+    description: 'Extractor hoods capture cooking fumes, ensure circulation and surplus of fresh air. Depending on their installation, they are built-in, wall or ceiling mounted. Their choice is substantiated by the capacity and noise level required. Dialog offers extractor hoods of the makes Faber, Elica, Bosch, Ariston, Fagor.'
+    highlight: 'Aluminium shelves|that make the kitchen better'
+    photos:
+      - '/kitchens/technologies/extractor-hoods/island-design-extractor-hood-1.jpg'
+      - '/kitchens/technologies/extractor-hoods/island-design-extractor-hood-2.jpg'
+      - '/kitchens/technologies/extractor-hoods/island-design-extractor-hood-3.jpg'

@@ -1,0 +1,38 @@
+---
+layout: /article.ect
+plugins: [guide]
+blocks:
+  manufacturing: /blocks/manufacturing.ect
+---
+<div class="content">
+	<div class="separator small"></div>
+	<div class="category-highlights">
+		<% for technology in @data.technologies : %>
+		<div class="technology-item">
+			<hr>
+			<a href="<%- @href technology %>" title="<%= technology.meta.title %>">
+				<!-- <%- technology.meta.$title %> -->
+				<h5><%- technology.meta.title %></h5>
+			</a>
+			<% for highlight, idx in technology.meta.highlights: %>
+				<% if idx < 3: %>
+				<img class="small-highlight" src="<%- @href highlight.photo %>" alt="<%= highlight.title %>">
+				<!-- <%- highlight.$photo %> -->
+				<% end %>
+			<% end %>
+			<a href="<%- @href technology %>" title="<%= technology.meta.title %>">
+				<!-- <%- technology.meta.$photo %> -->
+				<img src="<%- @href technology.meta.photo %>" alt="<% technology.meta.title %>">
+			</a>
+			<p>
+				<!-- <%- technology.meta.$description %> -->
+				<%- technology.meta.description %>
+			</p>
+		</div>
+		<% end %>
+	</div>
+
+	<div class="separator small"></div>
+	<%- @blocks.manufacturing() %>
+	<div class="separator"></div>
+</div>

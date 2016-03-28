@@ -1,0 +1,27 @@
+---
+layout: /article.ect
+plugins: [guide]
+---
+<div class="container">
+	<h4 class="success"><%- @document.meta.message %></h4>
+</div>
+
+<div class="clear"></div>
+<div class="container simple models content">
+	<% for category in @data.categories: %>
+	<div class="separator medium"></div>
+	<hr />
+	<h3>
+		<!-- <%- category.meta.$title %> -->
+		<%- category.meta.title %>
+	</h3>
+	<div class="clear"></div>
+	<% for model in @data.models when model.meta.category is category.meta.href : %>
+	<a href="<%- @href model %>" title="<%= @href('/translation').meta.viewModels %> - <%- model.meta.title%>">
+		<!-- <%- model.meta.$photo %> -->
+		<img src="<%- @href model.meta.photo %>" alt="<%= @href('/translation').meta.model %> <%- model.meta.title %>">
+		<%- model.meta.title%>
+	</a>
+	<% end %>
+	<% end %>
+</div>

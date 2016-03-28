@@ -1,0 +1,200 @@
+---
+layout: /html5.ect
+plugins: [guide]
+data:
+  models: 
+    layout: /model.ect
+    orderBy: meta.importance
+  technologies: 
+    layout: /technology.ect
+    orderBy: meta.importance
+  categories: 
+    layout: /category.ect
+    orderBy: meta.importance
+---
+<header>
+    <div class="content">
+        <nav id="nav" role="navigation">
+            <ul>
+                <li id="menuItem-kitchens">
+                    <!-- <%- @href('/kitchens').meta.$title %> -->
+                    <a href="<%- @href('/kitchens') %>" title="<%= @href('/kitchens').meta.title %>"><%- @href('/kitchens').meta.title %></a>
+                </li>
+                <li id="menuItem-models">
+                    <a href="<%- @href('/kitchens/models') %>" title="<%= @href('/kitchens/models').meta.title %>">
+                        <!-- <%- @href('/kitchens/models').meta.$title %> -->
+                        <%- @href('/kitchens/models').meta.title %>
+                    </a>
+                    <ul>
+                        <% for category in @data.categories : %>
+                        <li>
+                            <!-- <%- category.meta.$title %> -->
+                            <a href="<%- @href category %>"><%- category.meta.title %></a>
+                        </li>
+                        <% end %>
+                    </ul>
+                </li>
+                <li id="menuItem-technologies">
+                    <a href="<%- @href('/kitchens/technologies') %>" title="<%= @href('/kitchens/technologies').meta.title %>">
+                        <!-- <%- @href('/kitchens/technologies').meta.$navigationTitle %> -->
+                        <%- @href('/kitchens/technologies').meta.navigationTitle %>
+                    </a>
+                    <ul id="full">
+                        <% for technology in @data.technologies : %>
+                        <li>
+                            <!-- <%- technology.meta.$title %> -->
+                            <a href="<%- @href technology %>"><%- technology.meta.title %></a>
+                        </li>
+                        <% end %>
+                    </ul>
+                </li>
+                <li id="menuItem-manifacturing">
+                    <a href="<%- @href('/kitchens/manifacturing') %>" title="<%= @href('/kitchens/manifacturing').meta.title %>">
+                        <!-- <%- @href('/kitchens/manifacturing').meta.$navigationTitle %> -->
+                        <%- @href('/kitchens/manifacturing').meta.navigationTitle %>
+                    </a>
+                    <ul>
+                        <% for topic in @href('/kitchens/manifacturing').meta.topics : %>
+                        <li>
+                            <!-- <%- topic.$title %> -->
+                            <a href="<%- @href('/kitchens/manifacturing') %>#<%- topic.title %>"><%- topic.title %></a>
+                        </li>
+                        <% end %>
+                    </ul>
+                </li>
+                <li id="menuItem-workflow">
+                    <!-- <%- @href('/kitchens').meta.$title %> -->
+                    <a href="<%- @href('/kitchens/workflow') %>" title="<%= @href('/kitchens/workflow').meta.title %> в <%- @href('/kitchens').meta.title %>"><%- @href('/kitchens/workflow').meta.title %></a>
+                </li>
+                <li id="menuItem-kitchen-order">
+                    <!-- <%- @href('/kitchens/kitchen-order').meta.$navigationTitle %> -->
+                    <a href="<%- @href('/kitchens/kitchen-order') %>" title="<%= @href('/kitchens/kitchen-order').meta.title %>"><%- @href('/kitchens/kitchen-order').meta.navigationTitle %></a>
+                </li>
+                <li id="menuItem-warranty">
+                    <!-- <%- @href('/kitchens/warranty').meta.$title %> -->
+                    <a href="<%- @href('/kitchens/warranty') %>" title="<%= @href('/kitchens/warranty').meta.title %>"><%- @href('/kitchens/warranty').meta.title %></a>
+                </li>
+                <li id="menuItem-stores">
+                    <a href="<%- @href('/kitchens/stores') %>" title="<%= @href('/kitchens/stores').meta.title %>">
+                        <!-- <%- @href('/kitchens/stores').meta.$title %> -->
+                        <%- @href('/kitchens/stores').meta.title %>
+                    </a>
+                    <ul>
+                        <li>
+                            <!-- <%- @href('/kitchens/stores').meta.sofia.$navigationTitle %> -->
+                            <a href="<%- @href('/kitchens/stores') %>#sofia" title="<%= @href('/kitchens/stores').meta.sofia.navigationTitle %>"><%- @href('/kitchens/stores').meta.sofia.navigationTitle %></a>
+                        </li>
+                        <li>
+                            <!-- <%- @href('/kitchens/stores').meta.plovdiv.$navigationTitle %> -->
+                            <a href="<%- @href('/kitchens/stores') %>#plovdiv" title="<%= @href('/kitchens/stores').meta.plovdiv.navigationTitle %>"><%- @href('/kitchens/stores').meta.plovdiv.navigationTitle %></a>
+                        </li>
+                        <li>
+                            <!-- <%- @href('/kitchens/offer').meta.$title %> -->
+                            <a href="<%- @href('/kitchens/offer') %>" title="<%= @href('/kitchens/offer').meta.title %>"><%- @href('/kitchens/offer').meta.title %></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="article">
+<% if @href('/kitchens').meta.notice? : %>
+<div id="notice">
+    <!-- <%- @href('/kitchens').meta.$notice %> -->
+    <div class="container">* <%- @href('/kitchens').meta.notice %></div>
+</div>
+<% end %>
+<!-- <%- @document.$content %> -->
+<%- @content %>
+</div>
+<div class="content">
+    <section class="workflow">
+        <div class="separator small"></div>
+        <hr /><h2>
+            <!-- <%- @href('/kitchens').meta.workflow.$title %> -->
+            <%- @href('/kitchens').meta.workflow.title %>
+        </h2>
+        <nav>
+        <% for item in @href('/kitchens').meta.workflow.content : %>
+            <a href="<%- @href item.href %>" title="<%= item.title %>">
+                <h4>
+                    <!-- <%- item.$title %> -->
+                    <%- item.title %>
+                </h4>
+                <p>
+                    <!-- <%- item.$description %> -->
+                    <%- item.description %>
+                </p>
+                <img src="<%- @href item.image %>" alt="<%= item.title %>">
+                <!-- <%- item.$image %> -->
+            </a>
+        <% end %>    
+        </nav>
+        <div class="separator small"></div>
+    </section>
+    <% if not @document.meta.promotion? and @href('/kitchens').meta.promotion? : %>
+    <div id="promotion">
+        <div class="separator medium"></div>
+        <div class="gradientline"></div>
+        <div class="separator medium"></div>
+        <a target="_blank" href="<%- @href('/kitchens').meta.promotion.url %>">
+            <!-- <%- @href('/kitchens').meta.promotion.$image %> -->
+            <img src="<%- @href @href('/kitchens').meta.promotion.image %>" alt="<%= @href('/kitchens').meta.promotion.name %>">
+        </a>
+    </div>
+    <% end %>
+</div>
+<footer>
+    <div id="footer-details">
+        <div class="content">
+            <a class="large-column" href="<%- @href '/kitchens/kitchen-order' %>" title="<%= @href('/kitchens').meta.rfp.title %>">
+                <h4>
+                    <!-- <%- @href('/kitchens').meta.rfp.$title %> -->
+                    <%- @href('/kitchens').meta.rfp.title %>
+                </h4>
+                <p>
+                    <!-- <%- @href('/kitchens').meta.rfp.$description %> -->
+                    <%- @href('/kitchens').meta.rfp.description %>
+                </p>
+            </a>
+            <a class="large-column right" href="<%- @href '/kitchens/warranty' %>" title="<%= @href '/kitchens/warranty' %>">
+                <h4>
+                    <!-- <%- @href('/kitchens').meta.warranty.$title %> -->
+                    <%- @href('/kitchens').meta.warranty.title %>
+                </h4>
+                <p>
+                    <!-- <%- @href('/kitchens').meta.warranty.$description %> -->
+                    <%- @href('/kitchens').meta.warranty.description %>
+                </p>
+            </a>
+            <div class="contacts">
+                <h4>
+                    <!-- <%-@href('/kitchens').meta.contacts.$title %> -->
+                    <%- @href('/kitchens').meta.contacts.title %>
+                </h4>
+                <a class="address" href="<%- @href('/kitchens/stores') %>" title="<%= @removeMetatext @href('/kitchens').meta.contacts.addressPlovdiv %>">
+                    <!-- <%- @href('/kitchens').meta.contacts.$addressPlovdiv %> -->
+                    <%- @metatext @href('/kitchens').meta.contacts.addressPlovdiv %>
+                </a>
+                <a class="address" href="<%- @href('/kitchens/stores') %>" title="<%= @removeMetatext @href('/kitchens').meta.contacts.addressSofia %>">
+                    <!-- <%- @href('/kitchens').meta.contacts.$addressSofia %> -->
+                    <%- @metatext @href('/kitchens').meta.contacts.addressSofia %>
+                </a>
+                <a class="mail">
+                    <!-- <%-@href('/kitchens').meta.contacts.$email %> -->
+                    <%- @href('/kitchens').meta.contacts.email %>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="footer-copyright">
+        <div class="content">
+            <a id="go-top" href="#"></a>
+            <a id="dialog" title="<%= @href('/translation').meta.company %>" href="http://kuhnidialog.bg/"><%- @href('/kitchens').meta.dialog.link %></a>
+            <a id="almero" href="http://almero.bg/" target="_blank" title="Алмеро - Дигитален Маркетинг">
+                <%- @href('/kitchens').meta.almero.link %>
+            </a>
+        </div>
+    </div>
+</footer>

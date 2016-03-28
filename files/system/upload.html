@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Upload</title>
+<meta charset="utf-8">
+<style type="text/css">
+body {
+    color: white;
+}
+#progress {
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<form id="upload" action="http://almero.pro:8080/api/upload" method="post" enctype="multipart/form-data">    
+    <input id="file" type="file" name="upload" multiple>
+    <input id="redirect" name="redirect" type="hidden">  
+</form>
+<div id="progress"><img alt="Loading" src="../images/loading.gif"></div>
+<script src="../vendor/jquery.min.js"></script>
+<script>
+$(function() {
+    $('#redirect').val(window.location.href.split('?')[0]);
+
+    $('#progress').hide();
+    $('#file').change(function() {
+        $('#upload').hide();
+        $('#progress').show();
+        setTimeout(function(){$('#upload').submit();}, 1000); 
+    });
+
+    var query = window.location.href.split('files=');
+    if (query.length > 1){
+        files = decodeURIComponent(query[1]).split(',');
+        var uploads = new Array();
+        $.each(files, function (index, file) {
+            uploads.push('<div class="file">');
+            if (file.match(/\.(jpg|jpeg|png|gif)$/)) {
+                uploads.push('<img alt="" src="http://almero.pro:8080/files/' + file + '.thumb.jpg"/>');
+            } 
+            else {
+                uploads.push('<span>' + file + '</span>');
+            }
+            uploads.push('</div>');
+            uploads.push('<input type="hidden" name="files[]" value="http://almero.pro:8080/files/' + file + '"/>');
+        });
+        parentContainer = "#files";
+        if (location.hash) parentContainer = location.hash;
+        $(parentContainer, window.parent.document).addClass('ready').append(uploads.join(''));
+    }
+});
+</script>
+</body> 
+</html>

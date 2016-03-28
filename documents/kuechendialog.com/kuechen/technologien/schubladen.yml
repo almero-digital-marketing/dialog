@@ -1,0 +1,38 @@
+layout: /technology.ect
+title: 'Schubladen'
+lang: de
+importance: 2
+href: '/kitchens/technologies/drawers'
+photo: '/kuechen/technologien/schubladen/schubladen.jpg'
+description: 'Schubladen mit integriertem System zum reibungslosen und sanften Einzug und zur synchronisierten Führung. Sanfter Einzug, auf Teflonrollen geführte Schubladen mit leichtem Lauf, maximales Innenvolumen.'
+highlights:
+  - 
+    caption: 'Bewährte Ergonomie'
+    photo: '/kuechen/technologien/schubladen/bewaehrte-ergonomie.png'
+  - 
+    caption: 'Auf Teflonrollen geführte Schubladen mit leichtem Lauf'
+    photo: '/kuechen/technologien/schubladen/auf-teflonrollen-gefuehrte-schubladen-mit-leichtem-lauf.png'
+  - 
+    caption: 'Sanfter Einzug'
+    photo: '/kuechen/technologien/schubladen/sanfter-einzug.png'
+  - 
+    caption: 'Maximales Innenvolumen'
+    photo: '/kuechen/technologien/schubladen/maximales-innenvolumen.png'
+  - 
+    caption: 'Luxus-Accessoires'
+    photo: '/kuechen/technologien/schubladen/luxus-accessoires.png'
+topics:
+  -
+    caption: 'Unübertroffene Funktionalität'
+    description: 'Komponenten mit nachgewiesener Ergonomie, unübertroffen in ihrer Funktionalität. Schubladen mit integriertem System zum reibungslosen und sanften Einzug und zur synchronisierten Führung. Metabox – Schublade mit Seiten aus Metall. Sanfter Einzug mit dem äußeren Dämpfungssystem Blumotion; auf Teflonrollen geführte Schubladen mit leichtem Lauf; maximales Innenvolumen. Blum – Österreich.'
+    photos:
+      - '/kuechen/technologien/schubladen/technologien-4.jpg'
+      - '/kuechen/technologien/schubladen/technologien-5.jpg'
+      - '/kuechen/technologien/schubladen/technologien-7.jpg'
+  -
+    caption: 'Reibungsloser Betrieb bei hoher Belastung'
+    description: 'Tandembox – Schubladen mit integriertem System zum reibungslosen und sanften Einzug und zur synchronisierten Führung ungleichmäßig verteilter Staugüter; elektrische Öffnungsunterstützung – das System Servo-drive; gemeinsame Steuerung über einen Controller „Aventos“ + „Tandembox“, die leichte Abnahme der Frontseite trägt zur bequemen Reinigung bei; Tandembox intivo bietet die Möglichkeit der individuellen Gestaltung von Auszügen; Relingsysteme zum Aufstocken und zur Einteilung; Luxus-Accessoires. Blum - Österreich.'
+    photos:
+      - '/kuechen/technologien/schubladen/technologien-3.jpg'
+      - '/kuechen/technologien/schubladen/technologien-6.jpg'
+      - '/kuechen/technologien/schubladen/technologien-2.jpg'

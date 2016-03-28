@@ -1,0 +1,39 @@
+layout: /technology.ect
+title: 'Mechanisms'
+importance: 3
+lang: en
+href: '/kitchens/technologies/mechanisms'
+photo: '/kitchens/technologies/mechanisms/mechanisms-cookware.jpg'
+description: "Mechanisms with smooth closing, complete pulling out, vertical and corner ones, with a bottle separator and different load-bearing capacity."
+highlights:
+  - 
+    caption: 'Mechanisms for improved comfort in the kitchen'
+    photo: '/kitchens/technologies/mechanisms/mechanisms-for-comfort-in-the-kitchen.png'
+  - 
+    caption: 'Excellent organisation in the kitchen'
+    photo: '/kitchens/technologies/mechanisms/excellent-organisation-in-the-kitchen.png'
+  - 
+    caption: 'Practical mechanisms for bottles'
+    photo: '/kitchens/technologies/mechanisms/practical-mechanisms-for-bottles.png'
+  - 
+    caption: 'Even the darkest corner will be tidy and orderly'
+    photo: '/kitchens/technologies/mechanisms/even-the-darkest-corner-will-be-tidy-and-orderly.png'
+  - 
+    caption: 'Precise organisation of products'
+    photo: '/kitchens/technologies/mechanisms/precise-organisation-of-cans-and-food.png'
+topics:
+  -
+    caption: 'Mechanisms with unmatched functionality'
+    description: 'Mechanisms with smooth closing, complete pulling out, vertical and corner ones, with a bottle separator and different load-bearing capacity of 10, 25, 30, 40, 50 and 80 kg, SIGE – Italy and REJS – Poland!'
+    highlight: 'Opportunity for combining|of doors with wood, metal и glass'
+    photos:
+      - '/kitchens/technologies/mechanisms/stillage-for-cooking-oil-and-cans.jpg'
+      - '/kitchens/technologies/mechanisms/mechanisms-for-closet.jpg'
+      - '/kitchens/technologies/mechanisms/technologies-3.jpg'
+  -
+    caption: 'Mechanisms which increase the capacity'
+    description: 'Easy access to narrow niches and inconvenient spaces. These mechanisms allow better use of the internal space and increase the capacity.'
+    photos:
+      - '/kitchens/technologies/mechanisms/mechanisms-cookware.jpg'
+      - '/kitchens/technologies/mechanisms/mechanisms-saucepan.jpg'
+      - '/kitchens/technologies/mechanisms/mechanisms-closet.jpg'

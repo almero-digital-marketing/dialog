@@ -1,0 +1,127 @@
+---
+layout: /default.ect
+plugins: [guide]
+blocks:
+  technologies: /blocks/technologies.ect
+---
+<div id="kitchens-menu" class="main-bar content">
+    <a href="index.html" title='<%- @document.meta.title %>'></a>
+    <nav>
+      <a href="http://kuhnidialog.bg">Български</a>
+      <a href="http://kuhnidialog.ru">Русский</a>
+      <a href="http://kitchensdialog.com">English</a>
+    </nav>
+</div>
+<div id="kitchens-slideshow">
+  <ul class="slider-box">
+    <% for slideshow in @document.meta.slideshows: %>
+    <li>
+      <img src="<%- @href slideshow.photo %>" alt="<%= slideshow.title %>">
+      <div class="slide-title">
+        <span class="line1">
+        	<!-- <%- slideshow.$title %> -->
+        	<%- slideshow.title %>
+      	</span>
+        <span class="line2">
+        	<!-- <%- slideshow.$subtitle %> -->
+        	<%- slideshow.subtitle %>
+      	</span>
+      </div>
+    </li>
+    <% end %>
+  </ul>
+</div>
+<div class="content">
+	<div id="kitchens-thumbs" class="pager">
+		<% for slideshow, idx in @document.meta.slideshows: %>
+		<a data-slide-index="<%- idx %>" href="" title="<%= @href('/kitchens').meta.title %> - <%- slideshow.title %>">
+			<div class="overlay">
+				<!-- <%- slideshow.$smallphoto %> -->
+				<img src="<%- @href slideshow.smallphoto %>" alt="<%= @href('/kitchens').meta.title %> - <%- slideshow.title %>">
+			</div>
+			<h6>
+				<!-- <%- slideshow.$title %> -->
+				<%- slideshow.title %>
+			</h6>
+		</a>
+		<% end %>
+	</div>
+    <% if @href('/kitchens').meta.promotion? : %>
+    <div id="promotion">
+        <div class="gradientline"></div>
+        <div class="separator medium"></div>
+        <a target="_blank" href="<%- @href('/kitchens').meta.promotion.url %>">
+        	<!-- <%- @href('/kitchens').meta.promotion.$image %> -->
+        	<img src="<%- @href @href('/kitchens').meta.promotion.image %>" alt="<%= @href('/kitchens').meta.promotion.name %>">
+      	</a>
+        <div class="separator medium"></div>
+    </div>
+    <% end %>
+	<div class="separator small"></div>
+    <% for showcase in @document.meta.showcases: %>
+	<div class="category-showcase">
+		<hr/>
+		<h2>
+			<!-- <%- showcase.$title %> -->
+			<%- showcase.title %>
+		</h2>
+		<h5>
+			<!-- <%- showcase.$subtitle %> -->
+			<%- showcase.subtitle %>
+		</h5>
+		<a href="<%- @href showcase.href %>" title="<%= @href('/translation').meta.viewModels %> - <%- showcase.title %>">
+			<!-- <%- showcase.$photo %> -->
+			<img src="<%- @href showcase.photo %>" alt="<%= showcase.title %>">
+		</a>
+		<div class="details">
+			<% for highlight, index in showcase.highlights: %>
+			<img src="<%- @href highlight %>" alt="<%= showcase.title %>">
+			<!-- <%- showcase.highlights['$' + index] %> -->
+			<% end %>
+			<% for caption, index in showcase.captions: %>
+			<h6>
+				<!-- <%- showcase.captions['$' + index] %> -->
+				<%= caption %>
+			</h6>
+			<% end %>
+			<p>
+				<!-- <%- showcase.$description %> -->
+				<%= showcase.description %>
+			</p> 
+			<a class="more" href="<%= @href showcase.href %>" title="<%= @href('/translation').meta.viewModels %> - <%= showcase.title %>">
+				<!-- <%- @href('/translation').meta.$viewModels %> -->
+				<%- @href('/translation').meta.viewModels %>
+			</a>
+		</div>
+		<div class="separator small"></div>
+		<div class="category">
+			<% for model in @data.models when model.meta.category is showcase.category: %>
+			<a href="<%- @href model %>" title="<%= @href('/translation').meta.viewModels %> - <%- model.meta.title %>">
+				<%- model.meta.title %>
+				<!-- <%- model.meta.$photo %> -->
+				<img src="<%= @href model.meta.photo %>" alt="<%= @href('/translation').meta.model %> <%- model.meta.title %>">
+			</a>
+			<% end %>
+		</div>
+	</div>
+	<div class="separator big"></div>
+	<% end %>
+	
+	<div class="technologies">
+	<%- @blocks.technologies(@data.technologies) %>
+	</div>
+	<div class="ptitle">
+	  <div class="separator"></div>
+	  <hr/>
+	  <h2>
+	  	<!-- <%- @document.meta.$videoTitle %> -->
+	  	<%- @document.meta.videoTitle %>
+  	</h2>
+	  <h5>
+	  	<!-- <%- @document.meta.$videoDescription %> -->
+	  	<%- @document.meta.videoDescription %>
+  	</h5>
+	  <div class="clear"></div>
+	  <a class="player" data-src="http://www.youtube.com/embed/gfl-sk4REnQ" data-height="475" data-page="/video/showroom.mp4" title="<%= @document.meta.videoTitle %>"><img alt="<%= @document.meta.videoTitle %>" src="<%- @href '/'%>images/video.jpg"></a>
+	</div>
+</div>

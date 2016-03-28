@@ -1,0 +1,25 @@
+<div class="production highlights smallreel">
+	<hr/>
+	<h3>
+		<!-- <%- @href('/kitchens/manifacturing').meta.$title %> -->
+		<%- @href('/kitchens/manifacturing').meta.title %>
+	</h3>
+	<div class="clear"></div>
+	<div class="separator small"></div>
+	<a class="next"><img src="<%- @href '/images/right-arrow.png' %>" alt="<%= @href('/translation').meta.next %>"></a>
+	<a class="prev"><img src="<%- @href '/images/left-arrow.png' %>" alt="<%= @href('/translation').meta.prev %>"></a>
+	<div class="carousel" data-items="5">
+		<% for topic in @href('/kitchens/manifacturing').meta.topics : %>
+		<div class="productions">
+			<a href="<%- @href '/kitchens/manifacturing' %>#<%- topic.title%>" title="<%= topic.caption%>">
+				<!-- <%- topic.$roundphoto %> -->
+				<img src="<%- @href topic.roundphoto %>" alt="<%= topic.caption%>">
+			</a>
+			<h4>
+				<!-- <%- topic.$caption %> -->
+				<%- topic.caption %>
+			</h4>
+		</div>
+		<% end %>
+	</div>
+</div>

@@ -1,0 +1,86 @@
+layout: /model.ect
+href: '/kitchens/models/modern-classic/izabella-noce'
+lang: de
+category: '/kitchens/models/modern-classic'
+title: 'Izabella Noce'
+importance: 2
+photo: '/kuechen/modelle/moderne-klassik/izabella-noce/kueche-izabella-noce.jpg'
+description: 'Faszinierende dunkle Farbe und robuste schwere Türen aus echtem Eichenholz. Klassiker!'
+highlights:
+  - 
+    caption: 'Dunkles|und helles|Massivholz'
+    photo: '/kuechen/modelle/moderne-klassik/izabella-noce/dunkles-und-helles-massivholz.png'
+  - 
+    caption: 'Kontrast|zwischen|den Materialien'
+    photo: '/kuechen/modelle/moderne-klassik/izabella-noce/kontrast-zwischen-den-materialien.png'
+  - 
+    caption: 'Solide|schwere|Türen'
+    photo: '/kuechen/modelle/moderne-klassik/izabella-noce/mechanismen-tueren.png'
+topics:
+  -
+    caption: 'Massives Eichenholz in faszinierenden Farben'
+    description: 'Solide schwere Türen aus Massivholz, wobei es eine Kombination von Milchglastüren mit massivem Rahmen möglich ist. Faszinierende dunkle Farbe und präzise Bearbeitung des echten Eichenholzes. Kombinationen zwischen natürlicher und dunkler Farbe sind möglich.'
+    photos:
+      - '/kuechen/modelle/moderne-klassik/izabella-noce/kueche-1.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella-noce/kueche-2.jpg'
+  -
+    caption: 'Metall, Glas und Massivholz'
+    description: 'Kombination von Massivholz, Metall und Glas. Einzigartiges Design und echte Perfektion. Eine Kombination von völlig unterschiedlichen Materialien. Es besteht die Möglichkeit zur Auswahl von Metallseiten und Metalplatte (Rückseite der Arbeitsplatte). Das Glas, das wir in unseren Küchen einsetzen, ist äußerst stabil, das Metall verändert sich nicht und behält sein ästhetisches Aussehen über lange Zeit.'
+    photos:
+      - '/kuechen/modelle/moderne-klassik/izabella-noce/metall-1.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella-noce/metall-2.jpg'
+  -
+    caption: 'Dekorative Regale aus Aluminium'
+    description: 'Die dekorativen Regale lassen sich wunderbar mit Massivholz und Metall ergänzen und kombinieren. Der LED-Boden der Oberschränke (der nach oben und nach unten leuchtet) beleuchtet gleichzeitig das Schrankinnere und die Küchenarbeitsplatten. Mit diesen Ergänzungen verändert die Küche ihr Erscheinungsbild komplett.'
+    photos:
+      - '/kuechen/modelle/moderne-klassik/izabella-noce/regale.jpg'
+  -
+    caption: 'Maximale Raumnutzung'
+    description: 'Nicht nur eine schöne Küche, sondern auch Komfort und Überdenkung jedes einzelnen Details. Die großen Schubladen ermöglichen die Nutzung von Mechanismen, die zur rationellen Ordnung und zum einfachen Zugriff auf das Schrankinnere beitragen.'
+    photos:
+      - '/kuechen/modelle/moderne-klassik/izabella-noce/mechanismus-1.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella-noce/mechanismus-2.jpg'
+      - '/kuechen/modelle/moderne-klassik/izabella-noce/mechanismus-3.jpg'
+doors:
+  description: 'Jede Tür ist gefärbt und patiniert, um den Wert des Holzes zu steigern und die Holzporen zu versiegeln. Die Schranktüren sind aus massivem Eichenholz mit einer Stärke von 25 mm hergestellt. All dies macht das Holz beständig und schützt es vor äußeren Einflüssen, wie Feuchtigkeit und Sonneneinstrahlung. Die Bearbeitung ist mit Lack und Matt vollendet.'
+  categories:
+    - 
+      caption: 'Massives Eichenholz mit einer Stärke von 25 mm'
+      photos:
+        - '/kuechen/modelle/moderne-klassik/izabella-noce/tueren/tueren-1.jpg'
+        - '/kuechen/modelle/moderne-klassik/izabella-noce/tueren/tueren-3.jpg'
+        - '/kuechen/modelle/moderne-klassik/izabella-noce/tueren/tueren-2.jpg'
+        - '/kuechen/modelle/moderne-klassik/izabella-noce/tueren/tueren-4.jpg'
+handles:
+  description: 'Breite Metallgriffe, die sich merken lassen. Im Gegensatz zu den Kunststoffgriffen mit Metallbeschichtung, werden die Metallgriffe nicht abgetragen und die Beschichtung blättert nicht ab. Die Griffe verändern sich nicht und bleiben über die Zeit beständig. Sie sind passend ausgewählt, um bequem zum Greifen und Öffnen der Schranktüren zu sein.'
+  categories:
+    - 
+      caption: 'Metall'
+      photos:
+        - '/kuechen/modelle/moderne-klassik/izabella-noce/griffe/griffe-1.jpg'
+        - '/kuechen/modelle/moderne-klassik/izabella-noce/griffe/griffe-2.jpg'
+        - '/kuechen/modelle/moderne-klassik/izabella-noce/griffe/griffe-3.jpg'
+        - '/kuechen/modelle/moderne-klassik/izabella-noce/griffe/griffe-4.jpg'
+worktops:
+  description: 'Für das perfekte Finish der Küche gibt es eine große Auswahl an Küchenarbeitsplatten und Wandpaneelen, die aus Naturstein oder aus einem Material, das eine sehr gute Imitation des Steins ist, hergestellt werden können. Die Küchenarbeitsplatten, die wir benutzen, sind aus HPL, Granit und Kunststein – Materialien, die sich über die Zeit als stoß- und hitzebeständig erwiesen haben, was sie vorteilhaft gegenüber den anderen Materialien, die auf dem Markt angeboten werden, macht.'
+  hpl:
+    photos:
+    - '/kuechen/modelle/moderne-klassik/izabella-noce/kuechenarbeitsplatte/hpl/kuechenarbeitsplatte-1.jpg'
+    - '/kuechen/modelle/moderne-klassik/izabella-noce/kuechenarbeitsplatte/hpl/kuechenarbeitsplatte-2.jpg'
+    - '/kuechen/modelle/moderne-klassik/izabella-noce/kuechenarbeitsplatte/hpl/kuechenarbeitsplatte-3.jpg'
+    - '/kuechen/modelle/moderne-klassik/izabella-noce/kuechenarbeitsplatte/hpl/kuechenarbeitsplatte-4.jpg'
+    - '/kuechen/modelle/moderne-klassik/izabella-noce/kuechenarbeitsplatte/hpl/kuechenarbeitsplatte-5.jpg'
+    - '/kuechen/modelle/moderne-klassik/izabella-noce/kuechenarbeitsplatte/hpl/kuechenarbeitsplatte-6.jpg'
+    - '/kuechen/modelle/moderne-klassik/izabella-noce/kuechenarbeitsplatte/hpl/kuechenarbeitsplatte-7.jpg'
+    - '/kuechen/modelle/moderne-klassik/izabella-noce/kuechenarbeitsplatte/hpl/kuechenarbeitsplatte-8.jpg'
+  technicalStone:
+    photos:
+    - '/kitchens/models/modern-classic/izabella-noce/kuechenarbeitsplatte/kunststein/kunststein-1.jpg'
+  granite:
+    photos:
+    - '/kuechen/modelle/moderne-klassik/izabella-noce/kuechenarbeitsplatte/granit/granit-1.jpg'
+    - '/kuechen/modelle/moderne-klassik/izabella-noce/kuechenarbeitsplatte/granit/granit-2.jpg'
+    - '/kuechen/modelle/moderne-klassik/izabella-noce/kuechenarbeitsplatte/granit/granit-3.jpg'
+    - '/kuechen/modelle/moderne-klassik/izabella-noce/kuechenarbeitsplatte/granit/granit-4.jpg'
+    - '/kuechen/modelle/moderne-klassik/izabella-noce/kuechenarbeitsplatte/granit/granit-5.jpg'
+    - '/kuechen/modelle/moderne-klassik/izabella-noce/kuechenarbeitsplatte/granit/granit-6.jpg'

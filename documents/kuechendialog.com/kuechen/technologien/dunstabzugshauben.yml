@@ -1,0 +1,45 @@
+layout: /technology.ect
+title: 'Dunstabzugshauben'
+importance: 8
+lang: de
+href: '/kitchens/technologies/extractor-hoods'
+photo: '/kuechen/technologien/dunstabzugshauben/einbau-dunstabzugshauben.jpg'
+description: "Firma Dialog bietet Dunstabzugshauben der Marken Faber, Elica, Bosch, Ariston, Fagor."
+highlights:
+  - 
+    caption: 'Einbau- Dunstabzugshauben'
+    photo: '/kuechen/technologien/dunstabzugshauben/einbau-dunstabzugshauben.png'
+  - 
+    caption: 'Design-Dunstabzugshauben'
+    photo: '/kuechen/technologien/dunstabzugshauben/design-dunstabzugshauben.png'
+  - 
+    caption: 'Dekorative Dunstabzugshauben'
+    photo: '/kuechen/technologien/dunstabzugshauben/dekorative-dunstabzugshauben.png'
+  - 
+    caption: 'Insel-Dunstabzugshauben'
+    photo: '/kuechen/technologien/dunstabzugshauben/insel-dunstabzugshauben.png'
+  - 
+    caption: 'Retro-Dunstabzugshauben'
+    photo: '/kuechen/technologien/dunstabzugshauben/retro-dunstabzugshauben.png'
+topics:
+  -
+    caption: 'Im Einklang mit der Küche'
+    description: 'Sie erfassen sämtliche Kochdünste, sichern die Zirkulation und erfrischen die Luft. Je nach ihrer Montage teilen sie sich in Einbau-, Wand- und Decken-Dunstabzugshauben ein. Sie werden je nach der erforderlichen Kubatur und Lärmpegel gewählt. Firma Dialog bietet Dunstabzugshauben der Marken Faber, Elica, Bosch, Ariston, Fagor.'
+    photos:
+      - '/kuechen/technologien/dunstabzugshauben/einbau-dunstabzugshauben.jpg'
+      - '/kuechen/technologien/dunstabzugshauben/retro-dunstabzugshauben.jpg'
+      - '/kuechen/technologien/dunstabzugshauben/dunstabzugshaub.jpg'
+  -
+    caption: 'Designlösungen'
+    description: 'Sie erfassen sämtliche Kochdünste, sichern die Zirkulation und erfrischen die Luft. Je nach ihrer Montage teilen sie sich in Einbau-, Wand- und Decken-Dunstabzugshauben ein. Sie werden je nach der erforderlichen Kubatur und Lärmpegel gewählt. Firma Dialog bietet Dunstabzugshauben der Marken Faber, Elica, Bosch, Ariston, Fagor.'
+    photos:
+      - '/kuechen/technologien/dunstabzugshauben/design-dunstabzugshauben-1.jpg'
+      - '/kuechen/technologien/dunstabzugshauben/design-dunstabzugshauben-2.jpg'
+      - '/kuechen/technologien/dunstabzugshauben/design-dunstabzugshauben-3.jpg'
+  -
+    caption: 'Insel-Dunstabzugshauben'
+    description: 'Sie erfassen sämtliche Kochdünste, sichern die Zirkulation und erfrischen die Luft. Je nach ihrer Montage teilen sie sich in Einbau-, Wand- und Decken-Dunstabzugshauben ein. Sie werden je nach der erforderlichen Kubatur und Lärmpegel gewählt. Firma Dialog bietet Dunstabzugshauben der Marken Faber, Elica, Bosch, Ariston, Fagor.'
+    photos:
+      - '/kuechen/technologien/dunstabzugshauben/insel-dunstabzugshauben-1.jpg'
+      - '/kuechen/technologien/dunstabzugshauben/insel-dunstabzugshauben-2.jpg'
+      - '/kuechen/technologien/dunstabzugshauben/insel-dunstabzugshauben-3.jpg'

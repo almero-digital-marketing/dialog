@@ -1,0 +1,39 @@
+layout: /technology.ect
+title: 'Accessories'
+lang: en
+importance: 9
+href: '/kitchens/technologies/accessories'
+photo: '/kitchens/technologies/accessories/accessories-kitchen-1.jpg'
+description: "Beautiful shelves, lattices, dividers, bars, hangers, racks, glass partitions, etc."
+highlights:
+  - 
+    caption: 'Glass protectors'
+    photo: '/kitchens/technologies/accessories/protectors.png'
+  - 
+    caption: 'Ornamental shelves'
+    photo: '/kitchens/technologies/accessories/ornamental-shelves.png'
+  - 
+    caption: 'Dividers for drawers'
+    photo: '/kitchens/technologies/accessories/dividers-for-plates.png'
+  - 
+    caption: 'Kitchen set'
+    photo: '/kitchens/technologies/accessories/kitchen-set.png'
+  - 
+    caption: 'Plate holders'
+    photo: '/kitchens/technologies/accessories/smart-storage-of-the-sets.png'
+topics:
+  -
+    caption: 'Organising the space'
+    description: 'Beautiful shelves, lattices, dividers, bars, hangers, racks, glass partitions, etc.'
+    highlight: 'Opportunity for combining|of doors with wood, metal и glass'
+    photos:
+      - '/kitchens/technologies/accessories/divider-for-closet.jpg'
+      - '/kitchens/technologies/accessories/accessories-kitchen-2.jpg'
+      - '/kitchens/technologies/accessories/divider-for-kitchenware.jpg'
+  -
+    caption: 'Practical and comfortable'
+    description: 'Beautiful shelves, lattices, dividers, bars, hangers, racks, glass partitions, etc.'
+    photos:
+      - '/kitchens/technologies/accessories/accessories-kitchen.jpg'
+      - '/kitchens/technologies/accessories/accessories-kitchen-8.jpg'
+      - '/kitchens/technologies/accessories/pad.jpg'

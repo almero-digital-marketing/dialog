@@ -1,0 +1,109 @@
+layout: /model.ect
+href: '/kitchens/models/modern/ivanina'
+lang: de
+category: '/kitchens/models/modern'
+title: 'Liviana'
+importance: 1
+photo: '/kuechen/modelle/moderne/liviana/kueche-liviana.jpg'
+description: 'Attraktives und charmant freches Design. Horizontales und vertikales System zum Öffnen der Türen ohne Griffe. Unwiderstehlich frisches Modell mit jugendlichem, temperamentvollem Touch. '
+highlights:
+  - 
+    caption: 'Originelle|Lösung|ohne Griffe'
+    photo: '/kuechen/modelle/moderne/liviana/loesung-ohne-griffe.png'
+  - 
+    caption: 'Optimales|Preis-Aussehen-|Verhältnis'
+    photo: '/kuechen/modelle/moderne/liviana/wunderschoenes-aussehen.png'
+  - 
+    caption: 'Technologien|und modernes|Aussehen'
+    photo: '/kuechen/modelle/moderne/liviana/technologien.png'
+topics:
+  -
+    caption: 'Kücheninsel für zeitgenössisches Interieur der Küche'
+    description: 'Die Kücheninsel, als seine Kombination aus schönem Design und hoher Funktionalität, schafft mehr Arbeitsplatz in der Küche und verringert den Abstand zwischen den verschiedenen Arbeitsbereichen. Es gibt einen separaten Bereich zum Sitzen, zum Kaffeetrinken am Morgen und zu einem schnellen Imbiss.'
+    photos:
+      - '/kuechen/modelle/moderne/liviana/kuecheninsel-1.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuecheninsel-2.jpg'
+  -
+    caption: 'Holzdekor in Kombination mit Lack'
+    description: 'Unzählige Möglichkeit für eine Kombination zwischen Spanplatten mit verschiedenen Holzdekoren und MDF-Platten, angemalt in unendlich vielen Farben.'
+    photos:
+      - '/kuechen/modelle/moderne/liviana/lackiertes holz.jpg'
+  -
+    caption: 'Vertikale und horizontale Griffsysteme'
+    description: 'Für elegante Innenlinien werden integrierte Griffe verwendet, die je nach Art und Weise der Verwendung von den Türen, entweder horizontal oder vertikal sein können.'
+    photos:
+      - '/kuechen/modelle/moderne/liviana/griffe.jpg'
+      - '/kuechen/modelle/moderne/liviana/griffe-1.jpg'
+  -
+    caption: 'Kombinationen von dünnen und dicken Küchenarbeitsplatten'
+    description: 'Das verwendete einzigartige System für integrierte Griffe, ermöglicht die optische Trennung der Platte von den Türen darunter und macht es möglich, dass Arbeitsplatten mit verschiedener Dicke verwendet werden.'
+    photos:
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte-1.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte-2.jpg'
+doors:
+  description: 'Holzdekor aus Spanplatten 18 mm mit ABS-Kante 2 mm, 18 mm MDF-Platte mit Lackübezug, Glanz oder Matt und Glastüren mit Aluminiumprofil aus Milchglas, gefärbtem und bedrucktem Glas.'
+  categories:
+    - 
+      caption: 'Lackierte Spanplatten'
+      photos:
+        - '/kuechen/modelle/moderne/liviana/tueren/lackierte-spanplatten/lackierte-spanplatten-1.jpg'
+        - '/kuechen/modelle/moderne/liviana/tueren/lackierte-spanplatten/lackierte-spanplatten-2.jpg'
+        - '/kuechen/modelle/moderne/liviana/tueren/lackierte-spanplatten/lackierte-spanplatten-3.jpg'
+    - 
+      caption: 'Aluminiumrahmen'
+      photos:
+        - '/kuechen/modelle/moderne/liviana/tueren/aluminiumrahmen/aluminiumrahmen-1.jpg'
+        - '/kuechen/modelle/moderne/liviana/tueren/aluminiumrahmen/aluminiumrahmen-2.jpg'
+        - '/kuechen/modelle/moderne/liviana/tueren/aluminiumrahmen/aluminiumrahmen-3.jpg'
+    - 
+      caption: 'Lackierte MDF-Platten 18 mm'
+      photos:
+        - '/kuechen/modelle/moderne/liviana/tueren/lackierte-mdf-platten-18-mm/lackierte-mdf-platten-18-mm-1.jpg'
+        - '/kuechen/modelle/moderne/liviana/tueren/lackierte-mdf-platten-18-mm/lackierte-mdf-platten-18-mm-2.jpg'
+        - '/kuechen/modelle/moderne/liviana/tueren/lackierte-mdf-platten-18-mm/lackierte-mdf-platten-18-mm-3.jpg'
+        - '/kuechen/modelle/moderne/liviana/tueren/lackierte-mdf-platten-18-mm/mdf-farben.jpg'
+handles:
+  description: 'Einzigartiges System von integrierten Griffen, die je nach Art und Weise der Verwendung von den Türen, entweder horizontal oder vertikal sein können.'
+  categories:
+    - 
+      caption: 'Integrierte Griffe'
+      photos:
+        - '/kuechen/modelle/moderne/liviana/griffe/griffe-1.jpg'
+        - '/kuechen/modelle/moderne/liviana/griffe/griffe-2.jpg'
+worktops:
+  description: 'Es sind interessante Kombinationen verschiedener Küchenarbeitsplatten und Materialien mit unterschiedlicher Dicke in einer Küche möglich. Küchenarbeitsplatten von HPL, EGGER und KAINDL – Österreich. Küchenarbeitsplatten aus Kunststein QUARELLA – Italien. Küchenarbeitsplatten aus Granit NATURAL STONES – Italien.'
+  hpl:
+    photos:
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/hpl/hpl-1.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/hpl/hpl-2.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/hpl/hpl-3.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/hpl/hpl-4.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/hpl/hpl-5.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/hpl/hpl-6.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/hpl/hpl-7.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/hpl/hpl-8.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/hpl/hpl-9.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/hpl/hpl-10.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/hpl/hpl-11.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/hpl/hpl-12.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/hpl/hpl-13.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/hpl/hpl-14.jpg'
+  granite:
+    photos:
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/granit/granit-1.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/granit/granit-2.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/granit/granit-3.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/granit/granit-4.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/granit/granit-5.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/granit/granit-6.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/granit/granit-7.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/granit/granit-8.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/granit/granit-9.jpg'
+  technicalStone:
+    photos:
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/kunststein/kunststein-1.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/kunststein/kunststein-2.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/kunststein/kunststein-3.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/kunststein/kunststein-4.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/kunststein/kunststein-5.jpg'
+      - '/kuechen/modelle/moderne/liviana/kuechenarbeitsplatte/kunststein/kunststein-6.jpg'
