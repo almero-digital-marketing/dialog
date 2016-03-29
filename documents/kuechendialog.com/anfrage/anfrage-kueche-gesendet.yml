@@ -1,5 +1,5 @@
 layout: /conversion.ect
 title: 'Anfrage für eine Küche'
-href: '/kitchens/contract-send'
+href: '/kitchens/request-kitchen-send'
 lang: de
 message: Die Anfrage wurde erfolgreich übermittelt.

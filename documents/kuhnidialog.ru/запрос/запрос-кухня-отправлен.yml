@@ -1,5 +1,5 @@
 layout: /conversion.ect
 title: 'Запрос на изготовление кухни'
-href: '/kitchens/kitchen-offer-send'
+href: '/kitchens/request-kitchen-send'
 lang: ru
 message: Запрос отправлен успешно

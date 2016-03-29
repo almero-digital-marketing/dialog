@@ -1,5 +1,5 @@
 layout: /conversion.ect
 title: 'Küchenvertrag'
-href: '/kitchens/contract-send'
+href: '/kitchens/kitchen-offer-send'
 lang: de
 message: Der Vertrag wurde erfolgreich übermittelt.
