@@ -16,11 +16,11 @@ data:
     <div class="content">
         <nav id="nav" role="navigation">
             <ul>
-                <li id="menuItem-kitchens">
+                <li id="menuitem-kitchens">
                     <!-- <%- @href('/kitchens').meta.$title %> -->
                     <a href="<%- @href('/kitchens') %>" title="<%= @href('/kitchens').meta.title %>"><%- @href('/kitchens').meta.title %></a>
                 </li>
-                <li id="menuItem-models">
+                <li id="menuitem-models">
                     <a href="<%- @href('/kitchens/models') %>" title="<%= @href('/kitchens/models').meta.title %>">
                         <!-- <%- @href('/kitchens/models').meta.$title %> -->
                         <%- @href('/kitchens/models').meta.title %>
@@ -34,7 +34,7 @@ data:
                         <% end %>
                     </ul>
                 </li>
-                <li id="menuItem-technologies">
+                <li id="menuitem-technologies">
                     <a href="<%- @href('/kitchens/technologies') %>" title="<%= @href('/kitchens/technologies').meta.title %>">
                         <!-- <%- @href('/kitchens/technologies').meta.$navigationTitle %> -->
                         <%- @href('/kitchens/technologies').meta.navigationTitle %>
@@ -48,7 +48,7 @@ data:
                         <% end %>
                     </ul>
                 </li>
-                <li id="menuItem-manifacturing">
+                <li id="menuitem-manifacturing">
                     <a href="<%- @href('/kitchens/manifacturing') %>" title="<%= @href('/kitchens/manifacturing').meta.title %>">
                         <!-- <%- @href('/kitchens/manifacturing').meta.$navigationTitle %> -->
                         <%- @href('/kitchens/manifacturing').meta.navigationTitle %>
@@ -62,19 +62,19 @@ data:
                         <% end %>
                     </ul>
                 </li>
-                <li id="menuItem-workflow">
+                <li id="menuitem-workflow">
                     <!-- <%- @href('/kitchens').meta.$title %> -->
                     <a href="<%- @href('/kitchens/workflow') %>" title="<%= @href('/kitchens/workflow').meta.title %> в <%- @href('/kitchens').meta.title %>"><%- @href('/kitchens/workflow').meta.title %></a>
                 </li>
-                <li id="menuItem-kitchen-order">
+                <li id="menuitem-kitchen-order">
                     <!-- <%- @href('/kitchens/kitchen-order').meta.$navigationTitle %> -->
                     <a href="<%- @href('/kitchens/kitchen-order') %>" title="<%= @href('/kitchens/kitchen-order').meta.title %>"><%- @href('/kitchens/kitchen-order').meta.navigationTitle %></a>
                 </li>
-                <li id="menuItem-warranty">
+                <li id="menuitem-warranty">
                     <!-- <%- @href('/kitchens/warranty').meta.$title %> -->
                     <a href="<%- @href('/kitchens/warranty') %>" title="<%= @href('/kitchens/warranty').meta.title %>"><%- @href('/kitchens/warranty').meta.title %></a>
                 </li>
-                <li id="menuItem-stores">
+                <li id="menuitem-stores">
                     <a href="<%- @href('/kitchens/stores') %>" title="<%= @href('/kitchens/stores').meta.title %>">
                         <!-- <%- @href('/kitchens/stores').meta.$title %> -->
                         <%- @href('/kitchens/stores').meta.title %>
@@ -192,7 +192,7 @@ data:
         <div class="content">
             <a id="go-top" href="#"></a>
             <a id="dialog" title="<%= @href('/translation').meta.company %>" href="http://kuhnidialog.bg/"><%- @href('/kitchens').meta.dialog.link %></a>
-            <a id="almero" href="http://almero.bg/" target="_blank" title="Алмеро - Дигитален Маркетинг">
+            <a id="almero" href="http://almero.bg/" target="_blank" title="<%- @href('/kitchens').meta.almero.link %>">
                 <%- @href('/kitchens').meta.almero.link %>
             </a>
         </div>
