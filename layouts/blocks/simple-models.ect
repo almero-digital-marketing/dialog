@@ -3,7 +3,7 @@
   <%- @options.category.meta.title %>
 </h3>
 <div class="clear"></div>
-<% for model in @data.models when model.meta.category is @options.category.meta.href : %>
+<% for model in @options.models when model.meta.category is @options.category.meta.href : %>
 <a href="<%- @href model %>" title="<%= @href('/translation').meta.learnMore %> - <%- model.meta.title%>">
   <!-- <%- model.meta.$title %> -->
   <img src="<%- @href model.meta.photo %>" alt="<%= @href('/translation').meta.model %> <%- model.meta.title %>">

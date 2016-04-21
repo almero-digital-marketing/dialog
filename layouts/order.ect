@@ -88,7 +88,7 @@ blocks:
     <% for category in @data.categories: %>
       <div class="separator medium"></div>
       <hr />
-      <%- @blocks.simpleModels(category: category) %>
+      <%- @blocks.simpleModels(category: category, models: @data.models) %>
     <% end %>
   </div>
 
