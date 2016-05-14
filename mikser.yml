@@ -1,4 +1,3 @@
-serverPort: 55021
 plugins: ['guide']
 browser: ['baseline', 'guide']
 shared:
