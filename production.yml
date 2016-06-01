@@ -9,3 +9,4 @@ webhook:
   url: '/webhook'
   secret: 'secret.pwd'
   command: git pull
+  branch: deploy
