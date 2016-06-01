@@ -21,7 +21,7 @@
     "imagemin-mozjpeg": "^5.1.0",
     "jpegtran-bin": "^3.0.6",
     "mikser": "^4.3.3",
-    "mikser-github-webhook": "0.1.1",
+    "mikser-github-webhook": "0.1.2",
     "mikser-toc": "^0.2.1"
   },
   "scripts": {
