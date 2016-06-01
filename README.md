@@ -6,4 +6,3 @@ cd dialog-web
 npm install
 npm start
 ```
-
