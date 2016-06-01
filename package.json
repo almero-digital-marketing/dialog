@@ -1,7 +1,7 @@
 {
   "name": "dialog-web",
   "version": "0.1.0",
-  "repository" : "almero-digital-marketing/dialog-web",
+  "repository": "almero-digital-marketing/dialog-web",
   "description": "",
   "dependencies": {
     "grunt": "~0.4.5",
@@ -9,7 +9,7 @@
     "grunt-contrib-copy": "^0.8.2",
     "grunt-contrib-cssmin": "^0.14.0",
     "grunt-contrib-htmlmin": "~0.6.0",
-    "grunt-contrib-imagemin": "^1.0.0",    
+    "grunt-contrib-imagemin": "^1.0.0",
     "grunt-contrib-less": "^1.1.0",
     "grunt-contrib-rename": "0.0.3",
     "grunt-contrib-uglify": "^0.11.0",
