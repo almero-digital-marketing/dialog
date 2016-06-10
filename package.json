@@ -20,11 +20,11 @@
     "imagemin-jpegtran": "^4.3.2",
     "imagemin-mozjpeg": "^5.1.0",
     "jpegtran-bin": "^3.0.6",
-    "mikser": "^4.3.4",
+    "mikser": "^5.0.0",
     "mikser-github-webhook": "^0.1.8",
     "mikser-toc": "^0.2.1"
   },
   "scripts": {
-    "start": "node ./node_modules/mikser/app.js"
+    "start": "node ./app.js"
   }
 }
