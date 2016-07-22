@@ -5,25 +5,6 @@ var fs = require('fs');
 module.exports = function(grunt) {
 
 	grunt.initConfig({
-		less: {
-			dev: {
-				options: {
-					sourceMap: true,
-					sourceMapFileInline: true
-				},
-				files: {
-					'runtime/styles/default.css': 'files/styles/default.less',
-				}
-			},
-			dist: {
-				options: {
-					sourceMap: false
-				},
-				files: {
-					'runtime/styles/default.css': 'files/styles/default.less',
-				}
-			}
-		},
 		htmllint: {
 			dev: ["out/**/*.html"]
 		},
