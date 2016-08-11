@@ -5,6 +5,7 @@ browser: false
 watcher: false
 build: grunt build
 serverDomains: true
+gate: false
 webhook:
   url: '/webhook'
   secret: 'secret.pwd'
