@@ -10,3 +10,4 @@ routes:
 compile:
 - command: grunt compile
   pattern: styles/*.less
+liveData: true
