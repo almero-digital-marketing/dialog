@@ -1,5 +1,4 @@
-plugins: ['guide']
-browser: ['baseline', 'guide']
+plugins: ['guide','less']
 shared:
 - kuhnidialog.bg
 - kitchensdialog.com
@@ -7,7 +6,3 @@ shared:
 - kuechendialog.com
 routes:
 - /:domain/*domainId
-compile:
-- command: grunt compile
-  pattern: styles/*.less
-liveData: true

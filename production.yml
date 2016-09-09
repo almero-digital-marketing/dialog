@@ -1,6 +1,13 @@
+plugins: ['github-webhook']
 serverPort: 8080
 livereload: false
 browser: false
 watcher: false
 build: grunt build
 serverDomains: true
+gate: false
+webhook:
+  url: '/webhook'
+  secret: 'secret.pwd'
+  command: git pull
+  branch: deploy
