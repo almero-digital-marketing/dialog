@@ -1,5 +1,4 @@
 .promotion {
-	overflow: hidden;
 	margin-top: 52px;
 	width: 100%;
 	display: block;
@@ -126,12 +125,16 @@
 		}
 	}
 	.orders {
+		box-sizing: border-box;
+		overflow: hidden;
 		margin-top: 82px;
 		width: 100%;
 		display: block;
+		padding-bottom: 20px;
 		.order {
-			width: ~"calc(100% / 3 - 44px)";
+			box-sizing: border-box;
 			float: left;
+			width: 100% / 3;
 			padding: 0 22px 22px 22px;
 			h3 {
 				display: inline-block;
@@ -190,7 +193,6 @@
 			}
 			a {
 				display: block;
-				margin-top: 26px;
 				font-size: 14px;
 				font-weight: 100;
 				text-decoration: none;
