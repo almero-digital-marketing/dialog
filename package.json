@@ -13,7 +13,7 @@
     "grunt-contrib-rename": "https://github.com/almero-digital-marketing/grunt-contrib-rename",
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-html": "^8.0.2",
-    "grunt-image": "^2.2.2",
+    "grunt-mega-image": "^2.3.0",
     "grunt-newer": "^1.2.0",
     "grunt-rsync": "^2.0.1",
     "grunt-sync": "^0.6.2",

@@ -115,7 +115,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-rename');
 	grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.loadNpmTasks('grunt-newer');
-	grunt.loadNpmTasks('grunt-image');
+	grunt.loadNpmTasks('grunt-mega-image');
 	grunt.loadNpmTasks('grunt-html');
 	grunt.loadNpmTasks('grunt-sync');
 	grunt.loadNpmTasks('grunt-rsync');
