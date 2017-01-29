@@ -47,17 +47,6 @@ blocks:
 		</a>
 		<% end %>
 	</div>
-    <% if @href('/kitchens').meta.promotion? : %>
-    <div id="promotion">
-        <div class="gradientline"></div>
-        <div class="separator medium"></div>
-        <a target="_blank" href="<%- @href('/kitchens').meta.promotion.url %>">
-        	<!-- <%- @href('/kitchens').meta.promotion.$image %> -->
-        	<img src="<%- @href @href('/kitchens').meta.promotion.image %>" alt="<%= @href('/kitchens').meta.promotion.name %>">
-      	</a>
-        <div class="separator medium"></div>
-    </div>
-    <% end %>
 	<div class="separator small"></div>
     <% for showcase in @document.meta.showcases: %>
 	<div class="category-showcase">
@@ -117,12 +106,31 @@ blocks:
 	  <h2>
 	  	<!-- <%- @document.meta.$videoTitle %> -->
 	  	<%- @document.meta.videoTitle %>
-  	</h2>
+  	  </h2>
 	  <h5>
 	  	<!-- <%- @document.meta.$videoDescription %> -->
 	  	<%- @document.meta.videoDescription %>
-  	</h5>
+  	  </h5>
 	  <div class="clear"></div>
 	  <a class="player" data-src="http://www.youtube.com/embed/gfl-sk4REnQ" data-height="475" data-page="/video/showroom.mp4" title="<%= @document.meta.videoTitle %>"><img alt="<%= @document.meta.videoTitle %>" src="<%- @href '/'%>images/video.jpg"></a>
-	</div>
+    </div>
+    <% if @href('/kitchens').meta.promotion? : %>
+    <% if @href('/kitchens').meta.promotion.url : %>
+    <div id="promotion">
+        <div class="separator medium"></div>
+        <div class="gradientline"></div>
+        <div class="separator medium"></div>
+        <a target="_blank" href="<%- @href('/kitchens').meta.promotion.url %>">
+            <!-- <%- @href('/kitchens').meta.promotion.$image %> -->
+            <img src="<%- @href @href('/kitchens').meta.promotion.image %>" alt="<%= @href('/kitchens').meta.promotion.name %>">
+        </a>
+    </div>
+    <% else : %>
+    <div class="promotion">
+        <%- @href(@href('/kitchens').meta.promotion).content %>
+    </div>
+    <% end %>
+    <% end %>
 </div>
+
+

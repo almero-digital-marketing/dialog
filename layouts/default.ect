@@ -134,7 +134,7 @@ data:
         </nav>
         <div class="separator small"></div>
     </section>
-    <% if not @document.meta.promotion? and @href('/kitchens').meta.promotion? : %>
+    <% if not @document.meta.promotion? and @href('/kitchens').meta.promotion? and @href('/kitchens').meta.promotion.url: %>
     <div id="promotion">
         <div class="separator medium"></div>
         <div class="gradientline"></div>
