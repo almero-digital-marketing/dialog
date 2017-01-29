@@ -106,9 +106,9 @@ dialog:
   link: 'Кухни Диалог © 2016 Всички права запазени.'
 almero:
   link: 'Дигитален Маркетинг'
-promotion: /kitchens/christmas
-promotionNo:
-  name: 'Великденска промоция на всички модели кухни Диалог'
-  image: '/images/easter-discount.jpg'
-  url: 'http://kuhnidialog.bg/data/easter-discount-2016.pdf'
-noticeNo: 'Mагазинът на Кухни Диалог в София, няма да работи на 09 и 10.09.2016г.'
+# promotion: /kitchens/christmas
+# promotion:
+#   name: 'Великденска промоция на всички модели кухни Диалог'
+#   image: '/images/easter-discount.jpg'
+#   url: 'http://kuhnidialog.bg/data/easter-discount-2016.pdf'
+# notice: 'Mагазинът на Кухни Диалог в София, няма да работи на 09 и 10.09.2016г.'
