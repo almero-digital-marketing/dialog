@@ -12,7 +12,10 @@ data:
   categories: 
     layout: /category.ect
     orderBy: meta.importance
+partials:
+  tracking: /partials/tracking.ect
 ---
+<%- @partials.tracking() %>
 <header>
     <div class="content">
         <nav id="nav">
