@@ -1,4 +1,4 @@
-<!-- Tracker Version: 1.1 -->
+<!-- Tracker Version: 1.2 -->
 
 <% if @href('/system').meta.facebook?.pixel? : %> 
 <!-- Facebook Pixel Code -->
@@ -50,5 +50,26 @@ var google_remarketing_only = true;
         src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/<%- @href('/system').meta.google.conversion %>/?value=0&amp;guid=ON&amp;script=0"/>
   </div>
 </noscript>
+
+<script>
+function parseQuery(a){for(var b={},c=a.substr(1).split("&"),d=0;d<c.length;d++){var e=c[d].split("=");b[decodeURIComponent(e[0])]=decodeURIComponent(e[1]||"")}return b}
+var query = parseQuery(location.search);
+if (query.S == 'AW') {
+	fbq('trackCustom', 'AdWords', {
+	  domain: '<%- @document.meta.domain %>',
+	  campaign: query.C,
+	  adgroup: query.G,
+	  creative: query.A,
+	  keyword: query.K
+	});
+} 
+if (document.referrer) {
+	fbq('trackCustom', 'Referral', {
+	  domain: '<%- @document.meta.domain %>',
+	  referrer: document.referrer
+	});
+}
+</script>
+
 <!-- End of Google Remarketing -->
 <% end %>
