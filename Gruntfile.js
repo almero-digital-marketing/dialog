@@ -33,27 +33,22 @@ module.exports = function(grunt) {
 				}]
 			}
 		},
-		imagemin: {
+		image: {
 			options: {
-				optimizationLevel: 7,
-				use: [mozjpeg({quality: 80}), jpegtran({progressive: true})],
+				pngquant: true,
+				optipng: false,
+				zopflipng: true,
+				jpegRecompress: false,
+				jpegoptim: true,
+				mozjpeg: true,
+				gifsicle: true,
+				svgo: true
 			},
 			dist: {
 				expand: true,
 				cwd: 'out/',
 				src: ['**/*.{png,jpg,gif}'],
-				dest: 'build/',
-				filter: function(filepath) {
-					var fs = require('fs');
-					try {
-						var destpath = filepath.replace('out','build');
-						fs.statSync(destpath);
-					} catch (err) {
-						console.log(destpath);
-						return true;
-					}
-					return false;
-				}
+				dest: 'build/'
 			}
 		},
 		uglify: {
@@ -115,12 +110,12 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-htmlmin');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-contrib-imagemin');
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-contrib-rename');
 	grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.loadNpmTasks('grunt-newer');
+	grunt.loadNpmTasks('grunt-mega-image');
 	grunt.loadNpmTasks('grunt-html');
 	grunt.loadNpmTasks('grunt-sync');
 	grunt.loadNpmTasks('grunt-rsync');
@@ -128,5 +123,5 @@ module.exports = function(grunt) {
 	grunt.registerTask('compile', ['less:dev', 'copy:dev']);
 	grunt.registerTask('build', ['newer:htmlmin:dist', 'newer:cssmin:dist', 'newer:uglify:dist', 'imagemin:dist', 'sync:dist']);
 	grunt.registerTask('deploy', ['rsync']);
-	grunt.registerTask('default', ['htmllint', 'newer:htmlmin:dist', 'newer:cssmin:dist', 'newer:uglify:dist', 'imagemin:dist', 'sync:dist']);
+	grunt.registerTask('default', ['htmllint', 'newer:htmlmin:dist', 'newer:cssmin:dist', 'newer:uglify:dist', 'newer:image:dist', 'sync:dist']);
 };
