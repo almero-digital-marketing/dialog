@@ -202,6 +202,13 @@ blocks:
 	</div>
 	<% end %>
 
+    <% if @href('/kitchens').meta.promotion? : %>
+    <% console.log(@href(@href('/kitchens').meta.promotion).content) %>
+     <div class="promotion <%= @href('/kitchens/models').meta.promotion.split('/').pop() %>">
+        <%- @href(@href('/kitchens/models').meta.promotion).content %>
+    </div>
+    <% end %>
+
 	<div class="separator small"></div>
 	<div class="category">
 		<hr />
