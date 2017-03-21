@@ -8,6 +8,29 @@
 	.orders,
 	.promotion-blocks {
 		border-bottom: 7px solid #13b3a9;
+		margin-top: 16px;
+		text-align: center;
+		h4 {
+			font-size: 22px !important;
+			min-height: 44px;
+			margin-top: 10px !important;
+			padding-left: 0;
+			padding-right: 0;
+
+			@media (max-width: 380px) {
+				font-size: 20px !important;
+			}
+		}
+		a {
+			width: 146px;
+			display: inline-block;
+			margin: 10px;
+		}
+		a > .orders,
+		a > .block {
+			width: 100%;
+			padding-bottom: 0;
+		}
 	}
 	ul li:before:extend(.promotion.gorenje .promotion-details ul li:before) {
 	}
@@ -129,6 +152,9 @@
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e4e4', endColorstr='#ffffff',GradientType=1 );
 		.wrapper {
 			padding: 32px;
+			h1 {
+				font-size: 42px;
+			}
 			> ul:extend(.promotion .orders .order ul all) {
 				width: 60%;
 
@@ -152,6 +178,12 @@
 		@media (max-width: 480px) {
 			img {
 				position: static !important;
+			}
+			h1 {
+				font-size: 28px !important;
+			}
+			h2 {
+				font-size: 22px !important;
 			}
 		}
 		h1 {
