@@ -13,7 +13,7 @@
 	fbq('track', 'PageView');
 	</script>
 	<!-- Insert Your Facebook Pixel ID below. --> 
-	<noscript><img height="1" width="1" style="display:none"
+	<noscript><img alt="Pixel" height="1" width="1" style="display:none"
 	src="https://www.facebook.com/tr?id=<%- @href('/system').meta.facebook.pixel; %>&amp;ev=PageView&amp;noscript=1"/>
 	</noscript>
 <!-- End Facebook Pixel Code -->
@@ -68,7 +68,7 @@ var google_remarketing_only = true;
 <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
 <noscript>
   <div style="display:inline;">
-        <img height="1" width="1" style="border-style:none;" alt="" 
+        <img height="1" width="1" style="border-style:none;" alt="Remarketing" 
         src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/<%- @href('/system').meta.google.conversion %>/?value=0&amp;guid=ON&amp;script=0"/>
   </div>
 </noscript>
