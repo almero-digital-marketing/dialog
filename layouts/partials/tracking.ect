@@ -9,7 +9,7 @@
 	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 	document,'script','//connect.facebook.net/en_US/fbevents.js');
 	// Insert Your Facebook Pixel ID below. 
-	fbq('init', <%- @href('/system').meta.facebook.pixel; %>);
+	fbq('init', "<%- @href('/system').meta.facebook.pixel; %>");
 	fbq('track', 'PageView');
 	</script>
 	<!-- Insert Your Facebook Pixel ID below. --> 
