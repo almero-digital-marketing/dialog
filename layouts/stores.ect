@@ -82,6 +82,11 @@ scripts:
           <%- @metatext @document.meta.plovdiv.workTime %>
         </p>
       </div>
+      <% if @document.meta.plovdiv.factory? :%>
+      <div class="contact-address">
+        <p><%- @metatext @document.meta.plovdiv.factory %></p>
+      </div>
+      <% end %>
     </div>
     <div class="personnel">
     <% for person in @document.meta.plovdiv.personnel : %>
