@@ -61,6 +61,69 @@
 		}
 	}
 }
+.promotion.aeg-electrolux {
+	span:after {
+		background: #151740;
+	}
+	@media(max-width: 600px) {
+		span > img {
+			max-width: 320px;
+			padding-top: 6px;
+			padding-left: 11px;
+		}
+		span:after {
+			height: 34px;
+		}
+	}
+	@media(max-width: 350px) {
+		span > img {
+			max-width: 298px;
+			padding-top: 6px;
+			padding-left: 0;
+		}
+		span:after {
+			display: none;
+		}
+	}
+	.promotion-details ul li:before {
+		border-left: 6px solid #e70024;
+	}
+	.promotion-details {
+		.wrapper > ul:last-child {
+			padding-bottom: 26px;
+			li {
+				display: inline;
+				margin-right: 6px;
+			}
+		}
+		ul + h4 {
+			margin-top: 24px;
+		}
+		@media(max-width: 980px) {
+			img {
+				width: 80%;
+				height: auto;
+				margin-left: 23%;
+				margin-top: -30px;
+			}
+			h1 {
+				font-size: 32px !important;
+			}
+		}
+	}
+	.orders,
+	.promotion-blocks {
+		border-bottom: 7px solid #151740;
+	}
+	ul li:before:extend(.promotion.bosh .promotion-details ul li:before) {
+	}
+	a {
+		color: #151740 !important;
+		&:after {
+			border-left: 6px solid #151740;
+		}
+	}
+}
 .promotion.dialog {
 	margin-top: 28px;
 	span:after {
