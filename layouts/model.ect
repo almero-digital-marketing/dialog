@@ -202,7 +202,7 @@ blocks:
 	</div>
 	<% end %>
 
-    <% if @href('/kitchens').meta.promotion? : %>
+    <% if @href('/kitchens/models').meta.promotion? : %>
      <div class="promotion <%= @href('/kitchens/models').meta.promotion.split('/').pop() %>">
         <%- @href(@href('/kitchens/models').meta.promotion).content %>
     </div>
