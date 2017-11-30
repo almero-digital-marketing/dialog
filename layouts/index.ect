@@ -126,7 +126,7 @@ blocks:
         </a>
     </div>
     <% else : %>
-    <div class="promotion <%= @href('/kitchens').meta.promotion.split('/').pop() %>">
+    <div class="promotion <%= @href('/kitchens').meta.promotion.split('/').pop() %> dialog">
         <%- @href(@href('/kitchens').meta.promotion).content %>
     </div>
     <% end %>
