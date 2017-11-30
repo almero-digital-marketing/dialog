@@ -129,6 +129,12 @@
 		}
 	}
 }
+.promotion.christmas-2017.dialog {
+	margin-top: 60px;
+	@media(max-width: 980px) {
+		// margin-top: 30px;
+	}
+}
 .promotion.dialog {
 	margin-top: 28px;
 	span:after {
@@ -155,19 +161,25 @@
 		@media(max-width: 980px) {
 			top: -120px;
 			width: 100%;
-			text-align: center;
 			right: auto;
+			text-align: center;
 			> img {
 				width: 60%;
 				min-width: 300px;
 				display: inline-block;
 			}
 		}
+		@media(max-width: 540px) {
+			top: -90px;
+		}
 	}
 	.wrapper {
 		@media(max-width: 980px) {
 			padding-left: 0 !important;
 			padding-right: 0 !important;
+		}
+		@media(max-width: 620px) {
+			padding-top: 16px !important;
 		}
 		.led {
 			margin-top: 30px;
@@ -188,7 +200,8 @@
 				margin-top: 0;
 			}
 			@media(max-width: 980px) {
-				padding-left: 100px;
+				// padding-left: 100px;
+				margin-top: 40px;
 				> img {
 					width: 80px;
 					margin-bottom: 20px;
@@ -217,14 +230,6 @@
 				display: none;
 			} 
 			@media(max-width: 980px) {
-				position: absolute;
-				left: 0;
-				bottom: 0;
-				>img {
-					width: 100%;
-				}
-			}
-			@media(max-width: 540px) {
 				position: static;
 				> img:first-of-type {
 					display: none;
@@ -238,24 +243,32 @@
 			padding-left: 60px;
 			padding-bottom: 66px;
 			@media(max-width: 980px) {
-				width: 80%;
-				padding-left: 100px;
-				padding-bottom: 96px;
+				width: 100%;
+				padding-left: 0;
+				padding-bottom: 30px;
 			}
 			@media(max-width: 540px) {
 				width: 80%;
 				margin: 20px auto;
 				padding-left: 0;
-				padding-bottom: 0;
+				padding-bottom: 50px;
 				margin-bottom: 40px;
 				text-align: center;
-
 			}
 		}
 		> img {
+			&:last-of-type {
+				display: none;
+			}
 			@media(max-width: 980px) {
-				width: 90%;
-				right: calc(~"-10% - 10px");
+				&:first-of-type {
+					display: none;
+				}
+				&:last-of-type {
+					display: block;
+					width: 100%;
+					margin-top: 30px;
+				}
 			}
 		}
 	}
@@ -451,7 +464,7 @@
 				bottom: 0;
 				width: 100%;
 				height: auto;
-				margin-top: 16px;
+				// margin-top: 16px;
 			}
 		}
 	}
