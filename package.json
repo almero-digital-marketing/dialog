@@ -17,6 +17,8 @@
     "grunt-newer": "^1.2.0",
     "grunt-rsync": "^2.0.1",
     "grunt-sync": "^0.6.2",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-mozjpeg": "^6.0.0",
     "mikser": "^6.9.9",
     "mikser-github-webhook": "^0.1.8",
     "mikser-guide": "^2.0.0",

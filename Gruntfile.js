@@ -6,7 +6,12 @@ module.exports = function(grunt) {
 
 	grunt.initConfig({
 		htmllint: {
-			dev: ["out/**/*.html"]
+			dev: ["out/**/*.html"],
+			options: {
+				ignore: [
+					//'This document appears to be written in English. Consider adding “lang="en"” (or variant) to the “html” start tag.'
+				]
+			}
 		},
 		htmlmin: {
 			options: {
