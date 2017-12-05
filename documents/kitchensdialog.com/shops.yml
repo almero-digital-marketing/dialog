@@ -40,3 +40,14 @@ plovdiv:
       name: 'Kristina Bogdanova' 
       email: 'bogdanova_k@kuhnidialog.bg|Mobile: +359 889 24 03 84'
       image: '/images/bogdanova.jpg'
+burgas:
+  title: 'Showroom of Dialog Kitchens in Burgas' 
+  navigationTitle: 'Showroom of Dialog Kitchens in Burgas'
+  address: 'Casa Decor Store|Mall Burgas Plaza|31 Transportna Str., Burgas, Bulgaria'
+  phone: '+359 878 909 321'
+  workTime: 'Opening hours of the shop: 09:00 – 21:00 ч.'
+  personnel:
+    -
+      name: 'Iva Vitelova' 
+      email: 'casadecor@mail.bg'
+      image: '/images/iva.jpg'

@@ -118,6 +118,32 @@ function mapPlovdivInitialize() {
   google.maps.event.addListener(beachMarker, 'click', toggleBounce);
 }
 
+function mapBurgasInitialize() {
+  var styledMap = new google.maps.StyledMapType(mapStyles,
+    {name: "Кухни Диалог"});
+  var latlng =  new google.maps.LatLng(42.530864, 27.457304);
+  var mapOptions = {
+    zoom: 16,
+    scrollwheel: false,
+    center: latlng,
+    mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+  };
+  map = new google.maps.Map(document.getElementById('map-burgas'), mapOptions);
+  map.mapTypes.set('map_style', styledMap);
+  map.setMapTypeId('map_style');
+
+  var image = 'images/map-pin.png';
+  var myLatLng = new google.maps.LatLng(42.530864, 27.457304);
+  var beachMarker = new google.maps.Marker({
+      position: myLatLng,
+    draggable:true,
+      animation: google.maps.Animation.DROP,
+      map: map,
+      icon: image
+  });
+  google.maps.event.addListener(beachMarker, 'click', toggleBounce);
+}
+
 function toggleBounce() {
 	if (beachMarker.getAnimation() != null) {
 		beachMarker.setAnimation(null);
@@ -129,4 +155,5 @@ function toggleBounce() {
 $(document).ready(function() {
   mapSofiaInitialize();
   mapPlovdivInitialize();
+  mapBurgasInitialize();
 });

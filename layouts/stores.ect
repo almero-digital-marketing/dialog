@@ -104,5 +104,58 @@ scripts:
       </div>
     <% end %>
     </div>
+
+  
+    <div class="separator" id="burgas"></div>
+    <hr>
+    <h3>
+      <!-- <%- @document.meta.burgas.$title %> -->
+      <%- @document.meta.burgas.title %>
+    </h3>
+    <div class="separator small"></div>
+    <div class="map" id="map-burgas"></div>
+      <div class="separator medium"></div>
+    <div class="contacts">
+      <div class="contact-address">
+        <p>
+          <!-- <%- @document.meta.burgas.$address %> -->
+          <%- @metatext @document.meta.burgas.address %>
+        </p>
+      </div>
+      <div class="contact-phone">
+        <p>
+          <!-- <%- @document.meta.burgas.$phone %> -->
+          <%- @metatext @document.meta.burgas.phone %>
+        </p>
+      </div>
+      <div class="contact-time">
+        <p>
+          <!-- <%- @document.meta.burgas.$workTime %> -->
+          <%- @metatext @document.meta.burgas.workTime %>
+        </p>
+      </div>
+      <% if @document.meta.burgas.factory? :%>
+      <div class="contact-address">
+        <p><%- @metatext @document.meta.burgas.factory %></p>
+      </div>
+      <% end %>
+    </div>
+    <div class="personnel">
+    <% for person in @document.meta.burgas.personnel : %>
+      <div class="vcard">
+        <img src="<%- @href person.image %>" alt="<%= person.name %>">
+        <!-- <%- person.$image %> -->
+        <h4>
+          <!-- <%- person.$name %> -->
+          <%- person.name %>
+        </h4>
+        <p>
+          <!-- <%- person.$email %> -->
+          <%- @metatext(person.email).replace('<hr>','_') %>
+        </p>
+      </div>
+    <% end %>
+    </div>
+
   </div>
 </div>
