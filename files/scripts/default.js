@@ -112,6 +112,10 @@ $(document).ready(function() {
      	$(this).unbind("click");
     });
 
+    window.onmessage = function (message) {
+    	$('iframe#external').height(message.data.height)
+    }
+
 });
 
 String.prototype.endsWith = function(suffix) {
