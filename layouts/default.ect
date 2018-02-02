@@ -195,7 +195,9 @@ partials:
                 </a>
             </div>
         </div>
-        <iframe id="external" src="http://kuhnidialog.com/external.html"></iframe>
+        <% if @document.meta.lang is 'bg' : %>
+        <iframe id="new-models" src="http://kuhnidialog.com/"></iframe>
+        <% end %>
     </div>
     <div id="footer-copyright">
         <div class="content">
