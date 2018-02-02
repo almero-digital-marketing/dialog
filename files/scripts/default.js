@@ -111,7 +111,6 @@ $(document).ready(function() {
     $(".player").click(function(){
      	$(this).unbind("click");
     });
-
 });
 
 String.prototype.endsWith = function(suffix) {
