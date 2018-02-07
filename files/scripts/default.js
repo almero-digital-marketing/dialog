@@ -113,7 +113,19 @@ $(document).ready(function() {
     });
 
     window.onmessage = function (message) {
-    	$('iframe#external').height(message.data.height)
+    	if(message.data.height)
+    		$('iframe#external').height(message.data.height)
+
+    	if(message.data.loaded) {
+    		
+    		//carousel blocker on mousewheel if not at the bottom
+    		var iframe = $('iframe#external')[0]
+    		iframe.contentWindow.postMessage({blockMouseWheel: true}, "*")
+    		$(window).scroll(function() {
+    		 	var blockMouseWheel = !($(window).scrollTop() + $(window).height() == $(document).height())
+    		 	iframe.contentWindow.postMessage({blockMouseWheel: blockMouseWheel}, "*")
+			});
+    	}
     }
 
 });
