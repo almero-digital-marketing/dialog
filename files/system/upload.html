@@ -13,7 +13,7 @@ body {
 </style>
 </head>
 <body>
-<form id="upload" action="http://almero.pro:8080/api/upload" method="post" enctype="multipart/form-data">    
+<form id="upload" action="https://almero.pro/api/upload" method="post" enctype="multipart/form-data">    
     <input id="file" type="file" name="upload" multiple>
     <input id="redirect" name="redirect" type="hidden">  
 </form>
@@ -37,13 +37,13 @@ $(function() {
         $.each(files, function (index, file) {
             uploads.push('<div class="file">');
             if (file.match(/\.(jpg|jpeg|png|gif)$/)) {
-                uploads.push('<img alt="" src="http://almero.pro:8080/files/' + file + '.thumb.jpg"/>');
+                uploads.push('<img alt="" src="https://almero.pro/files/' + file + '.thumb.jpg"/>');
             } 
             else {
                 uploads.push('<span>' + file + '</span>');
             }
             uploads.push('</div>');
-            uploads.push('<input type="hidden" name="files[]" value="http://almero.pro:8080/files/' + file + '"/>');
+            uploads.push('<input type="hidden" name="files[]" value="https://almero.pro/files/' + file + '"/>');
         });
         parentContainer = "#files";
         if (location.hash) parentContainer = location.hash;

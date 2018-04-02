@@ -25,5 +25,13 @@ $(function() {
 	}
 	if (history.indexOf(historyEntry) == -1) history += '* ' + historyEntry + '\n';
 	Cookies.set('history', history, { expires: 365 });
+
+	var arr = history.split('* ')
+	for(var i = 0, history = ''; i < arr.length; i++) {
+		if(arr[i]) {
+			history += '<li>' + arr[i].replace('\n', '') + '</li>'
+		}
+	}
+
 	$('[name="history"]').val(history);
 });

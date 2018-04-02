@@ -9,7 +9,7 @@ scripts:
 ---
 <% @data.scripts = @layout.meta.scripts.concat @data.scripts ? [] %>
 
-<form id="rfp" class="content" action="http://almero.pro:8080/api/form" method="POST">
+<form id="rfp" class="content whitebox-mail" action="<%- @href('/kitchens/request-kitchen-send') %>" method="POST">
   <div class="separator medium"></div>
   <div class="form-container">
     <div id="common">
@@ -30,6 +30,7 @@ scripts:
       <textarea name="message" required></textarea>
       <label><%- @href('/translation').meta.request.request %></label>
       <select name="to">
+        <option value="kamen@almero.bg">TEST</option>
         <option value="mail.kuhnidialog.bg@gmail.com"><%- @href('/translation').meta.request.wholeCountry %></option>
         <option value="mail.kuhnidialog.bg@gmail.com"><%- @href('/translation').meta.request.shopSofia %></option>
         <option value="mail.kuhnidialog.bg@gmail.com"><%- @href('/translation').meta.request.shopPlovdiv %></option>
@@ -82,78 +83,65 @@ scripts:
     </div>
     <div class="separator small"></div>
     <input id="date" type="hidden" name="date"/>
-    <input id="redirect" type="hidden" name="redirect" value="http://kuhnidialog.bg/запитване/запитване-кухня-изпратено.html"/>
     <input id="subject" type="hidden" name="subject" value="Запитване кухня от сайта"/>
     <input type="hidden" name="visits" value=""/>
     <input type="hidden" name="pages" value=""/>
     <textarea name="history" style="display:none;"></textarea>
-    <textarea name="template" style="display:none;">
-{% if obligation %}
-# {{ obligation }}
-{% else %}
-# Запитване кухня
-{% endif %}
+    <textarea name="template-html" style="display:none;">
 
-## Информация за контакт
-От: **{{ name }}**
-Телефон: **{{ phone }}**
-Email: **{{ from }}**
-Град: **{{ city }}**
-Дата: **{{ date }}**
+{{#obligation}}
+<h1>{{ obligation }}</h1>
+{{/obligation}}
+{{^obligation}}
+<h1>Запитване кухня</h1>
+{{/obligation}}
 
-## Съобщение
+<h2>Информация за контакт</h2>
+От: <strong>{{ name }}</strong>
+<br>
+Телефон: <strong>{{ phone }}</strong>
+<br>
+Email: <strong>{{ from }}</strong>
+<br>
+Град: <strong>{{ city }}</strong>
+<br>
+Дата: <strong>{{ date }}</strong>
+
+<h2>Съобщение</h2>
 {{ message }}
 
-## Запитване за конкретен модел
-{% if model %}
-Модел: **{{ model }}**
-{% endif %}
-{% if width %}
-Дължина: **{{ width }}**
-{% endif %}
+<h2>Запитване за конкретен модел</h2>
+{{#model}}
+Модел: <strong>{{ model }}</strong>
+{{/model}}
+{{#width}}
+Дължина: <strong>{{ width }}</strong>
+{{/width}}
 
-## Конфигурация на кухнята
-{% for element in configuration %}
-* {{ element }}
-{% endfor %}
+<h2>Конфигурация на кухнята</h2>
+<ul>
+{{#configuration}}
+  <li>{{.}}</li>
+{{/configuration}}
+</ul>
 
-## Снимки и скица на обекта
-{% for element in files %}
-* [{{ element|replace('http://almero.pro:8080/files/', '') }}]({{ element }}){% endfor %}
+<h2>Снимки и скица на обекта</h2>
+<оl>
+{{#files}}
+  <li><a href="{{.}}">Прикачен файл</a></li>
+{{/files}}
+</оl>
 
-## Особенности
-{{ details }}
+<h1>Анализ на поведението</h1>
+Посещения: <strong>{{ visits }}</strong>
+<br>
+Страници: <strong>{{ pages }}</strong>
 
-{% if from|replace('.*@','') == 'kuhnidialog.bg' %}
-## Запитване от магазин
-{% if price %}
-Цена:  **{{ price }}**
-{% endif %}    
-{% if promotion %}
-Промоция:  **{{ promotion }}**
-{% endif %}    
-{% if obligation %}
-Ангажимент:  **{{ obligation }}**
-{% endif %}    
-{% if source %}
-Източник:  **{{ source }}**
-{% endif %}    
-{% if comments %}
-Коментари:  **{{ comments }}**
-{% endif %}    
-{% if promotion %}
-Промоция:  **{{ promotion }}**
-{% endif %}    
-{% endif %}    
+<h2>Разгледани страници</h2>
+<ul>
+{{{ history }}}
+</ul>
 
-- - -
-
-# Анализ на поведението
-Посещения: **{{ visits }}**
-Страници: **{{ pages }}**
-
-## Разгледани страници
-{{ history }}
     </textarea>
     <input type="submit" value="<%- @href('/translation').meta.request.send %>"/>
   </div>
