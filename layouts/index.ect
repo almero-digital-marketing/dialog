@@ -13,6 +13,7 @@ blocks:
       <a href="http://kuhnidialog.bg">Български</a>
     </nav>
 </div>
+<% if @document.meta.lang isnt 'bg' : %>
 <div id="kitchens-slideshow">
   <ul class="slider-box">
     <% for slideshow in @document.meta.slideshows: %>
@@ -32,7 +33,11 @@ blocks:
     <% end %>
   </ul>
 </div>
+<% end %>
 <div class="content">
+	<% if @document.meta.lang is 'bg' : %>
+	<iframe id="external" src="http://kuhnidialog.com/external/"></iframe>
+	<% else : %>
 	<div id="kitchens-thumbs" class="pager">
 		<% for slideshow, idx in @document.meta.slideshows: %>
 		<a data-slide-index="<%- idx %>" href="" title="<%= @href('/kitchens').meta.title %> - <%- slideshow.title %>">
@@ -47,6 +52,7 @@ blocks:
 		</a>
 		<% end %>
 	</div>
+	<% end %>
 	<div class="separator small"></div>
     <% for showcase in @document.meta.showcases: %>
 	<div class="category-showcase">
