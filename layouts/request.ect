@@ -89,7 +89,7 @@ scripts:
     <textarea name="template-html" style="display:none;">
 
 {{#obligation}}
-<h1>{{ obligation }}</h1>
+<h1>{{ . }}</h1>
 {{/obligation}}
 {{^obligation}}
 <h1>Запитване кухня</h1>
@@ -111,25 +111,27 @@ Email: <strong>{{ from }}</strong>
 
 <h2>Запитване за конкретен модел</h2>
 {{#model}}
-Модел: <strong>{{ model }}</strong>
+Модел: <strong>{{ . }}</strong>
 {{/model}}
 {{#width}}
-Дължина: <strong>{{ width }}</strong>
+Дължина: <strong>{{ . }}</strong>
 {{/width}}
 
 <h2>Конфигурация на кухнята</h2>
 <ul>
 {{#configuration}}
-  <li>{{.}}</li>
+  <li>{{ . }}</li>
 {{/configuration}}
 </ul>
 
-<h2>Снимки и скица на обекта</h2>
-<оl>
-{{#files}}
-  <li><a href="{{.}}">Прикачен файл</a></li>
-{{/files}}
-</оl>
+{{#if files.length}}
+  <h2>Снимки и скица на обекта</h2>
+  <ol>
+  {{#files}}
+    <li><a href="{{.}}">{{#last (split . "/")}}{{.}}{{/last}}</a></li>
+  {{/files}}
+  </ol>
+{{/if}}
 
 <h1>Анализ на поведението</h1>
 Посещения: <strong>{{ visits }}</strong>
