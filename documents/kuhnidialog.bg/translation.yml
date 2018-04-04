@@ -23,6 +23,7 @@ request:
   wholeCountry: 'Цяла България'
   shopSofia: 'Магазин София'
   shopPlovdiv: 'Магазин Пловдив'
+  shopBourgas: 'Магазин Бургас'
   price: 'Цена'
   promotion: 'Промоция'
   engagement: 'Ангажимент'

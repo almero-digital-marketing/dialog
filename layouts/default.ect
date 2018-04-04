@@ -155,9 +155,6 @@ partials:
 </div>
 <footer>
     <div id="footer-details" class="<%- if @document.meta.lang isnt 'bg' then 'footer-external' %>">
-        <% if @document.meta.lang isnt 'bg' : %>
-        <iframe id="external" src="http://kuhnidialog.com/external/"></iframe>
-        <% end %>
         <div class="content">
             <a class="large-column" href="<%- @href '/kitchens/kitchen-order' %>" title="<%= @href('/kitchens').meta.rfp.title %>">
                 <h4>
@@ -198,6 +195,9 @@ partials:
                 </a>
             </div>
         </div>
+        <% if @document.meta.href isnt '/kitchens' and @document.meta.lang is 'bg' : %>
+        <iframe id="external" src="http://kuhnidialog.com/external/"></iframe>
+        <% end %>
     </div>
     <div id="footer-copyright">
         <div class="content">
