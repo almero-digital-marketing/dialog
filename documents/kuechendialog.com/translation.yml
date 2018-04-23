@@ -23,6 +23,7 @@ request:
   wholeCountry: 'landesweit'
   shopSofia: 'Geschäft Sofia'
   shopPlovdiv: 'Geschäft Plovdiv'
+  shopBourgas: 'Geschäft Bourgas'
   price: 'Preis'
   promotion: 'Angebot'
   engagement: 'Engagement'

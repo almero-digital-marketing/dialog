@@ -87,7 +87,7 @@ module.exports = function(grunt) {
 			dist: {
 				files: [{
 					cwd: 'out/',
-					src: ['**/*.xml', '**/*.ico', '**/*.svg', '**/.htaccess', '**/*.ttf', '**/*.woff', '**/*.eot', '**/*.pdf'],
+					src: ['**/*nginx.conf', '**/*.xml', '**/*.ico', '**/*.svg', '**/.htaccess', '**/*.ttf', '**/*.woff', '**/*.eot', '**/*.pdf'],
 					dest: 'build/'
 				}]
 			}
@@ -101,7 +101,7 @@ module.exports = function(grunt) {
 				options: {
 					src: 'build/',
 					dest: '/var/www/',
-					host: 'kuhnidialog@kuhnidialog.bg'
+					host: 'almero@web.almero.pro'
 				}
 			}
 		},
@@ -109,7 +109,13 @@ module.exports = function(grunt) {
 			options: {
 				cache: 'runtime'
 			}
-  		}
+		},
+		exec: {
+			'kitchensdialog.com': 'ssh almero@web.almero.pro "dps kitchensdialog.com"',
+			'kuechendialog.com': 'ssh almero@web.almero.pro "dps kuechendialog.com"',
+			'kuhnidialog.bg': 'ssh almero@web.almero.pro "dps kuhnidialog.bg"',
+			'kuhnidialog.ru': 'ssh almero@web.almero.pro "dps kuhnidialog.ru"',
+		},
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-htmlmin');
@@ -124,9 +130,10 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-html');
 	grunt.loadNpmTasks('grunt-sync');
 	grunt.loadNpmTasks('grunt-rsync');
+	grunt.loadNpmTasks('grunt-exec');
 
 	grunt.registerTask('compile', ['less:dev', 'copy:dev']);
 	grunt.registerTask('build', ['newer:htmlmin:dist', 'newer:cssmin:dist', 'newer:uglify:dist', 'imagemin:dist', 'sync:dist']);
-	grunt.registerTask('deploy', ['rsync']);
+	grunt.registerTask('deploy', ['rsync', 'exec']);
 	grunt.registerTask('default', ['htmllint', 'newer:htmlmin:dist', 'newer:cssmin:dist', 'newer:uglify:dist', 'newer:image:dist', 'sync:dist']);
 };
