@@ -1,0 +1,21 @@
+server {
+    server_name <%- @document.meta.domain %> www.<%- @document.meta.domain %>;
+    include /opt/server-configs-nginx/https.conf;
+}
+server {
+    server_name www.<%- @document.meta.domain %>;
+   	ssl_certificate /var/certs/<%- @document.meta.domain %>/<%- @document.meta.domain %>.cert;
+	ssl_certificate_key /var/certs/<%- @document.meta.domain %>/<%- @document.meta.domain %>.key;
+    include /opt/server-configs-nginx/ssl-www.conf;
+}
+server {
+    server_name <%- @document.meta.domain %>;
+   	ssl_certificate /var/certs/<%- @document.meta.domain %>/<%- @document.meta.domain %>.cert;
+	ssl_certificate_key /var/certs/<%- @document.meta.domain %>/<%- @document.meta.domain %>.key;
+    include /opt/server-configs-nginx/ssl.conf; 
+
+    <%- @content %>
+
+    access_log /var/log/nginx/<%- @document.meta.domain %>.access.log main;
+    error_log /var/log/nginx/<%- @document.meta.domain %>.error.log warn;
+}

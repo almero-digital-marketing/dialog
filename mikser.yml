@@ -6,3 +6,8 @@ shared:
 - kuechendialog.com
 routes:
 - /:domain/*domainId
+layouts:
+- pattern: '**/ssl.nginx.conf'
+  layout: /ssl.ect
+- pattern: '**/nossl.nginx.conf'
+  layout: /nossl.ect

@@ -1,0 +1,14 @@
+server {
+    server_name www.<%- @document.meta.domain %>;
+    include /opt/server-configs-nginx/nossl-www.conf;
+}
+server {
+    server_name <%- @document.meta.domain %>;
+
+    include /opt/server-configs-nginx/nossl.conf;
+
+    <%- @content %>
+
+    access_log /var/log/nginx/<%- @document.meta.domain %>.access.log main;
+    error_log /var/log/nginx/<%- @document.meta.domain %>.error.log warn;
+}
